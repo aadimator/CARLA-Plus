@@ -1,0 +1,11 @@
+tm_port: 8000 # Port to communicate with TM (default: 8000)
+safe: True
+filterv: 'vehicle.*'
+generationv: 'All' # (values: "1","2","All")
+asynch: True # Activate asynchronous mode execution
+hybrid: False # Activate hybrid mode for Traffic Manager
+seed: 13 # Set random device seed and deterministic mode for Traffic Manager
+car_lights_on: False # Enable automatic car light management
+hero: False # Set one of the vehicles as hero
+respawn: False # Automatically respawn dormant vehicles (only in large maps)
+no_rendering: False # Activate no rendering mode
