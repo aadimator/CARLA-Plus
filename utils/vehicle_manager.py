@@ -17,16 +17,14 @@ import time
 import logging
 
 from numpy import random
-
+from dataclasses import dataclass
 from .common import get_actor_blueprints
+
 
 class VehicleManager:
 
-    @hydra.main(config_path="conf", config_name="vehicle_manager")
-    # def __init__(self, client: carla.Client, tm_port: int, 
-    # safe: bool, filterv: str, generationv: str, asynch:bool, hybrid: bool, seed: int, 
-    # car_lights_on: bool, hero: bool, respawn: bool, no_rendering: bool) -> None :
-    def __init__(self, client: carla.Client, cfg: DictConfig) -> None :
+    # @hydra.main(config_path="conf", config_name="vehicle_manager")
+    def __init__(self, client: carla.Client, asynch: bool, cfg: DictConfig) -> None :
         self.client = client
         self.world = self.client.get_world()
         self.traffic_manager = self.client.get_trafficmanager(cfg.tm_port)
@@ -34,7 +32,7 @@ class VehicleManager:
 
         self.car_lights_on = cfg.car_lights_on
         self.hero = cfg.hero
-        self.asynch = cfg.asynch
+        self.asynch = asynch
 
         if cfg.respawn:
             self.traffic_manager.set_respawn_dormant_vehicles(True)
@@ -86,6 +84,11 @@ class VehicleManager:
 
     
     def spawn_vehicles(self, number_of_vehicles: int) -> Sequence[int]:
+
+        if number_of_vehicles == len(self.vehicles_list):
+            print('\nNo change. Number of vehicles: %d' % len(self.vehicles_list))
+            return self.vehicles_list
+        
         number_of_spawn_points = len(self.spawn_points)
         if number_of_vehicles < number_of_spawn_points:
             random.shuffle(self.spawn_points)
@@ -98,13 +101,11 @@ class VehicleManager:
         SpawnActor = carla.command.SpawnActor
         SetAutopilot = carla.command.SetAutopilot
         FutureActor = carla.command.FutureActor
-
-        if number_of_vehicles == len(self.vehicles_list):
-            return self.vehicles_list
-        elif number_of_vehicles < len(self.vehicles_list):
-            num_to_destroy = len(self.vehicles_list - number_of_vehicles)
+        
+        if number_of_vehicles < len(self.vehicles_list):
+            num_to_destroy = len(self.vehicles_list) - number_of_vehicles
             print('\nDestroying %d vehicles' % num_to_destroy)
-            destroy_list = [self.vehicles_list.pop(random.randrange(len(self.vehicles_list))) for i in num_to_destroy]
+            destroy_list = [self.vehicles_list.pop(random.randint(0, len(self.vehicles_list))) for i in range(num_to_destroy)]
             self.client.apply_batch([carla.command.DestroyActor(x) for x in destroy_list])
             return self.vehicles_list
         else:
@@ -143,6 +144,7 @@ class VehicleManager:
                 for actor in all_vehicle_actors:
                     self.traffic_manager.update_vehicle_lights(actor, True)
 
+            print('\nAdded %d vehicles' % num_to_add)
             return self.vehicles_list
 
     def destroy(self):
