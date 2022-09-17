@@ -155,5 +155,5 @@ class VehicleManager:
             settings.fixed_delta_seconds = None
             self.world.apply_settings(settings)
 
-        print('\ndestroying %d vehicles' % len(self.vehicles_list))
+        print('\nDestroying %d vehicles' % len(self.vehicles_list))
         self.client.apply_batch([carla.command.DestroyActor(x) for x in self.vehicles_list])

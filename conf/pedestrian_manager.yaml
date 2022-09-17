@@ -1,0 +1,10 @@
+defaults:
+  - config
+  - _self_
+
+number_of_walkers: 10
+filterw: 'walker.pedestrian.*' # Filter pedestrian type (default: "walker.pedestrian.*")
+generationw: '2' # restrict to certain pedestrian generation (values: "1","2","All" - default: "2")
+seedw: 0 # Set the seed for pedestrians module
+running_percentage: 0.0 # how many pedestrians will run
+crossing_percentage: 0.0  # how many pedestrians will walk through the road

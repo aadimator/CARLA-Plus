@@ -1,8 +1,4 @@
 host: '127.0.0.1'
 port: 2000
-number_of_walkers: 10
-filterw: 'walker.pedestrian.*' # Filter pedestrian type (default: "walker.pedestrian.*")
-generationw: '2' # restrict to certain pedestrian generation (values: "1","2","All" - default: "2")
-seedw: 0 # Set the seed for pedestrians module
 asynch: True # Activate asynchronous mode execution
 
