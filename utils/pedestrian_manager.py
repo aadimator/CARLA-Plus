@@ -1,7 +1,7 @@
-import glob
 import os
 import sys
-from typing import Sequence
+import glob
+
 try:
     sys.path.append(glob.glob('carla/PythonAPI/carla/dist/carla-*%d.%d-%s.egg' % (
         sys.version_info.major,
@@ -11,11 +11,11 @@ except IndexError:
     pass
 
 import carla
-import hydra
+import logging
+
+from numpy import random
 from omegaconf import DictConfig
 from utils.common import get_actor_blueprints
-import logging
-from numpy import random
 
 class PedestrianManager:
 

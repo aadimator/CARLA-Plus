@@ -11,20 +11,21 @@ except IndexError:
     pass
 
 import carla
-import hydra
-from omegaconf import DictConfig
+
 import time
+import hydra
 import logging
 
 from numpy import random
+from omegaconf import DictConfig
 from dataclasses import dataclass
-from .common import get_actor_blueprints
 
+from .common import get_actor_blueprints
 
 class VehicleManager:
 
     # @hydra.main(config_path="conf", config_name="vehicle_manager")
-    def __init__(self, client: carla.Client, asynch: bool, cfg: DictConfig) -> None :
+    def __init__(self, client: carla.Client, cfg: DictConfig) -> None :
         self.client = client
         self.world = self.client.get_world()
         self.traffic_manager = self.client.get_trafficmanager(cfg.tm_port)
@@ -32,7 +33,7 @@ class VehicleManager:
 
         self.car_lights_on = cfg.car_lights_on
         self.hero = cfg.hero
-        self.asynch = asynch
+        self.asynch = cfg.asynch
 
         if cfg.respawn:
             self.traffic_manager.set_respawn_dormant_vehicles(True)
