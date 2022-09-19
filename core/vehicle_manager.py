@@ -20,7 +20,7 @@ from numpy import random
 from omegaconf import DictConfig
 from dataclasses import dataclass
 
-from .common import get_actor_blueprints
+from utils.common import get_actor_blueprints
 
 class VehicleManager:
 
