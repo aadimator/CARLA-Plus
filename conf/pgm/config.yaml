@@ -1,2 +1,4 @@
 defaults:
-  - model: demo
+  - base_config
+  - model: simple
+  - _self_

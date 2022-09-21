@@ -1,6 +1,8 @@
+defaults:
+  - base_model
+
 edges:
-  - - D
-    - G
+  - [D, G]
   - - I
     - G
   - - G
@@ -25,66 +27,59 @@ states:
     - Bad
     - Good
 cpd:
-  - name: Difficulty
-    variable: D
-    cardinality: 2
-    probabilities: 
-      - - 0.6
-      - - 0.4
-  - name: Intelligence
-    variable: I
-    cardinality: 2
-    probabilities: 
-      - - 0.7
-      - - 0.3
-  - name: Grade
-    variable: G
-    cardinality: 3
-    probabilities: 
-      - - 0.3
-        - 0.05
-        - 0.9
-        - 0.5
-      - - 0.4
-        - 0.25
-        - 0.08
-        - 0.3
-      - - 0.3
-        - 0.7
-        - 0.02
-        - 0.2
-    evidence: 
-      - I
-      - D
-    evidence_card:
-      - 2
-      - 2
-  - name: Letter
-    variable: L
-    cardinality: 2
-    probabilities: 
-      - - 0.1
-        - 0.4
-        - 0.99
-      - - 0.9
-        - 0.6
-        - 0.01
-    evidence:
-      - G
-    evidence_card:
-      - 3
-  - name: SAT
-    variable: S
-    cardinality: 2
-    probabilities:
-      - - 0.95
-        - 0.2
-      - - 0.05
-        - 0.8
-    evidence:
-      - I
-    evidence_card:
-      - 2
+  D:
+   name: Difficulty
+   cardinality: 2
+   probabilities: 
+     - - 0.6
+     - - 0.4
+  I:
+   name: Intelligence
+   cardinality: 2
+   probabilities: 
+     - - 0.7
+     - - 0.3
+  G:
+   name: Grade
+   cardinality: 3
+   probabilities: 
+     - - 0.3
+       - 0.05
+       - 0.9
+       - 0.5
+     - - 0.4
+       - 0.25
+       - 0.08
+       - 0.3
+     - - 0.3
+       - 0.7
+       - 0.02
+       - 0.2
+   evidence: 
+     - I
+     - D
+  L:
+   name: Letter
+   cardinality: 2
+   probabilities: 
+     - - 0.1
+       - 0.4
+       - 0.99
+     - - 0.9
+       - 0.6
+       - 0.01
+   evidence:
+     - G
+  S:
+   name: SAT
+   cardinality: 2
+   probabilities:
+     - - 0.95
+       - 0.2
+     - - 0.05
+       - 0.8
+   evidence:
+     - I
 
 
 
