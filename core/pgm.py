@@ -16,9 +16,11 @@ class PGM:
       self.states = OmegaConf.to_container(self.states)
     
     cpds = []
+    self.variables = {}
     for variable in cfg.model.cpd:
       state_names = {}
       cpd = cfg.model.cpd[variable]
+      self.variables[cpd.name] = variable
       evidence = cpd.get('evidence', None)
       evidence_card = None
       if evidence:
@@ -39,6 +41,9 @@ class PGM:
   def get_states(self):
     states = {self.cfg.model.cpd[k].name: Enum(f'{k}', self.states[k]) for k, v in self.states.items()}
     return SimpleNamespace(**states)
+
+  def get_variables(self):
+    return SimpleNamespace(**self.variables)
 
   def print_cpd(self, variable: str):
     print(self.model.get_cpds(variable))
