@@ -1,5 +1,5 @@
 defaults:
-  - base_model
+  - base_pgm_model
 
 edges:
   - [R, T]
