@@ -22,6 +22,18 @@ from omegaconf import MISSING
 #     'night': (-90.0, 0.0),
 #     'sunset': (0.5, 0.0)}
 
+
+# weather.cloudiness = WEATHER_PRESETS[args.weather][0]
+# weather.precipitation = WEATHER_PRESETS[args.weather][1]
+# weather.precipitation_deposits = WEATHER_PRESETS[args.weather][2]
+# weather.wind_intensity = WEATHER_PRESETS[args.weather][3]
+# weather.fog_density = WEATHER_PRESETS[args.weather][4]
+# weather.fog_distance = WEATHER_PRESETS[args.weather][5]
+# weather.fog_falloff = WEATHER_PRESETS[args.weather][6]
+# weather.wetness = WEATHER_PRESETS[args.weather][7]
+# weather.scattering_intensity = WEATHER_PRESETS[args.weather][8]
+# weather.mie_scattering_scale = WEATHER_PRESETS[args.weather][9]
+# weather.rayleigh_scattering_scale = WEATHER_PRESETS[args.weather][10]
 # WEATHER_PRESETS = {
 #     'clear':    [10.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.2, 0.0, 0.0, 0.0, 0.0331],
 #     'overcast': [80.0, 0.0, 0.0, 50.0, 2.0, 0.75, 0.1, 10.0, 0.0, 0.03, 0.0331],

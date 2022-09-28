@@ -15,7 +15,3 @@ class PGMModel:
     edges: List[List[str]] = field(default_factory=list)
     states: Optional[Dict[str, List[str]]] = None
     cpd: Dict[str, PGMCPD] = field(default_factory=dict)
-
-@dataclass
-class PGMSchema:
-    model: Any = MISSING

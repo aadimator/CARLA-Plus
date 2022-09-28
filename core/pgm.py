@@ -10,21 +10,21 @@ class PGM:
   # @hydra.main(version_base=None, config_path="conf/pgm", config_name="config")
   def __init__(self, cfg: DictConfig):
     self.cfg = cfg
-    self.model = BayesianNetwork(cfg.model.edges)
-    self.states =  cfg.model.get("states", None)
+    self.model = BayesianNetwork(cfg.edges)
+    self.states =  cfg.get("states", None)
     if self.states:
       self.states = OmegaConf.to_container(self.states)
     
     cpds = []
     self.variables = {}
-    for variable in cfg.model.cpd:
+    for variable in cfg.cpd:
       state_names = {}
-      cpd = cfg.model.cpd[variable]
+      cpd = cfg.cpd[variable]
       self.variables[cpd.name] = variable
       evidence = cpd.get('evidence', None)
       evidence_card = None
       if evidence:
-        evidence_card = [cfg.model.cpd[e].cardinality for e in evidence]
+        evidence_card = [cfg.cpd[e].cardinality for e in evidence]
       if self.states:
         state_names[variable] = self.states[variable]
         if evidence:
@@ -39,7 +39,7 @@ class PGM:
     self.infer = VariableElimination(self.model)
 
   def get_states(self):
-    states = {self.cfg.model.cpd[k].name: Enum(f'{k}', self.states[k]) for k, v in self.states.items()}
+    states = {self.cfg.cpd[k].name: Enum(f'{k}', self.states[k]) for k, v in self.states.items()}
     return SimpleNamespace(**states)
 
   def get_variables(self):

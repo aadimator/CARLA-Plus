@@ -1,5 +1,6 @@
 defaults:
   - weather: clear
+  - model: simple
   - override weather/sun: day
   - _self_
 

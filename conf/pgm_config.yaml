@@ -1,4 +1,0 @@
-defaults:
-  - base_pgm_config
-  - model: simple
-  - _self_

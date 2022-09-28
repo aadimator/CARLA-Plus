@@ -1,4 +1,5 @@
 import math
+from omegaconf import DictConfig, OmegaConf
 
 def clamp(value, minimum=0.0, maximum=100.0):
     return max(minimum, min(value, maximum))
@@ -56,6 +57,18 @@ class Weather(object):
         self.weather = weather
         self._sun = Sun(weather.sun_azimuth_angle, weather.sun_altitude_angle)
         self._storm = Storm(weather.precipitation)
+
+    def setWeather(self, cfg: DictConfig):
+        self.weather.cloudiness = cfg.cloudiness
+        self.weather.precipitation = cfg.rain
+        self.weather.precipitation_deposits = cfg.puddles
+        self.weather.wind_intensity = cfg.wind
+        self.weather.fog_density = cfg.fog
+        self.weather.wetness = cfg.wetness
+        self.weather.sun_azimuth_angle = cfg.sun.azimuth
+        self.weather.sun_altitude_angle = cfg.sun.altitude
+        self._sun = Sun(cfg.sun.azimuth, cfg.sun.altitude)
+        self._storm = Storm(cfg.rain)
 
     def tick(self, delta_seconds):
         self._sun.tick(delta_seconds)
