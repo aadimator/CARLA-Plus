@@ -6,5 +6,5 @@ defaults:
 
 host: '127.0.0.1'
 port: 2000
-asynch: True # Activate asynchronous mode execution
+asynch: False # Activate asynchronous mode execution
 dynamic_weather: False

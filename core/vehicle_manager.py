@@ -24,7 +24,6 @@ from utils.common import get_actor_blueprints
 
 class VehicleManager:
 
-    # @hydra.main(config_path="conf", config_name="vehicle_manager")
     def __init__(self, client: carla.Client, cfg: DictConfig) -> None :
         self.client = client
         self.world = self.client.get_world()
@@ -125,7 +124,7 @@ class VehicleManager:
                     blueprint.set_attribute('driver_id', driver_id)
                 if hero:
                     blueprint.set_attribute('role_name', 'hero')
-                    self.hero = False
+                    hero = False
                 else:
                     blueprint.set_attribute('role_name', 'autopilot')
 
@@ -147,6 +146,9 @@ class VehicleManager:
 
             print('\nAdded %d vehicles' % num_to_add)
             return self.vehicles_list
+
+    def update_global_speed(self, speed):
+        self.traffic_manager.global_percentage_speed_difference(speed)
 
     def destroy(self):
         if not self.asynch and self.synchronous_master:
