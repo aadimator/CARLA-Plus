@@ -1,5 +1,4 @@
 defaults:
-  - config
   - _self_
 
 tm_port: 8000 # Port to communicate with TM (default: 8000)

@@ -1,5 +1,4 @@
 defaults:
-  - config
   - _self_
 
 number_of_walkers: 10

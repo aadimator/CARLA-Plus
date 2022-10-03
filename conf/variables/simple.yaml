@@ -1,0 +1,17 @@
+R:
+  name: Rain
+  states:
+    NO_RAIN: 10
+    LIGHT_RAIN: 60
+    HEAVY_RAIN: 100
+T:
+  name: Traffic
+  states:
+    LOW: 10
+    HEAVY: 30
+S:
+  name: Speed
+  states:
+    LOW: 50 # 50% slower than speed limit
+    HIGH: -30 # 30% faster than speed limit
+  

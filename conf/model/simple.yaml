@@ -3,48 +3,22 @@ defaults:
 
 edges:
   - [R, T]
-  - - R
-    - S
-states:
-  R:
-    - NO_RAIN
-    - LIGHT_RAIN
-    - HEAVY_RAIN
-  T:
-    - LOW
-    - HEAVY
-  S:
-    - LOW
-    - HIGH
+  - [R, S]
 cpd:
   R:
-   name: Rain
-   cardinality: 3
-   probabilities: 
-     - - 0.2
-     - - 0.5
-     - - 0.3
+    probabilities: 
+      - [0.2]
+      - [0.5]
+      - [0.3]
   T:
-   name: Traffic
-   cardinality: 2
-   probabilities: 
-     - - 0.1
-       - 0.4
-       - 0.9
-     - - 0.9
-       - 0.6
-       - 0.1
-   evidence:
-     - R
+    probabilities: 
+      - [0.1, 0.4, 0.9]
+      - [0.9, 0.6, 0.1]
+    evidence:
+      - R
   S:
-   name: Speed
-   cardinality: 2
-   probabilities: 
-     - - 0.1
-       - 0.6
-       - 0.8
-     - - 0.9
-       - 0.4
-       - 0.2
-   evidence:
-     - R
+    probabilities: 
+      - [0.1, 0.6, 0.8]
+      - [0.9, 0.4, 0.2]
+    evidence:
+      - R

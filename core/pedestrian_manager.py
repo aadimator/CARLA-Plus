@@ -19,9 +19,9 @@ from utils.common import get_actor_blueprints
 
 class PedestrianManager:
 
-    def __init__(self, client: carla.Client, cfg: DictConfig) -> None:
+    def __init__(self, client: carla.Client, cfg: DictConfig, asynch: bool = False) -> None:
         self.client = client
-        self.asynch = cfg.asynch
+        self.asynch = asynch
         world = self.client.get_world()
         self.walkers_list = []
         self.all_id = []

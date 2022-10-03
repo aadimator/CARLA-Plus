@@ -24,15 +24,15 @@ from utils.common import get_actor_blueprints
 
 class VehicleManager:
 
-    def __init__(self, client: carla.Client, cfg: DictConfig) -> None :
+    def __init__(self, client: carla.Client, cfg: DictConfig, asynch: bool = False) -> None :
         self.client = client
+        self.asynch = asynch
         self.world = self.client.get_world()
         self.traffic_manager = self.client.get_trafficmanager(cfg.tm_port)
         self.traffic_manager.set_global_distance_to_leading_vehicle(2.5)
 
         self.car_lights_on = cfg.car_lights_on
         self.hero = cfg.hero
-        self.asynch = cfg.asynch
 
         if cfg.respawn:
             self.traffic_manager.set_respawn_dormant_vehicles(True)

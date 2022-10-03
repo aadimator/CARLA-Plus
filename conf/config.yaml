@@ -1,6 +1,8 @@
 defaults:
+  - base_config_model
   - weather: clear
   - model: simple
+  - variables: ${model}
   - override weather/sun: day
   - _self_
 

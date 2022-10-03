@@ -10,36 +10,38 @@ class PGM:
   # @hydra.main(version_base=None, config_path="conf/pgm", config_name="config")
   def __init__(self, cfg: DictConfig):
     self.cfg = cfg
-    self.model = BayesianNetwork(cfg.edges)
-    self.states =  cfg.get("states", None)
-    if self.states:
-      self.states = OmegaConf.to_container(self.states)
-    
+    self.model = BayesianNetwork(cfg.model.edges)
+
+    self.states =  {k: list(cfg.variables[k].states.keys()) for k in cfg.variables.keys()}
+    self.variables = {cfg.variables[k].name:k for k in cfg.variables.keys()}
+
     cpds = []
-    self.variables = {}
-    for variable in cfg.cpd:
-      state_names = {}
-      cpd = cfg.cpd[variable]
-      self.variables[cpd.name] = variable
+    for variable in cfg.model.cpd:
+      
+      cpd = cfg.model.cpd[variable]
+      variable_card = len(self.states[variable])
       evidence = cpd.get('evidence', None)
       evidence_card = None
+
+      # To pass onto the CPD function
+      state_names = {}
+      state_names[variable] = self.states[variable]
       if evidence:
-        evidence_card = [cfg.cpd[e].cardinality for e in evidence]
-      if self.states:
-        state_names[variable] = self.states[variable]
-        if evidence:
-          state_names.update({e:self.states[e] for e in cpd.evidence})
+        evidence_card = [len(self.states[e]) for e in evidence]
+        state_names.update({e:self.states[e] for e in cpd.evidence})
       
       cpds.append(
-        TabularCPD(variable=variable, variable_card=cpd.cardinality, 
-          values=cpd.probabilities, evidence=evidence, evidence_card=evidence_card, state_names=state_names))
+        TabularCPD(variable=variable, variable_card=variable_card, 
+          values=cpd.probabilities, evidence=evidence, evidence_card=evidence_card, 
+          state_names=state_names))
 
     self.model.add_cpds(*cpds)
     assert self.model.check_model() == True
     self.infer = VariableElimination(self.model)
 
   def get_states(self):
-    states = {self.cfg.cpd[k].name: Enum(f'{k}', self.states[k]) for k, v in self.states.items()}
+    states = {self.cfg.variables[k].name: Enum(f'{k}', self.cfg.variables[k].states) 
+              for k, in self.states.keys()}
     return SimpleNamespace(**states)
 
   def get_variables(self):
