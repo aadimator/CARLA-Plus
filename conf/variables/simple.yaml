@@ -12,6 +12,6 @@ T:
 S:
   name: Speed
   states:
-    LOW: 50 # 50% slower than speed limit
+    LOW: 30 # 50% slower than speed limit
     HIGH: -30 # 30% faster than speed limit
   
