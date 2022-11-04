@@ -21,3 +21,9 @@ def get_actor_blueprints(world, filter, generation):
     except:
         print("   Warning! Actor Generation is not valid. No actor will be spawned.")
         return []
+
+def hour_to_altitude(hour):
+    if hour // 12 == 0:
+        return -90 + (15 * hour)
+    else:
+        return 90 - (15 * (hour % 12))

@@ -28,14 +28,14 @@ class PedestrianManager:
         self.blueprintsWalkers = get_actor_blueprints(world, cfg.filterw, cfg.generationw)
         
         # some settings
-        self.percentagePedestriansRunning = cfg.running_percentage      
-        self.percentagePedestriansCrossing = cfg.crossing_percentage  
+        # self.percentagePedestriansRunning = cfg.running_percentage      
+        # self.percentagePedestriansCrossing = cfg.crossing_percentage  
 
         if cfg.seedw:
             world.set_pedestrians_seed(cfg.seedw)
             random.seed(cfg.seedw)
         
-    def spawn_walkers(self, number_of_walkers: int):
+    def spawn_walkers(self, number_of_walkers: int, percentagePedestriansRunning: int, percentagePedestriansCrossing: int):
         world = self.client.get_world()
 
         # @todo cannot import these directly.
@@ -60,7 +60,7 @@ class PedestrianManager:
                 walker_bp.set_attribute('is_invincible', 'false')
             # set the max speed
             if walker_bp.has_attribute('speed'):
-                if (random.random() > self.percentagePedestriansRunning):
+                if (random.random() > percentagePedestriansRunning):
                     # walking
                     walker_speed.append(walker_bp.get_attribute('speed').recommended_values[1])
                 else:
@@ -107,7 +107,7 @@ class PedestrianManager:
 
         # 5. initialize each controller and set target to walk to (list is [controler, actor, controller, actor ...])
         # set how many pedestrians can cross the road
-        world.set_pedestrians_cross_factor(self.percentagePedestriansCrossing)
+        world.set_pedestrians_cross_factor(percentagePedestriansCrossing)
         for i in range(0, len(self.all_id), 2):
             # start walker
             self.all_actors[i].start()

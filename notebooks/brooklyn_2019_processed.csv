@@ -1,0 +1,2921 @@
+day,events,time,pedestrians,traffic,speed,rain,fog,clouds
+Tuesday,True,afternoon,high,medium,medium,no,light,heavy
+Tuesday,True,early evening,low,medium,medium,no,no,no
+Tuesday,True,early morning,low,medium,high,moderate,heavy,heavy
+Tuesday,True,evening,low,medium,high,no,moderate,moderate
+Tuesday,True,late evening,low,medium,high,no,no,heavy
+Tuesday,True,late morning,high,medium,high,no,heavy,moderate
+Tuesday,True,morning,medium,medium,high,light,heavy,heavy
+Tuesday,True,night,low,medium,medium,light,heavy,heavy
+Wednesday,False,afternoon,high,medium,medium,no,no,heavy
+Wednesday,False,early evening,medium,medium,medium,no,light,heavy
+Wednesday,False,early morning,low,medium,high,no,no,heavy
+Wednesday,False,evening,low,medium,high,no,moderate,heavy
+Wednesday,False,late evening,low,medium,high,no,light,heavy
+Wednesday,False,late morning,high,medium,medium,no,no,heavy
+Wednesday,False,morning,medium,medium,medium,no,no,heavy
+Wednesday,False,night,low,medium,high,no,no,moderate
+Thursday,False,afternoon,high,medium,medium,no,light,heavy
+Thursday,False,early evening,low,medium,medium,no,light,light
+Thursday,False,early morning,low,medium,high,no,heavy,heavy
+Thursday,False,evening,low,medium,high,no,no,no
+Thursday,False,late evening,low,medium,high,no,no,no
+Thursday,False,late morning,high,medium,medium,no,heavy,heavy
+Thursday,False,morning,medium,medium,medium,no,heavy,heavy
+Thursday,False,night,low,medium,high,no,moderate,heavy
+Friday,False,afternoon,high,medium,medium,no,no,heavy
+Friday,False,early evening,medium,medium,medium,no,no,heavy
+Friday,False,early morning,low,medium,high,no,no,no
+Friday,False,evening,low,medium,high,no,no,heavy
+Friday,False,late evening,low,medium,high,no,no,heavy
+Friday,False,late morning,high,medium,medium,no,no,heavy
+Friday,False,morning,medium,medium,medium,no,no,no
+Friday,False,night,low,medium,high,no,no,no
+Saturday,False,afternoon,medium,medium,medium,light,heavy,no
+Saturday,False,early evening,low,medium,medium,light,heavy,moderate
+Saturday,False,early morning,low,medium,high,light,moderate,heavy
+Saturday,False,evening,low,medium,medium,light,heavy,light
+Saturday,False,late evening,low,medium,medium,light,heavy,no
+Saturday,False,late morning,medium,medium,medium,light,heavy,no
+Saturday,False,morning,medium,medium,high,light,heavy,moderate
+Saturday,False,night,low,medium,high,no,no,heavy
+Sunday,False,afternoon,high,medium,medium,no,light,no
+Sunday,False,early evening,low,medium,medium,no,no,no
+Sunday,False,early morning,low,medium,high,no,no,no
+Sunday,False,evening,low,medium,medium,no,no,no
+Sunday,False,late evening,low,medium,high,no,no,no
+Sunday,False,late morning,high,medium,high,no,moderate,no
+Sunday,False,morning,medium,medium,high,no,no,no
+Sunday,False,night,low,medium,high,no,no,no
+Monday,False,afternoon,medium,medium,medium,no,no,heavy
+Monday,False,early evening,medium,medium,medium,no,no,no
+Monday,False,early morning,low,medium,high,no,no,no
+Monday,False,evening,low,medium,high,no,no,heavy
+Monday,False,late evening,low,medium,high,no,no,heavy
+Monday,False,late morning,medium,medium,medium,no,no,no
+Monday,False,morning,medium,medium,medium,no,no,no
+Monday,False,night,low,medium,high,no,no,no
+Tuesday,False,afternoon,medium,medium,medium,no,moderate,no
+Tuesday,False,early evening,low,medium,medium,light,heavy,no
+Tuesday,False,early morning,low,medium,medium,no,no,heavy
+Tuesday,False,evening,low,medium,medium,no,heavy,no
+Tuesday,False,late evening,low,medium,medium,light,heavy,no
+Tuesday,False,late morning,medium,medium,medium,light,heavy,no
+Tuesday,False,morning,medium,medium,low,light,light,heavy
+Tuesday,False,night,low,medium,high,no,no,heavy
+Wednesday,False,afternoon,medium,medium,medium,no,no,no
+Wednesday,False,early evening,medium,medium,medium,no,light,no
+Wednesday,False,early morning,low,medium,medium,light,heavy,no
+Wednesday,False,evening,low,medium,high,no,no,no
+Wednesday,False,late evening,low,medium,medium,no,heavy,no
+Wednesday,False,late morning,medium,medium,medium,no,light,no
+Wednesday,False,morning,medium,medium,low,light,heavy,no
+Wednesday,False,night,low,medium,high,no,heavy,no
+Thursday,False,afternoon,medium,medium,medium,no,heavy,light
+Thursday,False,early evening,low,medium,medium,no,moderate,heavy
+Thursday,False,early morning,low,medium,medium,no,no,no
+Thursday,False,evening,low,medium,medium,no,no,heavy
+Thursday,False,late evening,low,medium,medium,no,no,no
+Thursday,False,late morning,medium,medium,low,no,no,no
+Thursday,False,morning,medium,medium,low,no,light,no
+Thursday,False,night,low,medium,medium,no,moderate,no
+Friday,False,afternoon,medium,medium,medium,no,no,no
+Friday,False,early evening,low,medium,medium,no,no,no
+Friday,False,early morning,low,medium,medium,no,moderate,no
+Friday,False,evening,low,medium,medium,no,no,no
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,medium,medium,medium,no,no,no
+Friday,False,morning,medium,medium,low,no,no,no
+Friday,False,night,low,medium,medium,no,no,no
+Saturday,False,afternoon,low,medium,medium,no,no,light
+Saturday,False,early evening,low,medium,medium,no,no,heavy
+Saturday,False,early morning,low,medium,medium,no,no,no
+Saturday,False,evening,low,medium,medium,no,no,heavy
+Saturday,False,late evening,low,medium,high,no,no,heavy
+Saturday,False,late morning,low,medium,medium,no,no,heavy
+Saturday,False,morning,low,medium,high,no,no,light
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,medium,low,low,no,no,no
+Sunday,False,early evening,low,low,low,no,no,no
+Sunday,False,early morning,low,low,low,no,no,heavy
+Sunday,False,evening,low,low,low,no,no,light
+Sunday,False,late evening,low,low,low,no,no,moderate
+Sunday,False,late morning,medium,low,medium,no,no,light
+Sunday,False,morning,medium,low,medium,no,no,heavy
+Sunday,False,night,low,low,high,no,no,heavy
+Monday,False,afternoon,medium,low,medium,no,no,no
+Monday,False,early evening,low,low,medium,no,no,no
+Monday,False,early morning,low,low,low,no,no,no
+Monday,False,evening,low,low,medium,no,no,no
+Monday,False,late evening,low,low,medium,no,no,no
+Monday,False,late morning,medium,low,medium,no,moderate,light
+Monday,False,morning,medium,low,low,no,moderate,light
+Monday,False,night,low,low,low,no,no,no
+Tuesday,False,afternoon,medium,medium,medium,no,no,light
+Tuesday,False,early evening,medium,medium,medium,no,no,heavy
+Tuesday,False,early morning,low,low,medium,no,no,no
+Tuesday,False,evening,low,medium,medium,no,no,heavy
+Tuesday,False,late evening,low,medium,medium,no,no,no
+Tuesday,False,late morning,medium,medium,medium,no,no,no
+Tuesday,False,morning,medium,medium,low,no,no,no
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,medium,medium,medium,no,moderate,no
+Wednesday,False,early evening,medium,medium,medium,no,no,no
+Wednesday,False,early morning,low,low,high,no,no,no
+Wednesday,False,evening,low,medium,medium,no,no,no
+Wednesday,False,late evening,low,medium,medium,no,heavy,no
+Wednesday,False,late morning,medium,medium,medium,no,no,no
+Wednesday,False,morning,medium,medium,medium,no,no,no
+Wednesday,False,night,low,low,high,no,no,no
+Thursday,False,afternoon,medium,medium,medium,no,no,light
+Thursday,False,early evening,medium,medium,medium,no,no,heavy
+Thursday,False,early morning,low,medium,high,no,no,no
+Thursday,False,evening,low,medium,medium,no,no,heavy
+Thursday,False,late evening,low,medium,medium,no,no,heavy
+Thursday,False,late morning,medium,medium,medium,no,no,heavy
+Thursday,False,morning,medium,medium,medium,no,no,heavy
+Thursday,False,night,low,low,high,no,heavy,no
+Friday,False,afternoon,medium,medium,medium,no,moderate,no
+Friday,False,early evening,low,medium,medium,no,heavy,no
+Friday,False,early morning,low,medium,medium,no,light,moderate
+Friday,False,evening,low,medium,medium,no,heavy,no
+Friday,False,late evening,low,medium,high,no,heavy,moderate
+Friday,False,late morning,medium,medium,medium,no,moderate,light
+Friday,False,morning,medium,medium,medium,no,heavy,moderate
+Friday,False,night,low,medium,high,no,no,heavy
+Saturday,False,afternoon,high,medium,medium,no,light,heavy
+Saturday,False,early evening,medium,medium,medium,no,heavy,heavy
+Saturday,False,early morning,low,low,high,no,no,moderate
+Saturday,False,evening,low,medium,medium,no,heavy,heavy
+Saturday,False,late evening,low,medium,medium,no,heavy,heavy
+Saturday,False,late morning,high,medium,high,no,no,light
+Saturday,False,morning,medium,medium,high,no,no,no
+Saturday,False,night,low,medium,medium,no,light,heavy
+Sunday,False,afternoon,medium,medium,high,light,heavy,heavy
+Sunday,False,early evening,low,medium,medium,no,heavy,no
+Sunday,False,early morning,low,medium,high,light,heavy,heavy
+Sunday,False,evening,low,medium,high,no,no,no
+Sunday,False,late evening,low,medium,high,no,no,no
+Sunday,False,late morning,medium,medium,high,light,heavy,heavy
+Sunday,False,morning,low,medium,high,light,heavy,heavy
+Sunday,False,night,low,medium,medium,light,heavy,heavy
+Monday,True,afternoon,medium,heavy,medium,no,heavy,no
+Monday,True,early evening,low,medium,medium,no,no,no
+Monday,True,early morning,low,medium,high,no,no,no
+Monday,True,evening,low,medium,medium,no,no,no
+Monday,True,late evening,low,medium,medium,no,no,no
+Monday,True,late morning,medium,medium,medium,no,light,no
+Monday,True,morning,low,medium,medium,no,light,no
+Monday,True,night,low,medium,high,no,no,no
+Tuesday,False,afternoon,medium,heavy,medium,no,no,no
+Tuesday,False,early evening,medium,heavy,medium,no,no,no
+Tuesday,False,early morning,low,medium,high,no,no,no
+Tuesday,False,evening,low,medium,medium,no,no,light
+Tuesday,False,late evening,low,medium,high,no,no,heavy
+Tuesday,False,late morning,medium,medium,medium,no,no,no
+Tuesday,False,morning,medium,heavy,medium,no,no,no
+Tuesday,False,night,low,low,high,no,no,no
+Wednesday,False,afternoon,medium,heavy,medium,no,no,heavy
+Wednesday,False,early evening,low,heavy,medium,no,light,heavy
+Wednesday,False,early morning,low,medium,high,no,no,heavy
+Wednesday,False,evening,low,medium,medium,no,no,heavy
+Wednesday,False,late evening,low,medium,medium,no,moderate,moderate
+Wednesday,False,late morning,medium,medium,medium,no,no,heavy
+Wednesday,False,morning,medium,heavy,medium,no,no,heavy
+Wednesday,False,night,low,medium,high,no,no,heavy
+Thursday,False,afternoon,medium,heavy,medium,light,heavy,heavy
+Thursday,False,early evening,low,heavy,medium,light,heavy,heavy
+Thursday,False,early morning,low,medium,medium,light,heavy,no
+Thursday,False,evening,low,medium,medium,moderate,heavy,heavy
+Thursday,False,late evening,low,medium,medium,light,no,no
+Thursday,False,late morning,low,medium,low,light,heavy,heavy
+Thursday,False,morning,low,heavy,low,light,heavy,heavy
+Thursday,False,night,low,medium,high,no,heavy,heavy
+Friday,False,afternoon,high,heavy,medium,no,light,no
+Friday,False,early evening,low,heavy,medium,no,light,no
+Friday,False,early morning,low,medium,medium,no,no,no
+Friday,False,evening,low,medium,medium,no,no,no
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,medium,heavy,medium,no,light,no
+Friday,False,morning,medium,heavy,medium,no,no,no
+Friday,False,night,low,medium,medium,no,no,no
+Saturday,False,afternoon,high,heavy,medium,no,no,no
+Saturday,False,early evening,low,heavy,medium,no,no,no
+Saturday,False,early morning,low,medium,medium,no,no,no
+Saturday,False,evening,low,medium,medium,no,no,no
+Saturday,False,late evening,low,medium,medium,no,no,no
+Saturday,False,late morning,medium,heavy,medium,no,no,no
+Saturday,False,morning,medium,medium,medium,no,no,light
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,high,medium,medium,no,no,no
+Sunday,False,early evening,low,medium,medium,no,no,heavy
+Sunday,False,early morning,low,medium,high,no,no,no
+Sunday,False,evening,low,medium,medium,no,no,heavy
+Sunday,False,late evening,low,medium,medium,no,no,heavy
+Sunday,False,late morning,high,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,high,no,no,no
+Sunday,False,night,low,medium,medium,no,no,no
+Monday,False,afternoon,medium,medium,medium,no,no,heavy
+Monday,False,early evening,low,medium,medium,no,no,light
+Monday,False,early morning,low,low,medium,no,no,heavy
+Monday,False,evening,low,medium,medium,no,no,heavy
+Monday,False,late evening,low,low,medium,no,no,light
+Monday,False,late morning,medium,medium,medium,no,no,moderate
+Monday,False,morning,medium,medium,medium,no,no,heavy
+Monday,False,night,low,low,medium,no,no,heavy
+Tuesday,False,afternoon,medium,medium,medium,no,light,heavy
+Tuesday,False,early evening,low,medium,medium,light,heavy,heavy
+Tuesday,False,early morning,low,low,medium,no,no,no
+Tuesday,False,evening,low,medium,medium,light,heavy,moderate
+Tuesday,False,late evening,low,low,medium,light,heavy,moderate
+Tuesday,False,late morning,medium,medium,medium,no,no,heavy
+Tuesday,False,morning,medium,medium,low,no,no,moderate
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,medium,medium,low,no,no,no
+Wednesday,False,early evening,low,low,medium,no,no,no
+Wednesday,False,early morning,low,low,medium,light,moderate,heavy
+Wednesday,False,evening,low,low,medium,no,no,no
+Wednesday,False,late evening,low,low,medium,no,no,no
+Wednesday,False,late morning,medium,low,medium,no,no,no
+Wednesday,False,morning,medium,low,medium,no,no,no
+Wednesday,False,night,low,low,medium,light,heavy,heavy
+Thursday,False,afternoon,medium,medium,medium,no,no,no
+Thursday,False,early evening,low,low,medium,no,no,no
+Thursday,False,early morning,low,low,medium,no,no,no
+Thursday,False,evening,low,low,medium,no,no,no
+Thursday,False,late evening,low,low,medium,no,no,no
+Thursday,False,late morning,medium,low,medium,no,no,no
+Thursday,False,morning,low,low,low,no,no,no
+Thursday,False,night,low,low,medium,no,no,no
+Friday,False,afternoon,medium,medium,medium,no,no,heavy
+Friday,False,early evening,low,medium,medium,no,no,moderate
+Friday,False,early morning,low,low,medium,no,no,no
+Friday,False,evening,low,medium,medium,no,no,no
+Friday,False,late evening,low,low,medium,no,no,no
+Friday,False,late morning,medium,medium,medium,no,no,no
+Friday,False,morning,medium,medium,medium,no,no,no
+Friday,False,night,low,low,medium,no,no,no
+Saturday,False,afternoon,low,medium,medium,no,no,heavy
+Saturday,False,early evening,low,medium,medium,no,no,heavy
+Saturday,False,early morning,low,low,medium,no,no,no
+Saturday,False,evening,low,medium,medium,no,no,light
+Saturday,False,late evening,low,medium,medium,no,no,light
+Saturday,False,late morning,low,medium,medium,no,no,heavy
+Saturday,False,morning,low,medium,medium,no,no,heavy
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,high,heavy,medium,no,no,light
+Sunday,False,early evening,low,medium,medium,no,no,moderate
+Sunday,False,early morning,low,low,medium,no,no,no
+Sunday,False,evening,low,medium,medium,no,no,moderate
+Sunday,False,late evening,low,medium,medium,no,no,moderate
+Sunday,False,late morning,medium,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,high,no,no,no
+Sunday,False,night,low,medium,medium,no,no,no
+Monday,False,afternoon,high,heavy,medium,no,no,no
+Monday,False,early evening,low,heavy,medium,no,no,no
+Monday,False,early morning,low,medium,medium,no,no,no
+Monday,False,evening,low,medium,medium,no,no,no
+Monday,False,late evening,low,medium,medium,no,no,no
+Monday,False,late morning,medium,medium,medium,no,no,no
+Monday,False,morning,medium,medium,medium,no,no,no
+Monday,False,night,low,low,medium,no,no,no
+Tuesday,False,afternoon,high,heavy,medium,no,no,no
+Tuesday,False,early evening,medium,heavy,medium,no,no,no
+Tuesday,False,early morning,low,medium,medium,no,no,light
+Tuesday,False,evening,low,medium,medium,no,no,no
+Tuesday,False,late evening,low,medium,medium,no,no,heavy
+Tuesday,False,late morning,medium,heavy,medium,no,no,no
+Tuesday,False,morning,medium,heavy,medium,no,no,light
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,medium,heavy,medium,no,no,light
+Wednesday,False,early evening,medium,heavy,medium,no,no,heavy
+Wednesday,False,early morning,low,medium,medium,no,no,light
+Wednesday,False,evening,low,medium,medium,no,light,heavy
+Wednesday,False,late evening,low,medium,medium,light,heavy,heavy
+Wednesday,False,late morning,medium,heavy,medium,no,no,light
+Wednesday,False,morning,medium,heavy,medium,no,no,heavy
+Wednesday,False,night,low,low,medium,no,no,heavy
+Thursday,False,afternoon,medium,heavy,medium,no,heavy,moderate
+Thursday,False,early evening,low,heavy,medium,no,heavy,no
+Thursday,False,early morning,low,medium,medium,light,heavy,heavy
+Thursday,False,evening,low,medium,medium,no,heavy,moderate
+Thursday,False,late evening,low,medium,medium,no,heavy,moderate
+Thursday,False,late morning,medium,heavy,medium,no,heavy,heavy
+Thursday,False,morning,medium,heavy,low,light,heavy,heavy
+Thursday,False,night,low,low,medium,light,heavy,heavy
+Friday,False,afternoon,high,heavy,medium,light,heavy,heavy
+Friday,False,early evening,low,heavy,medium,no,light,no
+Friday,False,early morning,low,medium,medium,light,heavy,heavy
+Friday,False,evening,low,medium,medium,no,no,no
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,medium,heavy,medium,light,heavy,moderate
+Friday,False,morning,medium,heavy,low,light,heavy,heavy
+Friday,False,night,low,medium,medium,no,heavy,heavy
+Saturday,False,afternoon,high,heavy,medium,no,no,no
+Saturday,False,early evening,low,medium,medium,no,no,no
+Saturday,False,early morning,low,low,medium,no,no,no
+Saturday,False,evening,low,medium,medium,no,no,no
+Saturday,False,late evening,low,medium,medium,no,no,no
+Saturday,False,late morning,medium,medium,medium,no,no,no
+Saturday,False,morning,medium,medium,high,no,no,light
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,high,heavy,medium,no,no,light
+Sunday,False,early evening,low,medium,medium,no,no,heavy
+Sunday,False,early morning,low,low,medium,no,no,no
+Sunday,False,evening,low,medium,medium,no,no,heavy
+Sunday,False,late evening,low,medium,medium,no,no,heavy
+Sunday,False,late morning,medium,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,high,no,no,no
+Sunday,False,night,low,medium,medium,no,no,no
+Monday,False,afternoon,medium,heavy,medium,no,no,heavy
+Monday,False,early evening,medium,medium,medium,no,no,heavy
+Monday,False,early morning,low,medium,medium,no,no,heavy
+Monday,False,evening,low,medium,medium,no,no,heavy
+Monday,False,late evening,low,medium,medium,no,no,heavy
+Monday,False,late morning,medium,medium,medium,no,heavy,heavy
+Monday,False,morning,medium,heavy,medium,no,moderate,heavy
+Monday,False,night,low,low,medium,no,no,heavy
+Tuesday,False,afternoon,medium,medium,medium,light,heavy,heavy
+Tuesday,False,early evening,low,medium,medium,light,heavy,heavy
+Tuesday,False,early morning,low,low,high,no,no,heavy
+Tuesday,False,evening,low,medium,medium,light,heavy,heavy
+Tuesday,False,late evening,low,medium,medium,light,heavy,heavy
+Tuesday,False,late morning,medium,medium,medium,no,no,heavy
+Tuesday,False,morning,medium,medium,medium,no,no,heavy
+Tuesday,False,night,low,low,medium,no,no,heavy
+Wednesday,False,afternoon,medium,medium,medium,no,light,no
+Wednesday,False,early evening,low,medium,medium,no,moderate,no
+Wednesday,False,early morning,low,low,medium,light,heavy,moderate
+Wednesday,False,evening,low,medium,medium,no,light,no
+Wednesday,False,late evening,low,medium,medium,no,no,no
+Wednesday,False,late morning,medium,medium,medium,no,moderate,no
+Wednesday,False,morning,medium,medium,low,light,heavy,no
+Wednesday,False,night,low,low,medium,light,heavy,heavy
+Thursday,True,afternoon,high,medium,medium,no,no,no
+Thursday,True,early evening,low,medium,medium,no,no,light
+Thursday,True,early morning,low,low,medium,no,no,no
+Thursday,True,evening,low,medium,medium,no,no,light
+Thursday,True,late evening,low,medium,medium,no,no,light
+Thursday,True,late morning,medium,medium,medium,no,no,no
+Thursday,True,morning,medium,medium,low,no,no,no
+Thursday,True,night,low,low,medium,no,no,no
+Friday,False,afternoon,high,medium,medium,no,no,no
+Friday,False,early evening,low,medium,medium,no,no,no
+Friday,False,early morning,low,low,medium,no,no,heavy
+Friday,False,evening,low,medium,medium,no,no,moderate
+Friday,False,late evening,low,medium,medium,no,no,heavy
+Friday,False,late morning,medium,medium,medium,no,no,heavy
+Friday,False,morning,medium,medium,medium,no,no,heavy
+Friday,False,night,low,low,medium,no,no,heavy
+Saturday,False,afternoon,high,medium,low,no,no,no
+Saturday,False,early evening,low,medium,low,no,no,no
+Saturday,False,early morning,low,low,medium,no,no,heavy
+Saturday,False,evening,low,medium,low,no,no,no
+Saturday,False,late evening,low,medium,medium,no,no,no
+Saturday,False,late morning,high,medium,medium,no,no,no
+Saturday,False,morning,medium,medium,medium,no,no,heavy
+Saturday,False,night,low,low,medium,no,no,heavy
+Sunday,False,afternoon,high,medium,medium,no,no,light
+Sunday,False,early evening,low,medium,medium,no,no,heavy
+Sunday,False,early morning,low,low,medium,no,no,light
+Sunday,False,evening,low,medium,medium,no,no,no
+Sunday,False,late evening,low,medium,medium,no,no,light
+Sunday,False,late morning,high,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,high,no,no,no
+Sunday,False,night,low,low,medium,no,no,no
+Monday,True,afternoon,high,medium,medium,no,heavy,moderate
+Monday,True,early evening,medium,medium,medium,no,heavy,no
+Monday,True,early morning,low,low,medium,light,heavy,heavy
+Monday,True,evening,medium,low,medium,no,moderate,no
+Monday,True,late evening,low,low,medium,no,no,no
+Monday,True,late morning,medium,medium,medium,light,heavy,heavy
+Monday,True,morning,medium,medium,medium,light,heavy,heavy
+Monday,True,night,low,low,medium,no,light,heavy
+Tuesday,False,afternoon,medium,low,medium,no,no,light
+Tuesday,False,early evening,medium,low,medium,no,no,heavy
+Tuesday,False,early morning,low,low,medium,no,no,no
+Tuesday,False,evening,medium,low,medium,no,no,moderate
+Tuesday,False,late evening,low,low,medium,no,no,heavy
+Tuesday,False,late morning,medium,low,medium,no,no,no
+Tuesday,False,morning,medium,low,medium,no,no,no
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,medium,low,medium,no,no,heavy
+Wednesday,False,early evening,medium,low,medium,no,moderate,heavy
+Wednesday,False,early morning,low,low,medium,no,no,heavy
+Wednesday,False,evening,low,low,medium,no,heavy,heavy
+Wednesday,False,late evening,low,low,medium,no,heavy,heavy
+Wednesday,False,late morning,medium,low,medium,no,no,heavy
+Wednesday,False,morning,medium,low,medium,no,no,heavy
+Wednesday,False,night,low,low,medium,no,no,heavy
+Thursday,False,afternoon,high,low,medium,no,moderate,light
+Thursday,False,early evening,low,low,medium,no,no,no
+Thursday,False,early morning,low,low,medium,light,heavy,heavy
+Thursday,False,evening,low,low,medium,no,no,no
+Thursday,False,late evening,low,low,medium,no,no,no
+Thursday,False,late morning,high,low,medium,no,heavy,heavy
+Thursday,False,morning,medium,low,medium,light,heavy,heavy
+Thursday,False,night,low,low,medium,light,heavy,heavy
+Friday,False,afternoon,high,low,medium,no,no,heavy
+Friday,False,early evening,low,low,medium,no,no,heavy
+Friday,False,early morning,low,low,medium,no,no,heavy
+Friday,False,evening,low,low,medium,no,no,heavy
+Friday,False,late evening,low,low,medium,no,no,heavy
+Friday,False,late morning,high,low,medium,no,no,heavy
+Friday,False,morning,medium,low,medium,no,no,heavy
+Friday,False,night,low,low,medium,no,no,heavy
+Saturday,False,afternoon,high,low,medium,no,no,heavy
+Saturday,False,early evening,low,low,medium,no,no,heavy
+Saturday,False,early morning,low,low,medium,no,no,heavy
+Saturday,False,evening,low,low,medium,no,no,heavy
+Saturday,False,late evening,low,low,medium,no,no,heavy
+Saturday,False,late morning,high,low,medium,no,no,heavy
+Saturday,False,morning,medium,low,high,no,no,heavy
+Saturday,False,night,low,low,medium,no,no,heavy
+Sunday,False,afternoon,medium,low,medium,light,heavy,heavy
+Sunday,False,early evening,low,low,medium,light,heavy,no
+Sunday,False,early morning,low,low,medium,light,heavy,heavy
+Sunday,False,evening,low,low,medium,no,heavy,no
+Sunday,False,late evening,low,low,medium,no,heavy,no
+Sunday,False,late morning,medium,low,medium,moderate,heavy,heavy
+Sunday,False,morning,low,low,high,light,heavy,heavy
+Sunday,False,night,low,low,medium,no,no,heavy
+Monday,False,afternoon,medium,low,medium,no,no,no
+Monday,False,early evening,low,low,medium,no,no,no
+Monday,False,early morning,low,low,medium,no,no,no
+Monday,False,evening,low,low,medium,no,no,no
+Monday,False,late evening,low,low,medium,no,no,no
+Monday,False,late morning,medium,low,medium,no,no,no
+Monday,False,morning,medium,low,medium,no,no,no
+Monday,False,night,low,low,medium,no,moderate,no
+Tuesday,False,afternoon,medium,low,medium,no,no,light
+Tuesday,False,early evening,low,low,medium,no,light,no
+Tuesday,False,early morning,low,low,medium,no,no,no
+Tuesday,False,evening,low,low,medium,no,no,no
+Tuesday,False,late evening,low,low,medium,no,no,no
+Tuesday,False,late morning,medium,low,low,no,no,no
+Tuesday,False,morning,medium,low,low,no,no,no
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,medium,medium,medium,no,no,moderate
+Wednesday,False,early evening,low,medium,medium,no,light,no
+Wednesday,False,early morning,low,low,medium,no,no,no
+Wednesday,False,evening,low,medium,medium,no,light,no
+Wednesday,False,late evening,low,medium,medium,no,moderate,no
+Wednesday,False,late morning,medium,medium,medium,no,no,light
+Wednesday,False,morning,medium,medium,medium,no,no,no
+Wednesday,False,night,low,low,medium,no,no,no
+Thursday,False,afternoon,medium,medium,medium,no,no,light
+Thursday,False,early evening,low,medium,medium,no,no,no
+Thursday,False,early morning,low,medium,medium,no,heavy,light
+Thursday,False,evening,low,medium,medium,no,no,moderate
+Thursday,False,late evening,low,medium,medium,no,no,light
+Thursday,False,late morning,medium,medium,medium,no,no,light
+Thursday,False,morning,medium,medium,low,no,heavy,light
+Thursday,False,night,low,low,medium,no,heavy,no
+Friday,False,afternoon,medium,medium,medium,no,heavy,no
+Friday,False,early evening,low,medium,medium,no,heavy,moderate
+Friday,False,early morning,low,low,medium,no,no,heavy
+Friday,False,evening,low,medium,medium,no,heavy,heavy
+Friday,False,late evening,low,medium,medium,no,heavy,heavy
+Friday,False,late morning,medium,medium,medium,no,no,light
+Friday,False,morning,medium,medium,low,no,no,heavy
+Friday,False,night,low,low,medium,no,no,moderate
+Saturday,False,afternoon,high,medium,medium,no,heavy,no
+Saturday,False,early evening,medium,medium,medium,no,moderate,no
+Saturday,False,early morning,low,low,medium,light,heavy,heavy
+Saturday,False,evening,low,medium,medium,no,moderate,no
+Saturday,False,late evening,low,medium,medium,no,heavy,no
+Saturday,False,late morning,medium,medium,medium,no,heavy,heavy
+Saturday,False,morning,medium,medium,medium,no,heavy,heavy
+Saturday,False,night,low,medium,medium,no,heavy,heavy
+Sunday,False,afternoon,high,medium,medium,no,no,moderate
+Sunday,False,early evening,low,medium,medium,no,heavy,moderate
+Sunday,False,early morning,low,low,medium,no,light,heavy
+Sunday,False,evening,low,medium,medium,no,heavy,heavy
+Sunday,False,late evening,low,low,medium,light,light,heavy
+Sunday,False,late morning,high,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,medium,no,no,no
+Sunday,False,night,low,medium,medium,no,heavy,light
+Monday,False,afternoon,high,medium,medium,no,light,no
+Monday,False,early evening,medium,medium,medium,no,no,no
+Monday,False,early morning,low,low,medium,light,heavy,heavy
+Monday,False,evening,low,medium,medium,no,light,no
+Monday,False,late evening,low,low,medium,no,light,no
+Monday,False,late morning,medium,medium,medium,no,heavy,no
+Monday,False,morning,medium,medium,medium,no,heavy,heavy
+Monday,False,night,low,low,medium,light,moderate,heavy
+Tuesday,False,afternoon,medium,medium,medium,no,no,no
+Tuesday,False,early evening,medium,medium,medium,no,light,no
+Tuesday,False,early morning,low,low,medium,no,no,no
+Tuesday,False,evening,low,medium,medium,no,no,no
+Tuesday,False,late evening,low,medium,medium,no,no,no
+Tuesday,False,late morning,medium,medium,medium,no,no,no
+Tuesday,False,morning,medium,medium,medium,no,no,no
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,medium,low,medium,no,light,no
+Wednesday,False,early evening,low,low,medium,no,no,no
+Wednesday,False,early morning,low,low,medium,no,no,no
+Wednesday,False,evening,low,low,medium,no,no,no
+Wednesday,False,late evening,low,low,medium,no,no,no
+Wednesday,False,late morning,medium,low,medium,no,no,no
+Wednesday,False,morning,medium,low,low,no,no,no
+Wednesday,False,night,low,low,medium,no,no,no
+Thursday,False,afternoon,medium,low,medium,no,moderate,no
+Thursday,False,early evening,medium,low,medium,no,heavy,no
+Thursday,False,early morning,low,low,high,no,no,no
+Thursday,False,evening,low,low,medium,no,light,no
+Thursday,False,late evening,low,low,medium,no,light,no
+Thursday,False,late morning,medium,low,medium,no,light,no
+Thursday,False,morning,medium,low,low,no,no,no
+Thursday,False,night,low,low,medium,no,no,no
+Friday,False,afternoon,high,medium,medium,no,no,heavy
+Friday,False,early evening,medium,medium,medium,no,no,heavy
+Friday,False,early morning,low,low,medium,no,no,heavy
+Friday,False,evening,low,low,medium,no,no,moderate
+Friday,False,late evening,low,low,medium,no,no,heavy
+Friday,False,late morning,medium,medium,medium,no,no,moderate
+Friday,False,morning,medium,medium,medium,no,no,heavy
+Friday,False,night,low,low,medium,no,no,no
+Saturday,False,afternoon,high,medium,medium,no,no,no
+Saturday,False,early evening,medium,medium,medium,no,no,no
+Saturday,False,early morning,low,low,high,no,no,light
+Saturday,False,evening,low,low,medium,no,no,moderate
+Saturday,False,late evening,low,low,medium,no,no,moderate
+Saturday,False,late morning,high,medium,medium,no,no,no
+Saturday,False,morning,medium,low,medium,no,no,no
+Saturday,False,night,low,low,medium,no,no,heavy
+Sunday,True,afternoon,medium,medium,medium,light,heavy,no
+Sunday,True,early evening,low,low,medium,no,heavy,heavy
+Sunday,True,early morning,low,low,medium,no,no,heavy
+Sunday,True,evening,low,low,medium,no,heavy,heavy
+Sunday,True,late evening,low,low,medium,no,heavy,heavy
+Sunday,True,late morning,medium,low,medium,light,heavy,heavy
+Sunday,True,morning,low,low,medium,light,moderate,heavy
+Sunday,True,night,low,low,medium,no,no,heavy
+Monday,False,afternoon,high,medium,medium,no,no,no
+Monday,False,early evening,medium,medium,medium,no,no,no
+Monday,False,early morning,low,low,medium,no,light,moderate
+Monday,False,evening,low,medium,medium,no,no,no
+Monday,False,late evening,low,low,medium,no,no,no
+Monday,False,late morning,high,medium,medium,no,no,no
+Monday,False,morning,medium,medium,medium,no,no,moderate
+Monday,False,night,low,low,medium,no,heavy,heavy
+Tuesday,False,afternoon,high,medium,medium,no,light,no
+Tuesday,False,early evening,medium,medium,medium,no,moderate,no
+Tuesday,False,early morning,low,low,medium,no,no,no
+Tuesday,False,evening,low,medium,medium,no,no,no
+Tuesday,False,late evening,low,low,medium,no,no,no
+Tuesday,False,late morning,medium,medium,medium,no,no,no
+Tuesday,False,morning,medium,medium,medium,no,no,no
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,high,medium,low,no,no,light
+Wednesday,False,early evening,medium,medium,medium,no,no,heavy
+Wednesday,False,early morning,low,low,medium,no,no,no
+Wednesday,False,evening,low,medium,medium,no,no,heavy
+Wednesday,False,late evening,low,low,medium,no,no,moderate
+Wednesday,False,late morning,medium,medium,medium,no,no,light
+Wednesday,False,morning,medium,medium,low,no,no,no
+Wednesday,False,night,low,low,medium,no,no,no
+Thursday,False,afternoon,high,medium,medium,no,no,heavy
+Thursday,False,early evening,medium,medium,medium,no,no,heavy
+Thursday,False,early morning,low,low,medium,light,no,heavy
+Thursday,False,evening,low,medium,medium,no,no,heavy
+Thursday,False,late evening,low,medium,medium,no,no,moderate
+Thursday,False,late morning,high,medium,medium,no,no,no
+Thursday,False,morning,medium,medium,medium,no,no,heavy
+Thursday,False,night,low,low,medium,no,no,light
+Friday,False,afternoon,high,low,medium,no,light,heavy
+Friday,False,early evening,medium,low,medium,no,heavy,moderate
+Friday,False,early morning,low,low,medium,no,no,heavy
+Friday,False,evening,low,low,medium,no,light,moderate
+Friday,False,late evening,low,low,medium,light,no,moderate
+Friday,False,late morning,medium,low,medium,no,no,heavy
+Friday,False,morning,medium,medium,medium,no,no,heavy
+Friday,False,night,low,low,medium,no,no,moderate
+Saturday,False,afternoon,high,low,medium,no,light,no
+Saturday,False,early evening,medium,low,medium,no,no,no
+Saturday,False,early morning,low,low,high,light,no,no
+Saturday,False,evening,low,low,medium,no,no,no
+Saturday,False,late evening,low,low,medium,no,no,no
+Saturday,False,late morning,high,low,medium,no,no,no
+Saturday,False,morning,medium,low,medium,no,no,no
+Saturday,False,night,low,low,medium,moderate,moderate,moderate
+Sunday,True,afternoon,high,heavy,medium,no,heavy,no
+Sunday,True,early evening,medium,heavy,medium,no,light,no
+Sunday,True,early morning,low,medium,high,no,no,no
+Sunday,True,evening,low,heavy,medium,no,no,no
+Sunday,True,late evening,low,medium,medium,no,no,no
+Sunday,True,late morning,high,heavy,medium,no,no,no
+Sunday,True,morning,medium,medium,high,no,no,no
+Sunday,True,night,low,medium,medium,no,no,no
+Monday,False,afternoon,high,heavy,medium,no,no,no
+Monday,False,early evening,medium,heavy,medium,no,no,no
+Monday,False,early morning,low,medium,high,no,no,no
+Monday,False,evening,low,medium,medium,no,no,no
+Monday,False,late evening,low,medium,medium,no,no,no
+Monday,False,late morning,medium,heavy,medium,no,no,no
+Monday,False,morning,medium,heavy,medium,no,no,no
+Monday,False,night,low,medium,high,no,no,no
+Tuesday,False,afternoon,high,heavy,medium,no,no,no
+Tuesday,False,early evening,medium,heavy,medium,no,no,no
+Tuesday,False,early morning,low,medium,medium,no,no,no
+Tuesday,False,evening,low,medium,medium,no,no,no
+Tuesday,False,late evening,low,medium,medium,no,no,no
+Tuesday,False,late morning,medium,heavy,medium,no,no,no
+Tuesday,False,morning,medium,heavy,low,no,no,no
+Tuesday,False,night,low,medium,medium,no,no,no
+Wednesday,False,afternoon,high,heavy,medium,no,no,no
+Wednesday,False,early evening,medium,heavy,medium,no,no,heavy
+Wednesday,False,early morning,low,medium,medium,no,no,no
+Wednesday,False,evening,low,medium,medium,no,no,heavy
+Wednesday,False,late evening,low,medium,medium,no,no,heavy
+Wednesday,False,late morning,high,heavy,medium,no,moderate,no
+Wednesday,False,morning,medium,heavy,low,no,light,no
+Wednesday,False,night,low,medium,medium,no,no,no
+Thursday,False,afternoon,medium,heavy,medium,light,heavy,heavy
+Thursday,False,early evening,medium,heavy,medium,light,light,heavy
+Thursday,False,early morning,low,medium,medium,no,light,heavy
+Thursday,False,evening,low,medium,medium,light,light,heavy
+Thursday,False,late evening,low,medium,medium,light,moderate,moderate
+Thursday,False,late morning,medium,heavy,medium,light,heavy,heavy
+Thursday,False,morning,medium,heavy,medium,no,heavy,no
+Thursday,False,night,low,medium,medium,no,no,heavy
+Friday,False,afternoon,high,heavy,medium,light,heavy,no
+Friday,False,early evening,medium,heavy,medium,light,no,light
+Friday,False,early morning,low,medium,medium,light,heavy,moderate
+Friday,False,evening,low,medium,medium,no,no,no
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,medium,heavy,medium,light,heavy,no
+Friday,False,morning,medium,heavy,low,light,heavy,no
+Friday,False,night,low,medium,medium,light,heavy,heavy
+Saturday,False,afternoon,high,heavy,medium,no,no,light
+Saturday,False,early evening,high,heavy,medium,no,no,no
+Saturday,False,early morning,low,medium,high,no,no,no
+Saturday,False,evening,low,heavy,medium,no,no,no
+Saturday,False,late evening,low,medium,medium,no,no,no
+Saturday,False,late morning,high,heavy,medium,no,no,heavy
+Saturday,False,morning,medium,medium,medium,no,no,moderate
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,high,heavy,medium,no,no,light
+Sunday,False,early evening,medium,heavy,medium,no,no,heavy
+Sunday,False,early morning,low,medium,high,no,no,no
+Sunday,False,evening,low,heavy,medium,no,no,heavy
+Sunday,False,late evening,low,medium,medium,no,no,heavy
+Sunday,False,late morning,high,heavy,medium,no,no,no
+Sunday,False,morning,medium,medium,high,no,no,no
+Sunday,False,night,low,medium,medium,no,no,no
+Monday,False,afternoon,high,heavy,medium,no,no,heavy
+Monday,False,early evening,medium,heavy,medium,no,no,heavy
+Monday,False,early morning,low,medium,medium,no,no,heavy
+Monday,False,evening,low,medium,medium,no,no,heavy
+Monday,False,late evening,low,medium,medium,light,no,heavy
+Monday,False,late morning,medium,heavy,medium,no,no,heavy
+Monday,False,morning,medium,heavy,low,no,no,moderate
+Monday,False,night,low,medium,high,no,no,heavy
+Tuesday,False,afternoon,high,heavy,medium,no,no,no
+Tuesday,False,early evening,medium,heavy,medium,no,no,no
+Tuesday,False,early morning,low,medium,medium,light,no,heavy
+Tuesday,False,evening,low,medium,medium,no,no,no
+Tuesday,False,late evening,low,medium,medium,no,no,no
+Tuesday,False,late morning,medium,heavy,medium,no,no,no
+Tuesday,False,morning,medium,heavy,low,no,no,light
+Tuesday,False,night,low,medium,high,light,no,heavy
+Wednesday,False,afternoon,high,heavy,medium,no,no,moderate
+Wednesday,False,early evening,medium,heavy,medium,no,no,heavy
+Wednesday,False,early morning,low,medium,medium,no,no,no
+Wednesday,False,evening,low,medium,medium,no,no,heavy
+Wednesday,False,late evening,low,medium,medium,no,no,moderate
+Wednesday,False,late morning,medium,heavy,medium,no,no,no
+Wednesday,False,morning,medium,heavy,medium,no,no,no
+Wednesday,False,night,low,medium,medium,no,no,no
+Thursday,False,afternoon,high,heavy,medium,no,no,moderate
+Thursday,False,early evening,medium,heavy,medium,no,no,heavy
+Thursday,False,early morning,low,medium,medium,no,no,no
+Thursday,False,evening,low,medium,medium,no,no,heavy
+Thursday,False,late evening,low,medium,medium,no,no,heavy
+Thursday,False,late morning,high,heavy,medium,no,no,no
+Thursday,False,morning,medium,heavy,low,no,no,no
+Thursday,False,night,low,medium,high,no,no,no
+Friday,False,afternoon,high,heavy,low,no,no,heavy
+Friday,False,early evening,medium,heavy,medium,no,no,heavy
+Friday,False,early morning,low,medium,medium,no,no,heavy
+Friday,False,evening,low,heavy,medium,light,no,heavy
+Friday,False,late evening,low,medium,medium,no,no,heavy
+Friday,False,late morning,high,heavy,medium,no,no,heavy
+Friday,False,morning,medium,heavy,medium,no,no,heavy
+Friday,False,night,low,medium,medium,no,no,light
+Saturday,False,afternoon,high,heavy,medium,no,no,heavy
+Saturday,False,early evening,high,heavy,medium,no,no,heavy
+Saturday,False,early morning,low,medium,medium,no,no,heavy
+Saturday,False,evening,low,heavy,medium,no,no,light
+Saturday,False,late evening,low,medium,medium,no,no,light
+Saturday,False,late morning,high,heavy,medium,no,no,no
+Saturday,False,morning,medium,heavy,medium,no,light,no
+Saturday,False,night,low,medium,medium,no,no,heavy
+Sunday,False,afternoon,medium,heavy,low,light,light,heavy
+Sunday,False,early evening,medium,heavy,medium,light,heavy,heavy
+Sunday,False,early morning,low,medium,medium,no,no,heavy
+Sunday,False,evening,low,heavy,medium,light,no,no
+Sunday,False,late evening,low,medium,medium,no,moderate,no
+Sunday,False,late morning,medium,heavy,medium,no,no,moderate
+Sunday,False,morning,medium,medium,medium,no,no,light
+Sunday,False,night,low,medium,medium,no,no,heavy
+Monday,False,afternoon,high,heavy,medium,no,light,no
+Monday,False,early evening,medium,heavy,medium,no,no,no
+Monday,False,early morning,low,medium,medium,no,no,no
+Monday,False,evening,low,heavy,medium,no,no,no
+Monday,False,late evening,low,medium,medium,no,no,no
+Monday,False,late morning,medium,heavy,medium,no,no,no
+Monday,False,morning,medium,heavy,low,no,no,no
+Monday,False,night,low,medium,medium,no,light,no
+Tuesday,False,afternoon,high,medium,medium,no,no,no
+Tuesday,False,early evening,medium,medium,medium,no,no,heavy
+Tuesday,False,early morning,low,low,medium,no,no,no
+Tuesday,False,evening,low,medium,medium,no,no,heavy
+Tuesday,False,late evening,low,medium,medium,light,light,heavy
+Tuesday,False,late morning,medium,medium,medium,no,no,light
+Tuesday,False,morning,medium,medium,low,no,no,no
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,high,medium,medium,no,no,no
+Wednesday,False,early evening,medium,medium,low,no,no,no
+Wednesday,False,early morning,low,medium,medium,light,light,heavy
+Wednesday,False,evening,low,medium,medium,no,no,no
+Wednesday,False,late evening,low,medium,medium,no,no,no
+Wednesday,False,late morning,high,medium,medium,no,no,light
+Wednesday,False,morning,medium,medium,low,light,no,heavy
+Wednesday,False,night,low,low,medium,light,light,heavy
+Thursday,False,afternoon,high,medium,low,no,no,light
+Thursday,False,early evening,high,medium,low,no,no,no
+Thursday,False,early morning,low,medium,medium,no,no,no
+Thursday,False,evening,low,medium,medium,no,no,no
+Thursday,False,late evening,low,medium,medium,no,no,no
+Thursday,False,late morning,high,medium,low,no,no,light
+Thursday,False,morning,medium,medium,low,no,no,light
+Thursday,False,night,low,low,medium,no,no,no
+Friday,False,afternoon,medium,medium,low,light,no,heavy
+Friday,False,early evening,medium,medium,low,light,moderate,heavy
+Friday,False,early morning,low,medium,medium,no,no,moderate
+Friday,False,evening,low,medium,medium,light,light,heavy
+Friday,False,late evening,low,medium,medium,light,heavy,heavy
+Friday,False,late morning,medium,medium,medium,no,no,heavy
+Friday,False,morning,medium,medium,low,no,no,heavy
+Friday,False,night,low,low,medium,no,no,no
+Saturday,False,afternoon,high,medium,low,no,light,no
+Saturday,False,early evening,high,medium,low,no,heavy,no
+Saturday,False,early morning,low,low,medium,light,heavy,no
+Saturday,False,evening,low,medium,medium,no,moderate,no
+Saturday,False,late evening,low,medium,medium,no,no,no
+Saturday,False,late morning,high,medium,medium,no,heavy,no
+Saturday,False,morning,medium,medium,medium,no,heavy,no
+Saturday,False,night,low,medium,low,light,heavy,no
+Sunday,False,afternoon,high,medium,low,no,no,moderate
+Sunday,False,early evening,medium,medium,low,no,no,heavy
+Sunday,False,early morning,low,medium,medium,no,no,moderate
+Sunday,False,evening,low,medium,medium,no,light,heavy
+Sunday,False,late evening,low,medium,medium,no,no,heavy
+Sunday,False,late morning,high,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,medium,no,no,no
+Sunday,False,night,low,medium,medium,no,no,no
+Monday,False,afternoon,high,medium,medium,no,heavy,heavy
+Monday,False,early evening,high,medium,medium,no,no,heavy
+Monday,False,early morning,low,medium,medium,light,moderate,heavy
+Monday,False,evening,low,medium,medium,no,no,heavy
+Monday,False,late evening,low,low,medium,no,no,light
+Monday,False,late morning,high,low,medium,light,light,heavy
+Monday,False,morning,medium,medium,low,light,heavy,heavy
+Monday,False,night,low,medium,medium,no,no,heavy
+Tuesday,False,afternoon,medium,medium,medium,no,heavy,heavy
+Tuesday,False,early evening,medium,medium,medium,no,heavy,heavy
+Tuesday,False,early morning,low,low,medium,no,light,heavy
+Tuesday,False,evening,low,medium,medium,no,heavy,heavy
+Tuesday,False,late evening,low,low,medium,light,moderate,heavy
+Tuesday,False,late morning,medium,medium,medium,no,heavy,moderate
+Tuesday,False,morning,medium,medium,low,no,heavy,heavy
+Tuesday,False,night,low,low,medium,no,no,heavy
+Wednesday,False,afternoon,high,medium,medium,no,light,no
+Wednesday,False,early evening,medium,medium,medium,no,no,no
+Wednesday,False,early morning,low,low,medium,no,light,no
+Wednesday,False,evening,low,medium,medium,no,no,no
+Wednesday,False,late evening,low,low,medium,no,no,no
+Wednesday,False,late morning,high,medium,low,no,no,no
+Wednesday,False,morning,medium,medium,low,no,no,no
+Wednesday,False,night,low,low,medium,no,moderate,no
+Thursday,False,afternoon,high,medium,medium,no,no,no
+Thursday,False,early evening,medium,medium,medium,no,no,light
+Thursday,False,early morning,low,low,medium,no,no,light
+Thursday,False,evening,low,medium,medium,light,no,no
+Thursday,False,late evening,low,low,medium,no,no,moderate
+Thursday,False,late morning,high,medium,medium,no,no,no
+Thursday,False,morning,medium,medium,low,no,no,light
+Thursday,False,night,low,low,medium,no,no,light
+Friday,False,afternoon,high,low,low,no,moderate,heavy
+Friday,False,early evening,medium,low,low,no,light,heavy
+Friday,False,early morning,low,low,medium,no,light,heavy
+Friday,False,evening,low,low,low,no,no,heavy
+Friday,False,late evening,low,low,medium,light,light,heavy
+Friday,False,late morning,high,low,low,no,heavy,heavy
+Friday,False,morning,medium,medium,low,no,moderate,heavy
+Friday,False,night,low,low,low,no,no,heavy
+Saturday,False,afternoon,high,low,medium,no,moderate,moderate
+Saturday,False,early evening,high,low,medium,no,no,light
+Saturday,False,early morning,low,low,medium,light,moderate,heavy
+Saturday,False,evening,low,low,medium,no,no,heavy
+Saturday,False,late evening,low,low,medium,no,no,heavy
+Saturday,False,late morning,high,low,medium,light,heavy,heavy
+Saturday,False,morning,medium,low,medium,light,heavy,heavy
+Saturday,False,night,low,low,medium,light,heavy,heavy
+Sunday,False,afternoon,high,low,low,no,heavy,heavy
+Sunday,False,early evening,medium,low,low,no,heavy,heavy
+Sunday,False,early morning,low,low,medium,no,no,heavy
+Sunday,True,evening,low,low,low,no,heavy,heavy
+Sunday,True,late evening,low,low,medium,no,heavy,heavy
+Sunday,False,late morning,high,low,medium,no,moderate,heavy
+Sunday,False,morning,medium,low,medium,no,no,light
+Sunday,False,night,low,low,medium,no,no,heavy
+Monday,True,afternoon,high,heavy,low,no,moderate,no
+Monday,True,early evening,medium,heavy,medium,no,moderate,no
+Monday,True,early morning,low,low,medium,light,heavy,heavy
+Monday,False,evening,low,medium,medium,no,heavy,no
+Monday,False,late evening,low,medium,medium,no,heavy,no
+Monday,True,late morning,medium,medium,low,light,moderate,moderate
+Monday,True,morning,medium,medium,low,light,heavy,light
+Monday,True,night,low,low,medium,no,heavy,heavy
+Tuesday,False,afternoon,high,heavy,medium,no,no,no
+Tuesday,False,early evening,high,heavy,medium,no,no,no
+Tuesday,False,early morning,low,medium,medium,no,no,no
+Tuesday,False,evening,low,medium,medium,no,no,no
+Tuesday,False,late evening,low,medium,medium,no,no,no
+Tuesday,False,late morning,high,heavy,low,no,no,no
+Tuesday,False,morning,medium,heavy,low,no,no,no
+Tuesday,False,night,low,medium,medium,no,light,no
+Wednesday,False,afternoon,high,medium,medium,no,no,moderate
+Wednesday,False,early evening,high,medium,medium,no,no,no
+Wednesday,False,early morning,low,medium,medium,light,no,no
+Wednesday,False,evening,low,medium,medium,no,no,no
+Wednesday,False,late evening,low,medium,low,no,no,moderate
+Wednesday,False,late morning,high,medium,medium,no,no,no
+Wednesday,False,morning,medium,medium,low,light,moderate,no
+Wednesday,False,night,low,medium,medium,no,no,no
+Thursday,False,afternoon,high,heavy,medium,light,heavy,light
+Thursday,False,early evening,high,heavy,low,light,heavy,heavy
+Thursday,False,early morning,low,medium,medium,no,no,heavy
+Thursday,False,evening,low,medium,medium,no,no,heavy
+Thursday,False,late evening,low,medium,low,no,no,heavy
+Thursday,False,late morning,high,medium,medium,no,heavy,moderate
+Thursday,False,morning,medium,medium,low,light,no,no
+Thursday,False,night,low,medium,medium,no,no,heavy
+Friday,False,afternoon,high,low,medium,no,light,moderate
+Friday,False,early evening,high,low,medium,no,no,heavy
+Friday,False,early morning,low,low,medium,no,no,heavy
+Friday,False,evening,low,low,medium,no,no,heavy
+Friday,False,late evening,low,low,medium,light,no,heavy
+Friday,False,late morning,high,low,medium,no,no,heavy
+Friday,False,morning,medium,low,medium,no,no,heavy
+Friday,False,night,low,medium,medium,no,no,light
+Saturday,False,afternoon,high,low,medium,moderate,moderate,heavy
+Saturday,False,early evening,high,low,medium,light,heavy,heavy
+Saturday,False,early morning,low,low,medium,light,heavy,heavy
+Saturday,True,evening,medium,low,medium,no,light,heavy
+Saturday,True,late evening,medium,low,medium,no,no,heavy
+Saturday,False,late morning,medium,low,medium,light,heavy,heavy
+Saturday,False,morning,low,low,medium,light,heavy,heavy
+Saturday,False,night,low,low,medium,light,moderate,heavy
+Sunday,True,afternoon,high,low,medium,light,light,light
+Sunday,True,early evening,high,low,medium,no,moderate,moderate
+Sunday,True,early morning,low,low,medium,no,no,heavy
+Sunday,True,evening,medium,low,medium,no,moderate,heavy
+Sunday,True,late evening,low,low,medium,no,no,moderate
+Sunday,True,late morning,high,low,medium,no,no,heavy
+Sunday,True,morning,medium,low,medium,no,no,heavy
+Sunday,True,night,low,low,medium,no,no,heavy
+Monday,True,afternoon,medium,low,low,light,no,moderate
+Monday,True,early evening,medium,low,low,light,no,moderate
+Monday,True,early morning,low,low,medium,no,no,heavy
+Monday,False,evening,low,low,medium,light,no,heavy
+Monday,False,late evening,low,low,medium,light,moderate,heavy
+Monday,True,late morning,high,low,low,no,no,heavy
+Monday,True,morning,medium,low,medium,light,no,heavy
+Monday,True,night,low,low,medium,no,no,heavy
+Tuesday,False,afternoon,high,low,medium,no,no,no
+Tuesday,False,early evening,high,low,low,no,no,moderate
+Tuesday,False,early morning,low,low,medium,light,no,light
+Tuesday,False,evening,medium,low,medium,no,no,moderate
+Tuesday,False,late evening,low,low,medium,no,no,heavy
+Tuesday,False,late morning,high,low,low,no,no,no
+Tuesday,False,morning,medium,low,medium,no,no,no
+Tuesday,False,night,low,low,medium,light,light,heavy
+Wednesday,False,afternoon,high,low,low,no,no,no
+Wednesday,False,early evening,high,low,low,no,no,no
+Wednesday,False,early morning,low,low,medium,no,no,moderate
+Wednesday,False,evening,medium,low,medium,no,no,no
+Wednesday,False,late evening,low,low,medium,no,no,no
+Wednesday,False,late morning,high,low,medium,no,no,no
+Wednesday,False,morning,medium,low,medium,no,no,no
+Wednesday,False,night,low,low,medium,light,no,heavy
+Thursday,False,afternoon,high,heavy,low,no,no,heavy
+Thursday,False,early evening,medium,heavy,medium,no,no,heavy
+Thursday,False,early morning,low,heavy,medium,no,no,light
+Thursday,False,evening,low,heavy,medium,no,no,heavy
+Thursday,False,late evening,low,heavy,medium,no,no,heavy
+Thursday,False,late morning,high,heavy,medium,no,no,light
+Thursday,False,morning,medium,heavy,medium,no,no,heavy
+Thursday,False,night,low,heavy,medium,no,no,light
+Friday,False,afternoon,medium,heavy,medium,light,heavy,heavy
+Friday,False,early evening,medium,heavy,medium,light,moderate,heavy
+Friday,False,early morning,low,heavy,medium,no,no,moderate
+Friday,False,evening,low,heavy,medium,light,heavy,moderate
+Friday,False,late evening,low,heavy,medium,light,heavy,heavy
+Friday,False,late morning,medium,heavy,medium,light,no,heavy
+Friday,False,morning,medium,heavy,medium,light,light,heavy
+Friday,False,night,low,heavy,medium,no,no,light
+Saturday,False,afternoon,high,heavy,medium,no,no,no
+Saturday,False,early evening,high,heavy,medium,no,no,no
+Saturday,False,early morning,low,heavy,medium,light,moderate,moderate
+Saturday,False,evening,medium,heavy,medium,no,no,no
+Saturday,False,late evening,low,heavy,medium,no,no,no
+Saturday,False,late morning,high,heavy,medium,no,no,no
+Saturday,False,morning,medium,heavy,medium,light,no,no
+Saturday,False,night,low,heavy,medium,light,heavy,heavy
+Sunday,False,afternoon,high,heavy,medium,light,no,no
+Sunday,False,early evening,medium,heavy,medium,no,no,no
+Sunday,False,early morning,low,heavy,medium,no,no,moderate
+Sunday,False,evening,medium,heavy,medium,light,heavy,no
+Sunday,False,late evening,low,heavy,medium,no,moderate,no
+Sunday,False,late morning,high,heavy,medium,no,no,no
+Sunday,False,morning,medium,heavy,medium,no,no,no
+Sunday,False,night,low,heavy,medium,no,no,no
+Monday,False,afternoon,high,heavy,medium,no,no,moderate
+Monday,False,early evening,medium,heavy,medium,no,no,heavy
+Monday,False,early morning,low,heavy,medium,no,no,no
+Monday,False,evening,medium,heavy,medium,no,no,heavy
+Monday,False,late evening,low,heavy,medium,no,no,heavy
+Monday,False,late morning,high,heavy,low,no,no,no
+Monday,False,morning,medium,heavy,low,no,no,no
+Monday,False,night,low,heavy,medium,no,no,no
+Tuesday,False,afternoon,high,heavy,medium,no,heavy,heavy
+Tuesday,False,early evening,high,heavy,medium,no,heavy,heavy
+Tuesday,False,early morning,low,heavy,medium,light,heavy,heavy
+Tuesday,False,evening,medium,heavy,medium,no,heavy,heavy
+Tuesday,False,late evening,low,heavy,medium,no,light,moderate
+Tuesday,False,late morning,high,heavy,low,no,heavy,moderate
+Tuesday,False,morning,medium,heavy,low,light,heavy,light
+Tuesday,False,night,low,heavy,medium,no,heavy,heavy
+Wednesday,False,afternoon,high,heavy,medium,light,heavy,moderate
+Wednesday,False,early evening,medium,heavy,medium,light,heavy,heavy
+Wednesday,False,early morning,low,heavy,medium,light,no,no
+Wednesday,False,evening,medium,heavy,medium,no,heavy,heavy
+Wednesday,False,late evening,low,heavy,medium,no,heavy,heavy
+Wednesday,False,late morning,high,heavy,low,light,heavy,light
+Wednesday,False,morning,medium,heavy,low,no,moderate,light
+Wednesday,False,night,low,heavy,medium,no,light,heavy
+Thursday,False,afternoon,high,heavy,medium,no,moderate,moderate
+Thursday,False,early evening,medium,heavy,low,no,heavy,no
+Thursday,False,early morning,low,heavy,medium,no,heavy,heavy
+Thursday,False,evening,medium,heavy,medium,light,light,light
+Thursday,False,late evening,low,heavy,medium,light,heavy,heavy
+Thursday,False,late morning,high,heavy,medium,no,heavy,heavy
+Thursday,False,morning,medium,heavy,low,no,heavy,light
+Thursday,False,night,low,heavy,medium,no,heavy,heavy
+Friday,False,afternoon,high,heavy,low,no,heavy,light
+Friday,False,early evening,medium,heavy,low,no,heavy,heavy
+Friday,False,early morning,low,heavy,medium,light,heavy,heavy
+Friday,False,evening,medium,heavy,medium,no,heavy,light
+Friday,False,late evening,low,heavy,medium,no,heavy,moderate
+Friday,False,late morning,high,heavy,medium,no,heavy,no
+Friday,False,morning,medium,heavy,low,no,heavy,heavy
+Friday,False,night,low,heavy,medium,light,heavy,heavy
+Saturday,False,afternoon,high,heavy,medium,light,moderate,heavy
+Saturday,False,early evening,high,heavy,low,light,heavy,heavy
+Saturday,False,early morning,low,heavy,medium,light,light,heavy
+Saturday,True,evening,medium,heavy,medium,no,heavy,moderate
+Saturday,True,late evening,low,heavy,medium,no,moderate,heavy
+Saturday,False,late morning,high,heavy,medium,light,heavy,heavy
+Saturday,False,morning,medium,heavy,medium,light,moderate,heavy
+Saturday,False,night,low,heavy,medium,no,moderate,heavy
+Sunday,True,afternoon,medium,heavy,low,light,heavy,heavy
+Sunday,True,early evening,medium,heavy,low,light,heavy,heavy
+Sunday,True,early morning,low,heavy,medium,light,heavy,heavy
+Sunday,False,evening,low,heavy,medium,light,heavy,light
+Sunday,False,late evening,low,heavy,medium,light,heavy,moderate
+Sunday,True,late morning,medium,heavy,low,moderate,heavy,heavy
+Sunday,True,morning,medium,heavy,medium,light,heavy,heavy
+Sunday,True,night,low,heavy,medium,no,light,no
+Monday,False,afternoon,high,heavy,medium,no,no,no
+Monday,False,early evening,high,heavy,medium,no,heavy,no
+Monday,False,early morning,low,heavy,medium,light,no,light
+Monday,False,evening,medium,heavy,medium,no,moderate,no
+Monday,False,late evening,low,heavy,medium,no,no,no
+Monday,False,late morning,high,heavy,low,no,no,no
+Monday,False,morning,medium,heavy,low,no,no,no
+Monday,False,night,low,heavy,medium,light,heavy,heavy
+Tuesday,False,afternoon,high,heavy,low,no,heavy,no
+Tuesday,False,early evening,high,heavy,medium,no,no,no
+Tuesday,False,early morning,low,heavy,medium,light,light,no
+Tuesday,False,evening,medium,heavy,medium,no,no,no
+Tuesday,False,late evening,low,heavy,medium,no,no,no
+Tuesday,False,late morning,high,heavy,low,no,moderate,no
+Tuesday,False,morning,medium,heavy,low,no,no,no
+Tuesday,False,night,low,heavy,medium,light,no,no
+Wednesday,False,afternoon,high,heavy,medium,no,light,no
+Wednesday,False,early evening,high,heavy,medium,no,heavy,no
+Wednesday,False,early morning,low,heavy,medium,no,no,no
+Wednesday,False,evening,medium,heavy,medium,no,heavy,no
+Wednesday,False,late evening,low,heavy,medium,no,no,moderate
+Wednesday,False,late morning,high,heavy,medium,no,no,moderate
+Wednesday,False,morning,medium,heavy,low,no,light,light
+Wednesday,False,night,low,heavy,medium,no,no,no
+Thursday,False,afternoon,high,heavy,low,no,moderate,heavy
+Thursday,False,early evening,medium,heavy,medium,light,heavy,heavy
+Thursday,False,early morning,low,heavy,medium,no,no,moderate
+Thursday,False,evening,medium,heavy,medium,no,heavy,heavy
+Thursday,False,late evening,low,heavy,medium,no,heavy,heavy
+Thursday,False,late morning,high,heavy,low,no,moderate,heavy
+Thursday,False,morning,medium,heavy,low,no,no,moderate
+Thursday,False,night,low,heavy,medium,no,no,heavy
+Friday,False,afternoon,high,heavy,low,no,light,heavy
+Friday,False,early evening,high,heavy,medium,light,light,heavy
+Friday,False,early morning,low,heavy,medium,no,heavy,heavy
+Friday,False,evening,medium,heavy,medium,no,light,heavy
+Friday,False,late evening,low,heavy,medium,no,no,heavy
+Friday,False,late morning,high,heavy,medium,no,heavy,heavy
+Friday,False,morning,medium,heavy,low,light,heavy,heavy
+Friday,False,night,low,medium,medium,no,heavy,heavy
+Saturday,False,afternoon,high,heavy,medium,no,no,light
+Saturday,False,early evening,high,heavy,low,no,no,moderate
+Saturday,False,early morning,low,medium,medium,light,no,moderate
+Saturday,True,evening,medium,heavy,medium,no,no,heavy
+Saturday,True,late evening,low,heavy,medium,no,no,heavy
+Saturday,False,late morning,high,heavy,medium,no,no,heavy
+Saturday,False,morning,medium,heavy,medium,light,no,heavy
+Saturday,False,night,low,heavy,medium,no,no,light
+Sunday,True,afternoon,medium,heavy,low,light,heavy,heavy
+Sunday,True,early evening,medium,heavy,medium,moderate,heavy,heavy
+Sunday,True,early morning,low,medium,medium,light,no,heavy
+Sunday,False,evening,low,heavy,medium,moderate,heavy,heavy
+Sunday,False,late evening,low,heavy,medium,light,heavy,heavy
+Sunday,True,late morning,medium,heavy,medium,light,heavy,heavy
+Sunday,True,morning,medium,heavy,medium,light,moderate,heavy
+Sunday,True,night,low,heavy,medium,no,no,heavy
+Monday,False,afternoon,medium,heavy,medium,light,heavy,moderate
+Monday,False,early evening,medium,heavy,medium,light,heavy,light
+Monday,False,early morning,low,medium,medium,no,heavy,light
+Monday,False,evening,low,heavy,medium,light,heavy,light
+Monday,False,late evening,low,medium,medium,light,heavy,no
+Monday,False,late morning,medium,heavy,low,no,heavy,light
+Monday,False,morning,medium,heavy,low,no,heavy,no
+Monday,False,night,low,medium,medium,light,heavy,heavy
+Tuesday,False,afternoon,high,medium,low,no,heavy,no
+Tuesday,False,early evening,medium,medium,low,light,heavy,no
+Tuesday,False,early morning,low,medium,medium,no,heavy,no
+Tuesday,False,evening,low,medium,medium,light,moderate,no
+Tuesday,False,late evening,low,medium,medium,light,heavy,no
+Tuesday,False,late morning,high,medium,medium,no,heavy,no
+Tuesday,False,morning,medium,medium,low,no,heavy,no
+Tuesday,False,night,low,medium,medium,light,heavy,no
+Wednesday,False,afternoon,high,medium,medium,no,moderate,no
+Wednesday,False,early evening,high,medium,medium,no,no,no
+Wednesday,False,early morning,low,medium,medium,light,moderate,no
+Wednesday,False,evening,medium,medium,medium,no,no,no
+Wednesday,False,late evening,low,medium,low,no,no,no
+Wednesday,False,late morning,high,medium,low,no,no,no
+Wednesday,False,morning,medium,medium,low,no,light,no
+Wednesday,False,night,low,medium,medium,light,heavy,no
+Thursday,False,afternoon,high,medium,low,no,no,no
+Thursday,False,early evening,high,medium,low,light,no,no
+Thursday,False,early morning,low,medium,medium,no,no,light
+Thursday,False,evening,medium,medium,medium,no,no,no
+Thursday,False,late evening,low,medium,low,no,no,no
+Thursday,False,late morning,high,medium,medium,no,no,no
+Thursday,False,morning,medium,medium,low,light,no,light
+Thursday,False,night,low,medium,low,no,no,no
+Friday,False,afternoon,high,medium,low,light,no,moderate
+Friday,False,early evening,high,medium,low,light,no,no
+Friday,False,early morning,low,medium,medium,no,no,no
+Friday,False,evening,medium,medium,medium,no,no,no
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,high,medium,medium,no,no,moderate
+Friday,False,morning,medium,medium,low,no,no,light
+Friday,False,night,low,medium,low,no,no,moderate
+Saturday,False,afternoon,high,medium,low,no,no,light
+Saturday,False,early evening,high,medium,medium,no,no,heavy
+Saturday,False,early morning,low,medium,medium,no,no,heavy
+Saturday,False,evening,medium,medium,medium,no,no,heavy
+Saturday,False,late evening,low,medium,medium,no,no,moderate
+Saturday,False,late morning,high,medium,low,no,no,light
+Saturday,False,morning,medium,medium,medium,no,no,moderate
+Saturday,False,night,low,medium,medium,no,no,light
+Sunday,False,afternoon,high,medium,low,no,no,light
+Sunday,False,early evening,high,medium,low,no,moderate,no
+Sunday,False,early morning,low,medium,medium,no,no,moderate
+Sunday,False,evening,medium,medium,medium,no,no,no
+Sunday,False,late evening,low,medium,medium,no,no,moderate
+Sunday,False,late morning,high,medium,medium,light,no,heavy
+Sunday,False,morning,medium,medium,medium,no,no,heavy
+Sunday,False,night,low,medium,medium,no,no,heavy
+Monday,False,afternoon,high,medium,low,no,no,moderate
+Monday,False,early evening,high,medium,medium,no,no,no
+Monday,False,early morning,low,medium,medium,light,light,heavy
+Monday,False,evening,medium,medium,medium,no,no,no
+Monday,False,late evening,low,medium,medium,no,no,no
+Monday,False,late morning,high,medium,low,no,no,heavy
+Monday,False,morning,medium,medium,low,no,no,heavy
+Monday,False,night,low,medium,medium,no,no,moderate
+Tuesday,False,afternoon,high,medium,low,no,no,moderate
+Tuesday,False,early evening,high,medium,medium,no,no,moderate
+Tuesday,False,early morning,low,medium,medium,no,no,no
+Tuesday,False,evening,medium,medium,medium,no,no,moderate
+Tuesday,False,late evening,low,medium,medium,no,no,light
+Tuesday,False,late morning,high,medium,low,no,no,heavy
+Tuesday,False,morning,medium,medium,low,no,no,moderate
+Tuesday,False,night,low,medium,medium,no,no,no
+Wednesday,False,afternoon,high,medium,low,no,no,no
+Wednesday,False,early evening,high,medium,medium,no,no,moderate
+Wednesday,False,early morning,low,medium,medium,no,no,light
+Wednesday,False,evening,medium,medium,medium,no,no,heavy
+Wednesday,False,late evening,low,medium,medium,no,no,heavy
+Wednesday,False,late morning,high,medium,low,no,no,no
+Wednesday,False,morning,medium,medium,low,no,no,no
+Wednesday,False,night,low,medium,medium,no,no,moderate
+Thursday,False,afternoon,high,medium,low,light,light,heavy
+Thursday,False,early evening,medium,medium,low,no,no,moderate
+Thursday,False,early morning,low,medium,medium,no,no,heavy
+Thursday,False,evening,medium,medium,medium,no,no,heavy
+Thursday,False,late evening,low,medium,medium,no,no,heavy
+Thursday,False,late morning,medium,medium,low,light,heavy,heavy
+Thursday,False,morning,medium,medium,low,light,no,heavy
+Thursday,False,night,low,medium,medium,no,no,heavy
+Friday,False,afternoon,high,medium,low,no,light,no
+Friday,False,early evening,high,medium,low,no,heavy,heavy
+Friday,False,early morning,low,medium,medium,no,no,moderate
+Friday,False,evening,medium,medium,medium,no,light,moderate
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,high,medium,medium,no,no,no
+Friday,False,morning,medium,medium,low,no,no,light
+Friday,False,night,low,medium,medium,no,no,heavy
+Saturday,False,afternoon,high,medium,medium,no,no,no
+Saturday,False,early evening,high,medium,medium,no,moderate,no
+Saturday,False,early morning,low,medium,medium,no,no,no
+Saturday,False,evening,medium,medium,medium,no,moderate,no
+Saturday,False,late evening,low,medium,medium,no,light,no
+Saturday,False,late morning,high,medium,medium,no,no,no
+Saturday,False,morning,medium,medium,medium,no,no,no
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,high,medium,medium,no,no,light
+Sunday,False,early evening,high,medium,medium,no,no,moderate
+Sunday,False,early morning,low,medium,medium,light,no,heavy
+Sunday,True,evening,medium,medium,medium,light,no,moderate
+Sunday,True,late evening,low,medium,medium,no,no,heavy
+Sunday,False,late morning,high,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,high,light,light,moderate
+Sunday,False,night,low,medium,medium,no,light,heavy
+Monday,True,afternoon,high,medium,medium,no,no,no
+Monday,True,early evening,high,medium,medium,no,no,no
+Monday,True,early morning,low,medium,medium,no,no,moderate
+Monday,False,evening,medium,medium,medium,no,no,moderate
+Monday,False,late evening,low,medium,medium,no,no,no
+Monday,True,late morning,high,medium,medium,no,no,no
+Monday,True,morning,medium,medium,medium,no,no,no
+Monday,True,night,low,medium,medium,no,no,heavy
+Tuesday,False,afternoon,high,heavy,medium,light,no,light
+Tuesday,False,early evening,medium,medium,medium,light,moderate,light
+Tuesday,False,early morning,low,medium,medium,no,no,heavy
+Tuesday,False,evening,medium,medium,medium,no,heavy,moderate
+Tuesday,False,late evening,low,low,medium,no,light,heavy
+Tuesday,False,late morning,medium,medium,low,no,no,heavy
+Tuesday,False,morning,medium,medium,low,no,no,heavy
+Tuesday,False,night,low,medium,medium,no,no,heavy
+Wednesday,False,afternoon,high,heavy,medium,no,heavy,light
+Wednesday,False,early evening,low,heavy,low,no,heavy,heavy
+Wednesday,False,early morning,low,low,medium,light,no,heavy
+Wednesday,False,evening,low,heavy,medium,light,moderate,heavy
+Wednesday,False,late evening,low,medium,medium,light,heavy,heavy
+Wednesday,False,late morning,high,heavy,medium,no,light,moderate
+Wednesday,False,morning,medium,heavy,low,no,no,moderate
+Wednesday,False,night,low,low,medium,light,moderate,heavy
+Thursday,False,afternoon,high,heavy,low,no,heavy,light
+Thursday,False,early evening,medium,heavy,low,no,heavy,heavy
+Thursday,False,early morning,low,medium,medium,no,heavy,heavy
+Thursday,False,evening,low,heavy,medium,no,heavy,heavy
+Thursday,False,late evening,low,heavy,medium,light,moderate,heavy
+Thursday,False,late morning,high,heavy,low,no,heavy,light
+Thursday,False,morning,medium,heavy,low,no,heavy,heavy
+Thursday,False,night,low,medium,medium,light,heavy,heavy
+Friday,False,afternoon,high,heavy,low,no,no,no
+Friday,False,early evening,high,heavy,low,no,no,heavy
+Friday,False,early morning,low,medium,medium,light,heavy,light
+Friday,False,evening,medium,medium,medium,no,no,no
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,high,heavy,low,no,no,no
+Friday,False,morning,medium,heavy,low,light,light,no
+Friday,False,night,low,medium,medium,light,heavy,moderate
+Saturday,False,afternoon,high,heavy,medium,no,no,heavy
+Saturday,False,early evening,high,heavy,medium,no,no,heavy
+Saturday,False,early morning,low,medium,medium,no,no,no
+Saturday,False,evening,medium,medium,medium,no,no,heavy
+Saturday,False,late evening,low,medium,medium,no,no,heavy
+Saturday,False,late morning,high,heavy,medium,no,no,heavy
+Saturday,False,morning,medium,medium,medium,no,no,moderate
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,high,heavy,medium,no,no,moderate
+Sunday,False,early evening,medium,heavy,medium,no,no,light
+Sunday,False,early morning,low,medium,medium,no,no,heavy
+Sunday,False,evening,medium,medium,medium,light,no,moderate
+Sunday,False,late evening,low,medium,medium,no,no,moderate
+Sunday,False,late morning,high,heavy,medium,no,no,no
+Sunday,False,morning,medium,medium,medium,no,no,no
+Sunday,False,night,low,medium,medium,no,no,heavy
+Monday,False,afternoon,high,heavy,low,no,no,no
+Monday,False,early evening,high,heavy,medium,no,no,no
+Monday,False,early morning,low,medium,medium,light,no,no
+Monday,False,evening,medium,medium,medium,no,no,no
+Monday,False,late evening,low,medium,medium,no,no,no
+Monday,False,late morning,high,heavy,medium,no,no,no
+Monday,False,morning,medium,heavy,low,no,no,no
+Monday,False,night,low,medium,medium,light,no,moderate
+Tuesday,False,afternoon,high,heavy,medium,no,no,no
+Tuesday,False,early evening,high,heavy,medium,no,no,heavy
+Tuesday,False,early morning,low,medium,medium,no,no,no
+Tuesday,False,evening,medium,medium,medium,no,no,heavy
+Tuesday,False,late evening,low,medium,medium,no,no,heavy
+Tuesday,False,late morning,high,heavy,low,no,no,no
+Tuesday,False,morning,medium,heavy,low,no,no,no
+Tuesday,False,night,low,medium,medium,no,no,no
+Wednesday,False,afternoon,high,heavy,medium,light,no,moderate
+Wednesday,False,early evening,medium,heavy,medium,no,no,no
+Wednesday,False,early morning,low,medium,medium,no,no,no
+Wednesday,False,evening,medium,medium,medium,no,no,heavy
+Wednesday,False,late evening,low,medium,medium,light,no,heavy
+Wednesday,False,late morning,high,heavy,medium,light,no,no
+Wednesday,False,morning,medium,heavy,low,light,no,no
+Wednesday,False,night,low,medium,medium,no,no,light
+Thursday,False,afternoon,high,heavy,low,no,no,no
+Thursday,False,early evening,high,heavy,medium,no,no,no
+Thursday,False,early morning,low,medium,medium,no,heavy,heavy
+Thursday,False,evening,medium,medium,medium,no,no,no
+Thursday,False,late evening,low,medium,medium,no,no,no
+Thursday,False,late morning,high,heavy,low,no,light,no
+Thursday,False,morning,medium,heavy,low,no,heavy,light
+Thursday,False,night,low,medium,medium,light,no,heavy
+Friday,False,afternoon,high,heavy,low,no,no,heavy
+Friday,False,early evening,high,medium,low,no,no,heavy
+Friday,False,early morning,low,low,medium,no,light,moderate
+Friday,False,evening,medium,medium,medium,no,no,heavy
+Friday,False,late evening,low,medium,medium,no,no,heavy
+Friday,False,late morning,high,medium,low,no,no,heavy
+Friday,False,morning,medium,medium,low,no,light,heavy
+Friday,False,night,low,low,medium,no,no,no
+Saturday,False,afternoon,high,medium,medium,no,no,heavy
+Saturday,False,early evening,high,medium,medium,no,no,heavy
+Saturday,False,early morning,low,low,medium,no,light,heavy
+Saturday,False,evening,medium,medium,medium,no,no,heavy
+Saturday,False,late evening,low,medium,medium,no,no,heavy
+Saturday,False,late morning,high,medium,medium,no,no,heavy
+Saturday,False,morning,medium,medium,medium,no,moderate,heavy
+Saturday,False,night,low,medium,medium,no,no,heavy
+Sunday,False,afternoon,high,medium,medium,no,no,heavy
+Sunday,False,early evening,high,medium,medium,no,no,heavy
+Sunday,False,early morning,low,low,medium,no,no,heavy
+Sunday,False,evening,medium,medium,medium,no,no,no
+Sunday,False,late evening,low,medium,medium,no,no,light
+Sunday,False,late morning,high,medium,medium,no,no,moderate
+Sunday,False,morning,medium,medium,medium,no,no,heavy
+Sunday,False,night,low,medium,medium,no,no,heavy
+Monday,False,afternoon,medium,heavy,low,light,heavy,heavy
+Monday,False,early evening,medium,medium,medium,light,heavy,heavy
+Monday,False,early morning,low,low,medium,no,no,heavy
+Monday,False,evening,medium,medium,medium,light,heavy,heavy
+Monday,False,late evening,low,medium,medium,light,heavy,heavy
+Monday,False,late morning,medium,medium,medium,no,heavy,heavy
+Monday,False,morning,medium,medium,medium,no,light,heavy
+Monday,False,night,low,low,medium,no,no,moderate
+Tuesday,False,afternoon,high,heavy,low,no,no,light
+Tuesday,False,early evening,high,heavy,medium,no,no,no
+Tuesday,False,early morning,low,medium,medium,light,heavy,heavy
+Tuesday,False,evening,medium,medium,medium,no,no,no
+Tuesday,False,late evening,low,medium,medium,no,no,no
+Tuesday,False,late morning,high,heavy,low,light,light,heavy
+Tuesday,False,morning,medium,heavy,low,light,heavy,heavy
+Tuesday,False,night,low,low,medium,light,heavy,heavy
+Wednesday,False,afternoon,high,heavy,low,no,no,heavy
+Wednesday,False,early evening,high,medium,low,no,no,heavy
+Wednesday,False,early morning,low,low,medium,no,no,no
+Wednesday,False,evening,medium,medium,medium,no,no,moderate
+Wednesday,False,late evening,low,medium,medium,no,no,heavy
+Wednesday,False,late morning,high,medium,low,no,no,heavy
+Wednesday,False,morning,medium,medium,low,no,no,light
+Wednesday,False,night,low,low,medium,no,no,light
+Thursday,False,afternoon,medium,heavy,medium,moderate,moderate,heavy
+Thursday,False,early evening,medium,heavy,medium,light,heavy,no
+Thursday,False,early morning,low,low,medium,no,no,heavy
+Thursday,False,evening,medium,medium,medium,no,heavy,no
+Thursday,False,late evening,low,medium,medium,no,heavy,no
+Thursday,False,late morning,medium,medium,low,light,light,heavy
+Thursday,False,morning,low,medium,low,no,no,heavy
+Thursday,False,night,low,low,medium,no,no,heavy
+Friday,False,afternoon,high,medium,low,light,no,no
+Friday,False,early evening,high,medium,low,no,no,no
+Friday,False,early morning,low,low,medium,light,moderate,no
+Friday,False,evening,medium,medium,medium,no,no,no
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,high,medium,low,no,no,no
+Friday,False,morning,medium,medium,low,no,no,no
+Friday,False,night,low,low,medium,no,moderate,no
+Saturday,False,afternoon,high,medium,low,no,no,no
+Saturday,False,early evening,high,medium,low,no,no,light
+Saturday,False,early morning,low,low,medium,no,no,no
+Saturday,True,evening,medium,medium,low,light,no,moderate
+Saturday,True,late evening,low,medium,low,light,no,heavy
+Saturday,False,late morning,high,medium,medium,no,no,light
+Saturday,False,morning,medium,medium,medium,no,no,light
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,True,afternoon,high,heavy,low,no,no,heavy
+Sunday,True,early evening,medium,medium,low,light,no,heavy
+Sunday,True,early morning,low,low,low,light,no,heavy
+Sunday,False,evening,medium,medium,low,light,no,heavy
+Sunday,False,late evening,low,medium,low,light,no,heavy
+Sunday,True,late morning,high,medium,low,no,no,moderate
+Sunday,True,morning,medium,medium,low,light,no,heavy
+Sunday,True,night,low,medium,low,no,no,heavy
+Monday,False,afternoon,high,heavy,medium,light,light,heavy
+Monday,False,early evening,high,heavy,medium,light,moderate,heavy
+Monday,False,early morning,low,medium,low,no,no,heavy
+Monday,False,evening,medium,medium,medium,light,no,heavy
+Monday,False,late evening,low,medium,medium,light,no,heavy
+Monday,False,late morning,high,medium,medium,no,no,heavy
+Monday,False,morning,medium,heavy,low,light,light,moderate
+Monday,False,night,low,medium,low,light,no,heavy
+Tuesday,False,afternoon,medium,heavy,low,light,heavy,heavy
+Tuesday,False,early evening,medium,heavy,low,light,moderate,heavy
+Tuesday,False,early morning,low,low,medium,no,no,heavy
+Tuesday,False,evening,medium,medium,low,moderate,moderate,heavy
+Tuesday,False,late evening,low,medium,medium,moderate,heavy,heavy
+Tuesday,False,late morning,medium,medium,medium,no,heavy,heavy
+Tuesday,False,morning,medium,heavy,low,no,moderate,heavy
+Tuesday,False,night,low,low,medium,no,no,heavy
+Wednesday,False,afternoon,high,heavy,low,light,heavy,light
+Wednesday,False,early evening,medium,heavy,low,light,heavy,moderate
+Wednesday,False,early morning,low,medium,medium,light,heavy,heavy
+Wednesday,False,evening,medium,medium,medium,light,heavy,heavy
+Wednesday,False,late evening,low,medium,medium,light,heavy,heavy
+Wednesday,False,late morning,high,heavy,low,light,heavy,no
+Wednesday,False,morning,medium,heavy,low,light,heavy,moderate
+Wednesday,False,night,low,medium,medium,light,heavy,heavy
+Thursday,False,afternoon,high,heavy,low,light,heavy,heavy
+Thursday,False,early evening,medium,heavy,low,no,heavy,light
+Thursday,False,early morning,low,medium,medium,light,heavy,heavy
+Thursday,False,evening,medium,medium,medium,light,light,moderate
+Thursday,False,late evening,low,medium,medium,moderate,light,moderate
+Thursday,False,late morning,high,heavy,low,light,heavy,heavy
+Thursday,False,morning,medium,heavy,low,no,heavy,heavy
+Thursday,False,night,low,medium,medium,light,heavy,moderate
+Friday,False,afternoon,high,heavy,low,light,moderate,heavy
+Friday,False,early evening,high,heavy,low,no,no,light
+Friday,False,early morning,low,medium,medium,light,no,heavy
+Friday,False,evening,medium,heavy,medium,no,no,no
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,medium,heavy,low,light,heavy,moderate
+Friday,False,morning,medium,heavy,low,light,no,heavy
+Friday,False,night,low,medium,medium,no,light,light
+Saturday,False,afternoon,high,medium,low,no,no,no
+Saturday,False,early evening,high,medium,medium,no,no,no
+Saturday,False,early morning,low,low,medium,no,no,no
+Saturday,False,evening,medium,medium,medium,no,no,no
+Saturday,False,late evening,low,medium,medium,no,no,no
+Saturday,False,late morning,high,medium,medium,no,no,no
+Saturday,False,morning,medium,medium,medium,no,no,no
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,high,medium,low,no,no,no
+Sunday,False,early evening,high,medium,low,no,no,no
+Sunday,False,early morning,low,medium,medium,no,no,no
+Sunday,False,evening,medium,medium,low,no,no,no
+Sunday,False,late evening,low,medium,medium,no,no,no
+Sunday,False,late morning,high,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,medium,no,no,no
+Sunday,False,night,low,medium,medium,no,no,no
+Monday,False,afternoon,high,heavy,low,no,no,heavy
+Monday,False,early evening,high,heavy,medium,no,no,heavy
+Monday,False,early morning,low,medium,medium,no,no,no
+Monday,False,evening,medium,heavy,medium,no,no,heavy
+Monday,False,late evening,low,medium,medium,no,no,heavy
+Monday,False,late morning,high,heavy,low,no,no,heavy
+Monday,False,morning,medium,medium,low,no,no,light
+Monday,False,night,low,medium,medium,no,no,light
+Tuesday,False,afternoon,high,heavy,medium,light,heavy,heavy
+Tuesday,False,early evening,medium,heavy,medium,light,no,heavy
+Tuesday,False,early morning,low,medium,medium,no,no,heavy
+Tuesday,False,evening,medium,heavy,medium,no,no,moderate
+Tuesday,False,late evening,low,medium,medium,no,no,heavy
+Tuesday,False,late morning,medium,heavy,low,light,heavy,heavy
+Tuesday,False,morning,medium,heavy,low,light,no,heavy
+Tuesday,False,night,low,medium,medium,no,no,heavy
+Wednesday,False,afternoon,medium,medium,low,no,no,no
+Wednesday,False,early evening,high,medium,medium,no,no,no
+Wednesday,False,early morning,low,medium,medium,no,no,no
+Wednesday,False,evening,medium,medium,medium,no,no,no
+Wednesday,False,late evening,low,medium,medium,no,no,no
+Wednesday,False,late morning,high,medium,low,no,no,no
+Wednesday,False,morning,medium,medium,low,no,no,no
+Wednesday,False,night,low,medium,medium,no,no,moderate
+Thursday,False,afternoon,high,medium,low,no,no,light
+Thursday,False,early evening,high,medium,low,no,no,no
+Thursday,False,early morning,low,medium,medium,no,no,no
+Thursday,False,evening,medium,medium,medium,no,no,no
+Thursday,False,late evening,low,medium,low,no,no,moderate
+Thursday,False,late morning,high,medium,low,no,no,light
+Thursday,False,morning,medium,medium,low,no,no,no
+Thursday,False,night,low,medium,medium,no,no,no
+Friday,False,afternoon,high,medium,low,no,no,heavy
+Friday,False,early evening,high,medium,medium,no,no,light
+Friday,False,early morning,low,medium,medium,no,no,moderate
+Friday,False,evening,medium,medium,medium,no,no,light
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,high,medium,low,no,no,moderate
+Friday,False,morning,medium,medium,low,no,no,moderate
+Friday,False,night,low,medium,medium,no,no,no
+Saturday,False,afternoon,high,medium,low,no,no,heavy
+Saturday,False,early evening,high,medium,medium,light,no,moderate
+Saturday,False,early morning,low,medium,medium,no,no,light
+Saturday,False,evening,medium,medium,medium,light,no,heavy
+Saturday,False,late evening,low,medium,medium,light,no,heavy
+Saturday,False,late morning,high,medium,medium,no,no,heavy
+Saturday,False,morning,medium,medium,medium,no,no,heavy
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,high,medium,low,no,no,no
+Sunday,False,early evening,high,medium,medium,light,no,no
+Sunday,False,early morning,low,medium,medium,no,no,heavy
+Sunday,False,evening,medium,medium,medium,no,no,no
+Sunday,False,late evening,low,medium,medium,no,no,no
+Sunday,False,late morning,high,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,medium,no,no,no
+Sunday,False,night,low,medium,medium,light,no,heavy
+Monday,False,afternoon,high,medium,medium,no,no,no
+Monday,False,early evening,high,medium,medium,no,no,no
+Monday,False,early morning,low,medium,medium,no,no,no
+Monday,False,evening,medium,medium,medium,no,no,moderate
+Monday,False,late evening,low,medium,medium,no,no,light
+Monday,False,late morning,high,medium,low,no,no,no
+Monday,False,morning,medium,medium,low,no,no,no
+Monday,False,night,low,medium,medium,no,no,no
+Tuesday,False,afternoon,high,medium,low,no,no,light
+Tuesday,False,early evening,high,medium,medium,no,no,moderate
+Tuesday,False,early morning,low,medium,medium,no,no,light
+Tuesday,False,evening,medium,medium,medium,no,no,heavy
+Tuesday,False,late evening,low,medium,medium,light,no,heavy
+Tuesday,False,late morning,high,medium,low,no,no,no
+Tuesday,False,morning,medium,medium,low,no,no,no
+Tuesday,False,night,low,medium,medium,no,no,moderate
+Wednesday,False,afternoon,high,medium,low,no,light,light
+Wednesday,False,early evening,high,medium,low,no,no,light
+Wednesday,False,early morning,low,medium,medium,light,no,moderate
+Wednesday,True,evening,medium,medium,medium,no,no,light
+Wednesday,True,late evening,low,medium,medium,no,no,moderate
+Wednesday,False,late morning,high,medium,low,no,no,light
+Wednesday,False,morning,medium,medium,medium,no,no,moderate
+Wednesday,False,night,low,medium,medium,light,no,moderate
+Thursday,True,afternoon,medium,medium,medium,no,no,no
+Thursday,True,early evening,low,medium,medium,no,no,no
+Thursday,True,early morning,low,medium,medium,no,no,light
+Thursday,False,evening,low,medium,medium,no,no,no
+Thursday,False,late evening,low,medium,medium,no,no,no
+Thursday,True,late morning,high,medium,medium,no,moderate,no
+Thursday,True,morning,medium,medium,medium,no,moderate,light
+Thursday,True,night,low,medium,medium,no,no,moderate
+Friday,False,afternoon,high,medium,medium,no,heavy,moderate
+Friday,False,early evening,high,medium,medium,light,heavy,no
+Friday,False,early morning,low,medium,medium,no,no,heavy
+Friday,False,evening,medium,medium,medium,no,heavy,no
+Friday,False,late evening,low,medium,medium,no,heavy,heavy
+Friday,False,late morning,high,medium,medium,no,moderate,light
+Friday,False,morning,medium,medium,medium,no,moderate,heavy
+Friday,False,night,low,medium,medium,no,no,light
+Saturday,False,afternoon,high,medium,medium,light,moderate,heavy
+Saturday,False,early evening,high,medium,medium,moderate,no,moderate
+Saturday,False,early morning,low,medium,medium,no,moderate,heavy
+Saturday,False,evening,medium,medium,medium,light,no,heavy
+Saturday,False,late evening,low,medium,medium,no,no,heavy
+Saturday,False,late morning,high,medium,medium,no,heavy,heavy
+Saturday,False,morning,medium,medium,medium,no,moderate,heavy
+Saturday,False,night,low,medium,medium,no,moderate,heavy
+Sunday,False,afternoon,high,medium,medium,no,no,no
+Sunday,False,early evening,high,medium,medium,light,no,no
+Sunday,False,early morning,low,medium,medium,light,no,heavy
+Sunday,False,evening,medium,medium,medium,light,light,light
+Sunday,False,late evening,low,medium,medium,no,no,light
+Sunday,False,late morning,high,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,high,light,moderate,heavy
+Sunday,False,night,low,medium,medium,light,no,heavy
+Monday,False,afternoon,high,medium,medium,light,light,heavy
+Monday,False,early evening,high,medium,medium,no,no,heavy
+Monday,False,early morning,low,medium,medium,no,no,heavy
+Monday,False,evening,medium,medium,medium,no,no,no
+Monday,False,late evening,low,medium,medium,no,light,no
+Monday,False,late morning,medium,medium,low,light,moderate,heavy
+Monday,False,morning,medium,medium,medium,light,no,heavy
+Monday,False,night,low,medium,medium,no,no,heavy
+Tuesday,False,afternoon,high,medium,low,no,no,no
+Tuesday,False,early evening,high,medium,medium,no,no,moderate
+Tuesday,False,early morning,low,medium,medium,no,no,no
+Tuesday,False,evening,medium,medium,medium,no,no,moderate
+Tuesday,False,late evening,low,medium,medium,no,no,heavy
+Tuesday,False,late morning,high,medium,low,no,light,no
+Tuesday,False,morning,medium,medium,low,no,no,no
+Tuesday,False,night,low,medium,medium,no,no,no
+Wednesday,False,afternoon,high,medium,low,no,light,heavy
+Wednesday,False,early evening,high,medium,low,no,no,heavy
+Wednesday,False,early morning,low,medium,medium,no,no,moderate
+Wednesday,False,evening,medium,medium,low,no,no,moderate
+Wednesday,False,late evening,low,medium,low,no,no,no
+Wednesday,False,late morning,high,medium,low,no,moderate,heavy
+Wednesday,False,morning,medium,medium,low,no,light,heavy
+Wednesday,False,night,low,medium,medium,no,no,heavy
+Thursday,False,afternoon,high,medium,low,no,no,heavy
+Thursday,False,early evening,medium,medium,low,no,no,heavy
+Thursday,False,early morning,low,medium,low,no,no,no
+Thursday,False,evening,medium,medium,low,light,no,heavy
+Thursday,False,late evening,low,medium,low,light,light,heavy
+Thursday,False,late morning,high,medium,low,no,no,moderate
+Thursday,False,morning,medium,medium,low,no,no,no
+Thursday,False,night,low,medium,low,no,no,no
+Friday,False,afternoon,high,medium,low,no,no,no
+Friday,False,early evening,high,medium,low,no,no,no
+Friday,False,early morning,low,low,low,light,moderate,heavy
+Friday,False,evening,medium,medium,low,no,no,no
+Friday,False,late evening,low,medium,low,no,no,no
+Friday,False,late morning,high,medium,low,no,moderate,light
+Friday,False,morning,medium,medium,low,light,no,heavy
+Friday,False,night,low,low,low,light,heavy,heavy
+Saturday,False,afternoon,high,medium,low,no,light,no
+Saturday,False,early evening,high,medium,low,no,no,no
+Saturday,False,early morning,low,low,low,no,no,no
+Saturday,False,evening,medium,medium,low,no,no,no
+Saturday,False,late evening,low,medium,low,no,no,no
+Saturday,False,late morning,high,medium,low,no,light,no
+Saturday,False,morning,medium,medium,low,no,no,no
+Saturday,False,night,low,medium,low,no,no,no
+Sunday,False,afternoon,high,medium,low,no,no,light
+Sunday,False,early evening,high,medium,low,no,light,no
+Sunday,False,early morning,low,low,medium,no,no,no
+Sunday,False,evening,medium,medium,low,no,no,no
+Sunday,False,late evening,low,medium,low,no,no,no
+Sunday,False,late morning,high,medium,low,no,no,no
+Sunday,False,morning,medium,medium,medium,no,no,no
+Sunday,False,night,low,medium,low,no,no,no
+Monday,False,afternoon,high,medium,low,no,no,no
+Monday,False,early evening,high,medium,low,no,no,light
+Monday,False,early morning,low,medium,low,no,no,heavy
+Monday,False,evening,medium,medium,low,no,no,no
+Monday,False,late evening,low,medium,low,no,no,moderate
+Monday,False,late morning,high,medium,low,no,no,no
+Monday,False,morning,medium,medium,low,no,no,moderate
+Monday,False,night,low,low,low,no,no,no
+Tuesday,False,afternoon,high,medium,low,no,no,light
+Tuesday,False,early evening,high,medium,low,no,no,moderate
+Tuesday,False,early morning,low,low,low,no,no,heavy
+Tuesday,False,evening,medium,medium,low,no,no,heavy
+Tuesday,False,late evening,low,medium,low,no,no,moderate
+Tuesday,False,late morning,high,medium,low,no,no,moderate
+Tuesday,False,morning,medium,medium,low,no,no,heavy
+Tuesday,False,night,low,low,low,no,no,heavy
+Wednesday,False,afternoon,high,heavy,low,no,no,heavy
+Wednesday,False,early evening,high,heavy,low,no,no,heavy
+Wednesday,False,early morning,low,medium,low,no,no,moderate
+Wednesday,False,evening,medium,heavy,low,light,no,heavy
+Wednesday,False,late evening,low,medium,low,light,no,heavy
+Wednesday,False,late morning,medium,heavy,low,no,no,light
+Wednesday,False,morning,medium,heavy,low,no,no,light
+Wednesday,False,night,low,medium,low,no,no,moderate
+Thursday,False,afternoon,high,heavy,low,light,moderate,light
+Thursday,False,early evening,medium,heavy,low,light,light,moderate
+Thursday,False,early morning,low,medium,low,light,light,heavy
+Thursday,False,evening,medium,heavy,low,light,heavy,heavy
+Thursday,False,late evening,low,medium,low,light,heavy,heavy
+Thursday,False,late morning,medium,heavy,low,no,heavy,heavy
+Thursday,False,morning,medium,heavy,low,light,no,moderate
+Thursday,False,night,low,medium,low,light,no,heavy
+Friday,False,afternoon,high,heavy,low,no,heavy,no
+Friday,False,early evening,high,heavy,low,no,light,heavy
+Friday,False,early morning,low,medium,low,no,heavy,heavy
+Friday,False,evening,medium,heavy,low,no,no,heavy
+Friday,False,late evening,low,heavy,low,no,no,heavy
+Friday,False,late morning,high,heavy,low,no,heavy,light
+Friday,False,morning,medium,heavy,low,no,heavy,light
+Friday,False,night,low,medium,low,no,light,heavy
+Saturday,False,afternoon,medium,heavy,low,no,no,heavy
+Saturday,False,early evening,high,heavy,low,no,no,heavy
+Saturday,False,early morning,low,medium,low,no,no,heavy
+Saturday,False,evening,medium,heavy,low,no,no,heavy
+Saturday,False,late evening,low,heavy,low,light,no,heavy
+Saturday,False,late morning,medium,heavy,low,no,no,moderate
+Saturday,False,morning,medium,heavy,low,no,no,moderate
+Saturday,False,night,low,heavy,low,no,no,heavy
+Sunday,False,afternoon,medium,heavy,low,no,no,no
+Sunday,False,early evening,high,heavy,low,no,no,no
+Sunday,False,early morning,low,medium,low,no,no,heavy
+Sunday,False,evening,medium,heavy,low,light,no,light
+Sunday,False,late evening,low,heavy,low,light,no,moderate
+Sunday,False,late morning,medium,heavy,low,no,no,no
+Sunday,False,morning,medium,heavy,low,no,no,light
+Sunday,False,night,low,heavy,low,no,no,heavy
+Monday,False,afternoon,high,heavy,low,light,moderate,light
+Monday,False,early evening,medium,heavy,low,light,no,moderate
+Monday,False,early morning,low,heavy,low,no,no,light
+Monday,False,evening,low,medium,low,heavy,moderate,heavy
+Monday,False,late evening,low,medium,low,light,moderate,heavy
+Monday,False,late morning,high,heavy,low,light,no,light
+Monday,False,morning,medium,heavy,low,light,no,no
+Monday,False,night,low,medium,low,no,no,moderate
+Tuesday,False,afternoon,high,heavy,low,light,heavy,heavy
+Tuesday,False,early evening,medium,heavy,low,light,heavy,heavy
+Tuesday,False,early morning,low,medium,low,light,light,heavy
+Tuesday,False,evening,medium,heavy,low,light,heavy,heavy
+Tuesday,False,late evening,low,medium,low,light,light,heavy
+Tuesday,False,late morning,medium,heavy,low,heavy,heavy,heavy
+Tuesday,False,morning,medium,heavy,low,light,heavy,heavy
+Tuesday,False,night,low,low,low,light,no,heavy
+Wednesday,False,afternoon,high,medium,low,light,no,no
+Wednesday,False,early evening,high,medium,low,no,no,no
+Wednesday,False,early morning,low,low,low,light,no,heavy
+Wednesday,False,evening,medium,medium,low,no,no,no
+Wednesday,False,late evening,low,low,low,no,no,no
+Wednesday,False,late morning,high,medium,low,no,no,light
+Wednesday,False,morning,medium,medium,low,no,no,moderate
+Wednesday,False,night,low,low,low,light,no,heavy
+Thursday,False,afternoon,high,medium,low,no,no,no
+Thursday,False,early evening,high,medium,low,no,no,no
+Thursday,False,early morning,low,low,low,no,no,no
+Thursday,False,evening,medium,medium,low,no,no,no
+Thursday,False,late evening,low,medium,low,no,no,no
+Thursday,False,late morning,high,medium,low,no,no,no
+Thursday,False,morning,medium,medium,low,no,no,no
+Thursday,False,night,low,low,low,no,no,no
+Friday,False,afternoon,high,low,low,no,no,no
+Friday,False,early evening,high,low,low,no,no,no
+Friday,False,early morning,low,low,low,no,no,no
+Friday,False,evening,medium,low,low,no,no,no
+Friday,False,late evening,low,low,low,no,no,no
+Friday,False,late morning,high,low,low,no,no,no
+Friday,False,morning,medium,medium,low,no,light,no
+Friday,False,night,low,low,low,no,no,no
+Saturday,False,afternoon,high,low,low,no,no,no
+Saturday,False,early evening,high,low,low,no,no,no
+Saturday,False,early morning,low,low,low,no,no,no
+Saturday,False,evening,medium,low,low,light,no,no
+Saturday,False,late evening,low,low,low,no,no,no
+Saturday,False,late morning,high,low,low,no,no,no
+Saturday,False,morning,medium,low,low,no,no,no
+Saturday,False,night,low,low,low,no,no,no
+Sunday,False,afternoon,high,low,low,no,no,no
+Sunday,False,early evening,high,low,low,no,no,no
+Sunday,False,early morning,low,low,low,no,no,no
+Sunday,False,evening,medium,low,low,no,no,no
+Sunday,False,late evening,low,low,low,no,no,heavy
+Sunday,False,late morning,high,low,low,no,no,no
+Sunday,False,morning,medium,low,low,no,no,no
+Sunday,False,night,low,low,low,no,no,no
+Monday,False,afternoon,high,low,low,no,no,no
+Monday,False,early evening,high,low,low,no,no,no
+Monday,False,early morning,low,low,low,no,no,light
+Monday,False,evening,medium,low,low,light,no,light
+Monday,False,late evening,low,low,low,light,no,moderate
+Monday,False,late morning,high,low,low,no,no,no
+Monday,False,morning,medium,low,low,no,no,no
+Monday,False,night,low,low,low,no,no,heavy
+Tuesday,False,afternoon,high,low,low,no,no,no
+Tuesday,False,early evening,high,low,low,no,no,no
+Tuesday,False,early morning,low,low,low,no,no,no
+Tuesday,False,evening,medium,low,low,light,no,no
+Tuesday,False,late evening,low,low,low,no,no,no
+Tuesday,False,late morning,medium,low,low,no,no,no
+Tuesday,False,morning,medium,low,low,no,no,no
+Tuesday,False,night,low,low,low,no,no,no
+Wednesday,False,afternoon,medium,low,low,no,no,moderate
+Wednesday,False,early evening,medium,low,low,light,no,light
+Wednesday,False,early morning,low,low,low,no,no,no
+Wednesday,False,evening,medium,low,low,moderate,no,moderate
+Wednesday,False,late evening,low,low,low,light,no,moderate
+Wednesday,False,late morning,high,low,low,no,no,no
+Wednesday,False,morning,medium,low,low,no,no,light
+Wednesday,False,night,low,low,low,no,no,no
+Thursday,False,afternoon,high,low,low,no,no,light
+Thursday,False,early evening,high,low,low,no,no,light
+Thursday,False,early morning,low,low,low,light,no,heavy
+Thursday,False,evening,medium,low,low,no,no,light
+Thursday,False,late evening,low,low,low,no,no,moderate
+Thursday,False,late morning,high,low,low,no,no,heavy
+Thursday,False,morning,medium,low,low,no,no,heavy
+Thursday,False,night,low,low,low,light,no,heavy
+Friday,False,afternoon,high,low,low,no,no,heavy
+Friday,False,early evening,high,low,low,no,no,heavy
+Friday,False,early morning,low,low,low,no,no,no
+Friday,False,evening,medium,low,low,no,no,heavy
+Friday,False,late evening,low,low,low,light,no,light
+Friday,False,late morning,high,low,low,no,no,light
+Friday,False,morning,medium,low,low,no,no,no
+Friday,False,night,low,low,low,no,no,no
+Saturday,False,afternoon,high,low,low,light,no,light
+Saturday,False,early evening,high,low,low,light,no,light
+Saturday,False,early morning,low,low,low,no,no,light
+Saturday,False,evening,medium,low,low,light,no,no
+Saturday,False,late evening,low,low,low,no,no,moderate
+Saturday,False,late morning,high,low,low,light,no,no
+Saturday,False,morning,medium,low,low,no,no,no
+Saturday,False,night,low,low,low,no,no,light
+Sunday,False,afternoon,high,low,low,no,no,no
+Sunday,False,early evening,high,low,low,no,no,no
+Sunday,False,early morning,low,low,low,no,no,no
+Sunday,False,evening,medium,low,low,no,no,no
+Sunday,False,late evening,low,low,low,no,no,no
+Sunday,False,late morning,high,low,low,no,no,no
+Sunday,False,morning,medium,low,low,no,no,no
+Sunday,False,night,low,low,low,no,no,light
+Monday,False,afternoon,high,low,low,no,no,heavy
+Monday,False,early evening,high,low,low,no,no,heavy
+Monday,False,early morning,low,low,low,no,no,light
+Monday,False,evening,medium,low,low,no,no,heavy
+Monday,False,late evening,low,low,low,no,no,heavy
+Monday,False,late morning,high,low,low,no,no,moderate
+Monday,False,morning,medium,low,low,no,no,moderate
+Monday,False,night,low,low,low,no,no,no
+Tuesday,False,afternoon,high,medium,low,light,moderate,heavy
+Tuesday,False,early evening,high,medium,low,light,light,light
+Tuesday,False,early morning,low,low,low,no,no,heavy
+Tuesday,False,evening,medium,low,low,light,no,heavy
+Tuesday,False,late evening,low,low,low,light,no,moderate
+Tuesday,False,late morning,high,low,low,no,moderate,heavy
+Tuesday,False,morning,medium,low,low,no,light,heavy
+Tuesday,False,night,low,low,low,no,no,heavy
+Wednesday,False,afternoon,medium,medium,low,light,moderate,moderate
+Wednesday,False,early evening,medium,medium,low,moderate,no,heavy
+Wednesday,False,early morning,low,low,low,no,no,no
+Wednesday,False,evening,low,low,low,light,light,heavy
+Wednesday,False,late evening,low,low,low,light,no,heavy
+Wednesday,False,late morning,high,low,low,no,no,moderate
+Wednesday,False,morning,medium,low,low,light,no,no
+Wednesday,False,night,low,low,low,no,no,light
+Thursday,False,afternoon,high,medium,low,no,light,no
+Thursday,False,early evening,high,medium,low,no,no,no
+Thursday,False,early morning,low,low,low,light,light,light
+Thursday,False,evening,medium,low,low,no,no,no
+Thursday,False,late evening,low,low,low,no,no,no
+Thursday,False,late morning,high,low,low,no,moderate,no
+Thursday,False,morning,medium,low,low,no,light,no
+Thursday,False,night,low,low,low,moderate,no,heavy
+Friday,False,afternoon,high,medium,low,no,no,no
+Friday,False,early evening,high,medium,low,no,no,no
+Friday,False,early morning,low,low,low,no,no,no
+Friday,False,evening,medium,low,low,no,no,no
+Friday,False,late evening,low,low,low,no,no,no
+Friday,False,late morning,high,low,low,no,no,no
+Friday,False,morning,medium,low,low,no,no,no
+Friday,False,night,low,low,low,no,no,moderate
+Saturday,False,afternoon,high,medium,low,no,no,light
+Saturday,False,early evening,high,medium,low,no,no,moderate
+Saturday,False,early morning,low,low,low,no,no,no
+Saturday,False,evening,medium,low,low,no,no,no
+Saturday,False,late evening,low,low,low,no,no,no
+Saturday,False,late morning,high,low,low,no,no,no
+Saturday,False,morning,medium,low,low,no,no,no
+Saturday,False,night,low,low,low,no,no,no
+Sunday,False,afternoon,high,low,low,no,no,no
+Sunday,False,early evening,high,medium,low,no,no,no
+Sunday,False,early morning,low,low,low,no,no,no
+Sunday,False,evening,medium,low,low,no,no,moderate
+Sunday,False,late evening,low,low,low,no,no,no
+Sunday,False,late morning,high,low,low,no,no,no
+Sunday,False,morning,medium,low,low,no,no,no
+Sunday,False,night,low,low,low,no,no,no
+Monday,False,afternoon,high,medium,low,no,no,no
+Monday,False,early evening,high,medium,low,no,no,moderate
+Monday,False,early morning,low,low,low,no,no,no
+Monday,False,evening,medium,low,low,no,no,light
+Monday,False,late evening,low,low,low,no,no,heavy
+Monday,False,late morning,high,low,low,no,no,no
+Monday,False,morning,medium,low,low,no,no,no
+Monday,False,night,low,low,low,no,no,no
+Tuesday,False,afternoon,high,low,low,light,no,heavy
+Tuesday,False,early evening,high,low,low,light,no,heavy
+Tuesday,False,early morning,low,low,low,no,no,heavy
+Tuesday,False,evening,medium,low,low,no,no,heavy
+Tuesday,False,late evening,low,low,low,no,no,heavy
+Tuesday,False,late morning,high,low,low,light,no,heavy
+Tuesday,False,morning,medium,low,low,light,no,heavy
+Tuesday,False,night,low,low,low,no,no,heavy
+Wednesday,False,afternoon,high,heavy,low,light,heavy,light
+Wednesday,False,early evening,high,heavy,low,light,heavy,no
+Wednesday,False,early morning,low,medium,low,no,no,heavy
+Wednesday,False,evening,medium,heavy,low,light,light,no
+Wednesday,False,late evening,low,heavy,low,light,no,moderate
+Wednesday,False,late morning,high,heavy,low,no,heavy,moderate
+Wednesday,False,morning,medium,heavy,low,no,heavy,no
+Wednesday,False,night,low,medium,low,no,no,heavy
+Thursday,False,afternoon,high,heavy,low,no,no,no
+Thursday,False,early evening,high,heavy,low,no,no,light
+Thursday,False,early morning,low,medium,low,no,moderate,moderate
+Thursday,False,evening,medium,heavy,low,no,no,light
+Thursday,False,late evening,low,heavy,low,no,no,moderate
+Thursday,False,late morning,high,heavy,low,no,light,no
+Thursday,False,morning,medium,heavy,low,no,heavy,no
+Thursday,False,night,low,medium,low,light,no,moderate
+Friday,False,afternoon,high,heavy,low,light,heavy,no
+Friday,False,early evening,high,heavy,low,no,heavy,light
+Friday,False,early morning,low,medium,low,no,light,light
+Friday,False,evening,medium,heavy,low,no,heavy,light
+Friday,False,late evening,low,heavy,low,no,light,moderate
+Friday,False,late morning,high,heavy,low,no,heavy,no
+Friday,False,morning,medium,heavy,low,no,moderate,no
+Friday,False,night,low,medium,low,no,no,light
+Saturday,False,afternoon,high,heavy,low,light,heavy,light
+Saturday,False,early evening,high,heavy,low,light,moderate,no
+Saturday,False,early morning,low,medium,low,light,moderate,heavy
+Saturday,False,evening,medium,heavy,low,light,no,light
+Saturday,False,late evening,low,heavy,low,light,no,moderate
+Saturday,False,late morning,high,heavy,low,no,heavy,heavy
+Saturday,False,morning,medium,heavy,low,no,heavy,moderate
+Saturday,False,night,low,medium,low,no,no,moderate
+Sunday,False,afternoon,high,heavy,low,light,no,moderate
+Sunday,False,early evening,medium,heavy,low,light,no,moderate
+Sunday,False,early morning,low,medium,low,no,moderate,heavy
+Sunday,False,evening,medium,heavy,low,moderate,no,heavy
+Sunday,False,late evening,low,heavy,low,no,no,moderate
+Sunday,False,late morning,high,heavy,low,no,heavy,heavy
+Sunday,False,morning,medium,heavy,low,no,heavy,heavy
+Sunday,False,night,low,heavy,low,no,no,light
+Monday,False,afternoon,high,heavy,low,no,no,no
+Monday,False,early evening,high,heavy,low,light,no,light
+Monday,False,early morning,low,medium,low,no,no,moderate
+Monday,False,evening,medium,heavy,low,light,light,heavy
+Monday,False,late evening,low,heavy,low,light,no,heavy
+Monday,False,late morning,high,heavy,low,no,no,light
+Monday,False,morning,medium,heavy,low,no,no,no
+Monday,False,night,low,medium,low,no,no,light
+Tuesday,False,afternoon,high,heavy,low,no,no,light
+Tuesday,False,early evening,high,heavy,low,no,no,no
+Tuesday,False,early morning,low,medium,low,no,no,moderate
+Tuesday,False,evening,medium,heavy,low,no,no,no
+Tuesday,False,late evening,low,heavy,low,no,no,light
+Tuesday,False,late morning,high,heavy,low,no,no,light
+Tuesday,False,morning,medium,heavy,low,no,no,heavy
+Tuesday,False,night,low,medium,low,no,no,heavy
+Wednesday,False,afternoon,high,medium,low,light,light,moderate
+Wednesday,False,early evening,medium,medium,low,light,no,no
+Wednesday,False,early morning,low,medium,low,no,no,no
+Wednesday,False,evening,medium,medium,low,light,no,no
+Wednesday,False,late evening,low,medium,low,moderate,no,heavy
+Wednesday,False,late morning,high,medium,low,no,heavy,heavy
+Wednesday,False,morning,medium,medium,low,no,no,moderate
+Wednesday,False,night,low,medium,low,no,no,heavy
+Thursday,False,afternoon,medium,medium,low,no,no,light
+Thursday,False,early evening,high,medium,low,no,no,no
+Thursday,False,early morning,low,medium,low,no,no,moderate
+Thursday,False,evening,medium,medium,low,no,no,no
+Thursday,False,late evening,low,medium,low,no,no,moderate
+Thursday,False,late morning,high,medium,low,no,no,heavy
+Thursday,False,morning,medium,medium,low,no,no,heavy
+Thursday,False,night,low,medium,low,no,no,heavy
+Friday,False,afternoon,high,medium,low,light,light,heavy
+Friday,False,early evening,high,medium,low,light,no,heavy
+Friday,False,early morning,low,medium,low,light,moderate,heavy
+Friday,False,evening,medium,medium,low,no,no,heavy
+Friday,False,late evening,low,medium,low,no,no,heavy
+Friday,False,late morning,medium,medium,low,no,moderate,moderate
+Friday,False,morning,medium,medium,low,light,moderate,heavy
+Friday,False,night,low,medium,low,no,no,moderate
+Saturday,False,afternoon,high,medium,low,no,no,no
+Saturday,False,early evening,high,medium,low,no,no,no
+Saturday,False,early morning,low,medium,low,no,no,no
+Saturday,False,evening,medium,medium,low,no,no,no
+Saturday,False,late evening,low,medium,low,no,no,no
+Saturday,False,late morning,high,medium,low,no,no,no
+Saturday,False,morning,medium,medium,low,no,no,no
+Saturday,False,night,low,medium,low,no,no,moderate
+Sunday,False,afternoon,high,medium,low,light,light,no
+Sunday,False,early evening,high,medium,low,no,moderate,no
+Sunday,False,early morning,low,medium,low,light,no,no
+Sunday,False,evening,medium,medium,low,no,moderate,no
+Sunday,False,late evening,low,medium,low,no,heavy,no
+Sunday,False,late morning,high,medium,low,no,no,no
+Sunday,False,morning,medium,medium,low,light,no,no
+Sunday,False,night,low,medium,low,no,light,no
+Monday,False,afternoon,high,medium,low,no,heavy,no
+Monday,False,early evening,high,medium,low,no,light,no
+Monday,False,early morning,low,medium,low,no,no,no
+Monday,False,evening,low,medium,low,no,moderate,moderate
+Monday,False,late evening,low,medium,low,no,light,heavy
+Monday,False,late morning,high,medium,low,no,heavy,no
+Monday,False,morning,medium,medium,low,no,no,no
+Monday,False,night,low,medium,low,light,moderate,no
+Tuesday,False,afternoon,high,medium,low,no,no,heavy
+Tuesday,False,early evening,high,medium,low,light,no,moderate
+Tuesday,False,early morning,low,medium,low,no,no,light
+Tuesday,False,evening,low,medium,low,no,no,moderate
+Tuesday,False,late evening,low,medium,low,no,no,moderate
+Tuesday,False,late morning,high,medium,low,no,no,heavy
+Tuesday,False,morning,medium,medium,low,no,no,heavy
+Tuesday,False,night,low,medium,low,no,no,light
+Wednesday,False,afternoon,medium,medium,low,no,heavy,no
+Wednesday,False,early evening,medium,medium,low,light,heavy,light
+Wednesday,False,early morning,low,medium,low,no,no,heavy
+Wednesday,False,evening,low,medium,low,light,heavy,light
+Wednesday,False,late evening,low,medium,low,light,light,light
+Wednesday,False,late morning,medium,medium,low,no,heavy,no
+Wednesday,False,morning,medium,medium,low,light,light,moderate
+Wednesday,False,night,low,medium,low,no,no,heavy
+Thursday,False,afternoon,high,medium,low,no,no,no
+Thursday,False,early evening,high,medium,low,no,no,no
+Thursday,False,early morning,low,medium,low,light,no,light
+Thursday,False,evening,low,medium,low,no,no,no
+Thursday,False,late evening,low,medium,low,no,no,no
+Thursday,False,late morning,high,medium,low,no,no,no
+Thursday,False,morning,medium,medium,low,no,no,no
+Thursday,False,night,low,medium,low,light,no,light
+Friday,False,afternoon,high,medium,low,no,no,no
+Friday,False,early evening,high,medium,low,no,no,no
+Friday,False,early morning,low,medium,low,no,no,no
+Friday,False,evening,low,medium,low,no,no,no
+Friday,False,late evening,low,medium,low,no,no,no
+Friday,False,late morning,high,medium,low,no,no,no
+Friday,False,morning,medium,medium,low,no,no,no
+Friday,False,night,low,medium,low,no,no,no
+Saturday,False,afternoon,high,medium,low,no,no,heavy
+Saturday,False,early evening,high,medium,low,no,no,moderate
+Saturday,False,early morning,low,medium,low,no,no,no
+Saturday,False,evening,low,medium,low,no,no,light
+Saturday,False,late evening,low,medium,low,no,no,moderate
+Saturday,False,late morning,high,medium,low,no,no,moderate
+Saturday,False,morning,medium,medium,low,no,no,moderate
+Saturday,False,night,low,medium,low,no,no,light
+Sunday,False,afternoon,high,medium,low,no,no,moderate
+Sunday,False,early evening,high,medium,low,no,light,no
+Sunday,False,early morning,low,medium,low,no,no,heavy
+Sunday,True,evening,low,medium,low,no,heavy,no
+Sunday,True,late evening,low,medium,low,no,no,moderate
+Sunday,False,late morning,high,medium,low,no,no,moderate
+Sunday,False,morning,medium,medium,low,no,no,heavy
+Sunday,False,night,low,medium,low,no,no,moderate
+Monday,True,afternoon,medium,medium,low,light,light,heavy
+Monday,True,early evening,high,medium,low,light,no,light
+Monday,True,early morning,low,medium,low,no,no,heavy
+Monday,False,evening,low,medium,low,moderate,no,light
+Monday,False,late evening,low,medium,low,light,light,heavy
+Monday,True,late morning,medium,medium,low,no,light,heavy
+Monday,True,morning,medium,medium,low,no,no,heavy
+Monday,True,night,low,medium,low,no,no,light
+Tuesday,False,afternoon,high,medium,low,no,no,no
+Tuesday,False,early evening,high,medium,low,no,no,no
+Tuesday,False,early morning,low,medium,low,no,moderate,light
+Tuesday,False,evening,low,medium,low,no,no,no
+Tuesday,False,late evening,low,medium,low,no,no,no
+Tuesday,False,late morning,high,medium,low,no,no,no
+Tuesday,False,morning,medium,medium,low,no,no,no
+Tuesday,False,night,low,medium,low,no,no,heavy
+Wednesday,False,afternoon,high,medium,low,no,heavy,no
+Wednesday,False,early evening,medium,medium,low,no,no,no
+Wednesday,False,early morning,low,medium,low,no,no,no
+Wednesday,False,evening,low,medium,low,no,no,no
+Wednesday,False,late evening,low,medium,low,light,no,no
+Wednesday,False,late morning,high,medium,low,no,heavy,no
+Wednesday,False,morning,medium,medium,low,no,no,no
+Wednesday,False,night,low,medium,low,no,no,no
+Thursday,False,afternoon,high,medium,low,no,light,heavy
+Thursday,False,early evening,high,medium,low,no,heavy,heavy
+Thursday,False,early morning,low,medium,low,no,no,moderate
+Thursday,False,evening,low,medium,low,no,light,heavy
+Thursday,False,late evening,low,medium,low,no,no,heavy
+Thursday,False,late morning,high,medium,low,no,no,heavy
+Thursday,False,morning,medium,medium,low,no,no,heavy
+Thursday,False,night,low,medium,low,no,no,no
+Friday,False,afternoon,medium,medium,low,light,heavy,heavy
+Friday,False,early evening,medium,medium,low,light,heavy,heavy
+Friday,False,early morning,low,medium,low,no,no,heavy
+Friday,False,evening,low,medium,low,light,heavy,heavy
+Friday,False,late evening,low,medium,low,light,heavy,heavy
+Friday,False,late morning,high,medium,low,no,no,heavy
+Friday,False,morning,medium,medium,low,no,no,heavy
+Friday,False,night,low,medium,low,no,no,heavy
+Saturday,False,afternoon,high,medium,low,no,light,no
+Saturday,False,early evening,high,medium,low,no,heavy,no
+Saturday,False,early morning,low,medium,low,light,heavy,heavy
+Saturday,False,evening,low,medium,low,no,light,no
+Saturday,False,late evening,low,medium,low,no,no,no
+Saturday,False,late morning,high,medium,low,no,no,no
+Saturday,False,morning,medium,medium,low,no,light,no
+Saturday,False,night,low,medium,low,light,heavy,heavy
+Sunday,False,afternoon,high,heavy,low,no,no,light
+Sunday,False,early evening,high,heavy,low,no,no,light
+Sunday,False,early morning,low,heavy,low,no,no,moderate
+Sunday,False,evening,low,heavy,low,no,no,light
+Sunday,False,late evening,low,heavy,low,no,no,no
+Sunday,False,late morning,high,heavy,low,no,no,light
+Sunday,False,morning,medium,heavy,low,no,no,light
+Sunday,False,night,low,heavy,low,no,no,no
+Monday,False,afternoon,high,heavy,low,light,light,no
+Monday,False,early evening,high,heavy,low,light,light,no
+Monday,False,early morning,low,medium,low,no,light,heavy
+Monday,False,evening,low,medium,low,light,heavy,no
+Monday,False,late evening,low,medium,low,light,no,no
+Monday,False,late morning,high,heavy,low,no,no,moderate
+Monday,False,morning,medium,heavy,low,no,no,moderate
+Monday,False,night,low,medium,low,no,no,moderate
+Tuesday,False,afternoon,high,heavy,low,light,moderate,moderate
+Tuesday,False,early evening,high,heavy,low,light,moderate,light
+Tuesday,False,early morning,low,medium,low,no,light,no
+Tuesday,False,evening,low,medium,low,no,light,moderate
+Tuesday,False,late evening,low,medium,low,no,no,moderate
+Tuesday,False,late morning,high,heavy,low,no,heavy,no
+Tuesday,False,morning,medium,heavy,low,no,no,no
+Tuesday,False,night,low,low,low,no,no,no
+Wednesday,False,afternoon,high,heavy,low,no,heavy,moderate
+Wednesday,False,early evening,high,heavy,low,no,light,heavy
+Wednesday,False,early morning,low,medium,low,no,no,no
+Wednesday,False,evening,low,heavy,low,no,no,heavy
+Wednesday,False,late evening,low,medium,low,no,no,no
+Wednesday,False,late morning,high,heavy,low,no,no,light
+Wednesday,False,morning,medium,heavy,low,no,no,no
+Wednesday,False,night,low,medium,low,no,no,moderate
+Thursday,False,afternoon,high,heavy,low,light,light,heavy
+Thursday,False,early evening,medium,heavy,low,light,light,moderate
+Thursday,False,early morning,low,medium,low,no,no,moderate
+Thursday,False,evening,low,heavy,low,no,heavy,heavy
+Thursday,False,late evening,low,medium,low,no,heavy,heavy
+Thursday,False,late morning,medium,heavy,low,no,no,light
+Thursday,False,morning,medium,heavy,low,no,no,heavy
+Thursday,False,night,low,medium,low,no,no,light
+Friday,False,afternoon,high,heavy,low,no,light,light
+Friday,False,early evening,high,heavy,low,no,heavy,no
+Friday,False,early morning,low,medium,low,no,heavy,moderate
+Friday,False,evening,low,heavy,low,no,moderate,no
+Friday,False,late evening,low,heavy,low,no,light,light
+Friday,False,late morning,high,heavy,low,no,no,light
+Friday,False,morning,medium,heavy,low,no,no,moderate
+Friday,False,night,low,medium,low,light,heavy,heavy
+Saturday,False,afternoon,high,heavy,low,no,heavy,no
+Saturday,False,early evening,high,heavy,low,no,heavy,no
+Saturday,False,early morning,low,medium,low,no,light,no
+Saturday,False,evening,low,heavy,low,no,heavy,no
+Saturday,False,late evening,low,heavy,low,no,heavy,no
+Saturday,False,late morning,high,heavy,low,no,heavy,no
+Saturday,False,morning,medium,heavy,low,no,light,no
+Saturday,False,night,low,medium,low,no,no,no
+Sunday,False,afternoon,high,medium,low,no,no,no
+Sunday,False,early evening,high,medium,low,no,no,no
+Sunday,False,early morning,low,low,low,light,heavy,light
+Sunday,False,evening,low,medium,low,no,no,light
+Sunday,False,late evening,low,medium,low,no,no,light
+Sunday,False,late morning,high,medium,low,no,moderate,heavy
+Sunday,False,morning,medium,medium,low,no,heavy,heavy
+Sunday,False,night,low,medium,low,light,heavy,no
+Monday,False,afternoon,high,medium,medium,no,no,no
+Monday,False,early evening,medium,medium,medium,no,light,no
+Monday,False,early morning,low,low,low,no,no,no
+Monday,False,evening,low,medium,medium,no,no,no
+Monday,False,late evening,low,medium,medium,no,no,no
+Monday,False,late morning,high,medium,medium,no,no,light
+Monday,False,morning,medium,medium,low,no,no,no
+Monday,False,night,low,low,low,no,no,moderate
+Tuesday,False,afternoon,high,heavy,medium,no,no,no
+Tuesday,False,early evening,high,heavy,medium,no,no,no
+Tuesday,False,early morning,low,low,medium,no,light,no
+Tuesday,False,evening,low,medium,medium,no,no,no
+Tuesday,False,late evening,low,medium,medium,no,no,no
+Tuesday,False,late morning,high,medium,medium,no,no,no
+Tuesday,False,morning,medium,heavy,low,no,light,no
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,high,medium,medium,no,moderate,no
+Wednesday,False,early evening,medium,medium,medium,no,heavy,no
+Wednesday,False,early morning,low,low,medium,no,no,no
+Wednesday,False,evening,low,medium,medium,no,moderate,no
+Wednesday,False,late evening,low,medium,medium,no,no,no
+Wednesday,False,late morning,high,medium,low,no,moderate,no
+Wednesday,False,morning,medium,medium,low,no,no,no
+Wednesday,False,night,low,low,medium,no,no,no
+Thursday,False,afternoon,high,medium,medium,no,no,no
+Thursday,False,early evening,high,medium,medium,no,no,no
+Thursday,False,early morning,low,low,medium,no,no,no
+Thursday,False,evening,low,medium,medium,no,no,no
+Thursday,False,late evening,low,medium,medium,no,no,no
+Thursday,False,late morning,high,medium,medium,no,no,no
+Thursday,False,morning,medium,medium,low,no,no,no
+Thursday,False,night,low,low,medium,no,no,no
+Friday,False,afternoon,high,medium,low,no,no,light
+Friday,False,early evening,high,medium,low,no,no,heavy
+Friday,False,early morning,low,low,medium,no,no,no
+Friday,False,evening,low,medium,medium,no,no,no
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,high,medium,medium,no,no,light
+Friday,False,morning,medium,medium,medium,no,no,light
+Friday,False,night,low,low,medium,no,no,no
+Saturday,False,afternoon,high,medium,medium,no,no,no
+Saturday,False,early evening,high,medium,medium,no,no,no
+Saturday,False,early morning,low,low,medium,no,no,no
+Saturday,False,evening,low,medium,medium,no,no,no
+Saturday,False,late evening,low,medium,medium,no,no,no
+Saturday,False,late morning,high,medium,medium,no,no,no
+Saturday,False,morning,medium,medium,medium,no,no,no
+Saturday,False,night,low,low,medium,no,no,no
+Sunday,False,afternoon,high,medium,medium,no,no,light
+Sunday,False,early evening,high,medium,medium,no,no,moderate
+Sunday,False,early morning,low,low,high,no,no,no
+Sunday,False,evening,low,medium,medium,no,no,light
+Sunday,False,late evening,low,medium,medium,no,no,moderate
+Sunday,False,late morning,high,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,high,no,no,no
+Sunday,False,night,low,medium,medium,no,no,no
+Monday,False,afternoon,high,medium,medium,no,no,moderate
+Monday,False,early evening,medium,medium,medium,no,no,moderate
+Monday,False,early morning,low,medium,medium,no,no,heavy
+Monday,False,evening,low,medium,medium,no,no,light
+Monday,False,late evening,low,medium,medium,light,no,no
+Monday,False,late morning,high,medium,medium,no,no,moderate
+Monday,False,morning,medium,medium,low,no,no,no
+Monday,False,night,low,low,high,no,no,heavy
+Tuesday,False,afternoon,high,medium,medium,no,light,no
+Tuesday,False,early evening,medium,medium,medium,no,moderate,no
+Tuesday,False,early morning,low,medium,medium,light,no,light
+Tuesday,False,evening,low,medium,medium,no,no,no
+Tuesday,False,late evening,low,medium,medium,no,no,no
+Tuesday,False,late morning,high,medium,medium,no,no,no
+Tuesday,False,morning,medium,medium,low,no,no,no
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,high,heavy,medium,no,light,no
+Wednesday,False,early evening,medium,medium,medium,no,no,no
+Wednesday,False,early morning,low,medium,medium,no,no,no
+Wednesday,False,evening,low,medium,medium,no,no,no
+Wednesday,False,late evening,low,medium,medium,no,no,no
+Wednesday,False,late morning,high,medium,medium,no,no,no
+Wednesday,False,morning,medium,medium,low,no,no,no
+Wednesday,False,night,low,low,medium,no,no,no
+Thursday,False,afternoon,high,heavy,low,no,no,light
+Thursday,False,early evening,medium,medium,medium,no,no,no
+Thursday,False,early morning,low,medium,medium,no,no,no
+Thursday,False,evening,low,medium,medium,no,no,no
+Thursday,False,late evening,low,medium,medium,no,no,no
+Thursday,False,late morning,high,medium,low,no,no,light
+Thursday,False,morning,medium,heavy,medium,no,no,moderate
+Thursday,False,night,low,low,medium,no,no,no
+Friday,False,afternoon,high,heavy,medium,no,no,no
+Friday,False,early evening,medium,medium,medium,no,no,no
+Friday,False,early morning,low,medium,medium,no,no,no
+Friday,False,evening,low,medium,medium,no,no,moderate
+Friday,False,late evening,low,medium,medium,no,no,moderate
+Friday,False,late morning,high,heavy,low,no,no,no
+Friday,False,morning,medium,heavy,low,no,no,no
+Friday,False,night,low,low,medium,no,no,no
+Saturday,False,afternoon,high,heavy,medium,no,heavy,no
+Saturday,False,early evening,high,heavy,medium,no,heavy,no
+Saturday,False,early morning,low,low,medium,no,no,no
+Saturday,False,evening,low,medium,medium,no,heavy,no
+Saturday,False,late evening,low,medium,medium,no,moderate,no
+Saturday,False,late morning,high,medium,medium,no,no,light
+Saturday,False,morning,medium,medium,medium,no,no,light
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,high,heavy,medium,no,no,no
+Sunday,False,early evening,high,medium,medium,no,no,moderate
+Sunday,False,early morning,low,low,medium,no,no,heavy
+Sunday,False,evening,low,medium,medium,no,no,light
+Sunday,False,late evening,low,medium,medium,no,no,heavy
+Sunday,False,late morning,high,medium,medium,no,no,no
+Sunday,False,morning,medium,medium,medium,no,no,no
+Sunday,False,night,low,medium,medium,no,no,no
+Monday,False,afternoon,high,heavy,medium,no,moderate,no
+Monday,False,early evening,medium,heavy,medium,no,heavy,no
+Monday,False,early morning,low,medium,medium,no,no,heavy
+Monday,False,evening,low,heavy,medium,no,heavy,no
+Monday,False,late evening,low,medium,medium,no,heavy,light
+Monday,False,late morning,high,heavy,medium,no,moderate,no
+Monday,False,morning,medium,heavy,medium,no,light,heavy
+Monday,False,night,low,medium,medium,no,no,heavy
+Tuesday,False,afternoon,high,heavy,medium,no,light,light
+Tuesday,False,early evening,medium,heavy,medium,no,moderate,no
+Tuesday,False,early morning,low,medium,medium,no,heavy,no
+Tuesday,False,evening,low,heavy,medium,no,heavy,no
+Tuesday,False,late evening,low,heavy,medium,no,no,heavy
+Tuesday,False,late morning,high,heavy,medium,no,heavy,light
+Tuesday,False,morning,medium,heavy,medium,no,heavy,no
+Tuesday,False,night,low,medium,medium,no,heavy,heavy
+Wednesday,False,afternoon,medium,heavy,low,no,no,no
+Wednesday,False,early evening,medium,heavy,low,no,no,no
+Wednesday,False,early morning,low,medium,medium,no,no,moderate
+Wednesday,False,evening,low,heavy,low,no,no,light
+Wednesday,False,late evening,low,medium,low,no,no,light
+Wednesday,False,late morning,medium,heavy,low,no,no,no
+Wednesday,False,morning,medium,heavy,low,no,no,moderate
+Wednesday,False,night,low,medium,medium,no,no,heavy
+Thursday,False,afternoon,medium,heavy,low,light,heavy,light
+Thursday,False,early evening,medium,heavy,low,light,heavy,light
+Thursday,False,early morning,low,medium,low,light,moderate,no
+Thursday,False,evening,low,heavy,medium,light,heavy,no
+Thursday,False,late evening,low,heavy,medium,no,heavy,no
+Thursday,False,late morning,medium,heavy,low,light,heavy,no
+Thursday,False,morning,medium,heavy,low,light,heavy,no
+Thursday,False,night,low,medium,low,no,light,no
+Friday,False,afternoon,high,heavy,low,no,light,no
+Friday,False,early evening,medium,heavy,medium,no,moderate,no
+Friday,False,early morning,low,medium,medium,light,heavy,no
+Friday,False,evening,low,heavy,medium,no,no,no
+Friday,False,late evening,low,heavy,medium,no,no,no
+Friday,False,late morning,high,heavy,medium,no,no,no
+Friday,False,morning,medium,heavy,low,no,moderate,no
+Friday,False,night,low,medium,medium,no,heavy,no
+Saturday,False,afternoon,high,heavy,medium,no,no,no
+Saturday,False,early evening,high,heavy,medium,no,no,no
+Saturday,False,early morning,low,medium,medium,no,no,no
+Saturday,False,evening,low,heavy,medium,no,no,no
+Saturday,False,late evening,low,medium,medium,no,no,no
+Saturday,False,late morning,high,heavy,medium,no,no,no
+Saturday,False,morning,medium,medium,medium,no,no,no
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,high,heavy,medium,no,heavy,no
+Sunday,False,early evening,medium,heavy,medium,no,heavy,no
+Sunday,False,early morning,low,medium,medium,no,moderate,heavy
+Sunday,False,evening,low,medium,medium,no,heavy,no
+Sunday,False,late evening,low,medium,medium,no,heavy,light
+Sunday,False,late morning,high,heavy,medium,no,heavy,no
+Sunday,False,morning,medium,medium,medium,no,heavy,heavy
+Sunday,False,night,low,medium,medium,no,light,no
+Monday,False,afternoon,high,heavy,medium,no,no,heavy
+Monday,False,early evening,medium,heavy,medium,no,no,heavy
+Monday,False,early morning,low,medium,medium,no,heavy,no
+Monday,False,evening,low,medium,medium,no,light,moderate
+Monday,False,late evening,low,medium,medium,no,no,moderate
+Monday,False,late morning,high,heavy,medium,no,no,heavy
+Monday,False,morning,medium,heavy,low,no,heavy,light
+Monday,False,night,low,medium,medium,no,moderate,light
+Tuesday,False,afternoon,high,heavy,medium,no,no,heavy
+Tuesday,False,early evening,medium,heavy,medium,no,no,heavy
+Tuesday,False,early morning,low,medium,medium,light,heavy,moderate
+Tuesday,False,evening,low,medium,medium,no,no,heavy
+Tuesday,False,late evening,low,medium,medium,no,no,light
+Tuesday,False,late morning,high,heavy,medium,no,no,heavy
+Tuesday,False,morning,medium,heavy,low,light,heavy,heavy
+Tuesday,False,night,low,medium,medium,light,no,no
+Wednesday,False,afternoon,medium,heavy,medium,light,no,moderate
+Wednesday,False,early evening,medium,heavy,medium,light,no,moderate
+Wednesday,False,early morning,low,medium,medium,no,no,no
+Wednesday,False,evening,low,medium,medium,light,no,light
+Wednesday,False,late evening,low,medium,medium,light,no,light
+Wednesday,False,late morning,medium,heavy,medium,no,no,light
+Wednesday,False,morning,medium,heavy,medium,no,no,no
+Wednesday,False,night,low,medium,medium,no,no,light
+Thursday,False,afternoon,high,heavy,medium,no,no,no
+Thursday,False,early evening,medium,heavy,medium,no,no,no
+Thursday,False,early morning,low,medium,medium,light,no,no
+Thursday,False,evening,low,medium,medium,no,no,no
+Thursday,False,late evening,low,medium,medium,no,no,no
+Thursday,False,late morning,high,heavy,medium,no,no,no
+Thursday,False,morning,medium,heavy,low,light,no,no
+Thursday,False,night,low,medium,medium,light,no,no
+Friday,False,afternoon,high,heavy,low,no,heavy,no
+Friday,False,early evening,medium,heavy,low,no,heavy,no
+Friday,False,early morning,low,medium,medium,no,no,no
+Friday,False,evening,low,heavy,medium,no,heavy,no
+Friday,False,late evening,low,medium,medium,no,heavy,no
+Friday,False,late morning,high,heavy,low,no,no,no
+Friday,False,morning,medium,heavy,low,no,no,no
+Friday,False,night,low,medium,medium,no,no,no
+Saturday,False,afternoon,high,heavy,medium,no,moderate,moderate
+Saturday,False,early evening,medium,heavy,medium,no,no,no
+Saturday,False,early morning,low,medium,medium,no,moderate,no
+Saturday,False,evening,low,heavy,medium,no,no,no
+Saturday,False,late evening,low,medium,medium,no,no,no
+Saturday,False,late morning,high,heavy,medium,no,heavy,no
+Saturday,False,morning,medium,medium,medium,no,no,no
+Saturday,False,night,low,medium,medium,no,heavy,no
+Sunday,False,afternoon,high,heavy,medium,no,no,heavy
+Sunday,False,early evening,medium,heavy,medium,no,no,moderate
+Sunday,False,early morning,low,medium,medium,no,no,no
+Sunday,False,evening,low,medium,medium,no,no,no
+Sunday,False,late evening,low,medium,medium,no,light,light
+Sunday,False,late morning,high,heavy,medium,no,no,moderate
+Sunday,False,morning,medium,medium,medium,no,no,light
+Sunday,False,night,low,medium,medium,no,no,no
+Monday,True,afternoon,high,heavy,medium,no,light,no
+Monday,True,early evening,medium,heavy,medium,no,no,no
+Monday,True,early morning,low,medium,medium,no,heavy,no
+Monday,False,evening,low,medium,medium,no,no,no
+Monday,False,late evening,low,medium,medium,no,no,no
+Monday,True,late morning,high,heavy,medium,no,moderate,no
+Monday,True,morning,medium,heavy,medium,no,moderate,no
+Monday,True,night,low,low,medium,no,light,light
+Tuesday,False,afternoon,high,heavy,medium,no,no,no
+Tuesday,False,early evening,medium,heavy,medium,no,no,moderate
+Tuesday,False,early morning,low,medium,medium,no,no,no
+Tuesday,False,evening,low,heavy,medium,no,no,no
+Tuesday,False,late evening,low,medium,medium,no,no,no
+Tuesday,False,late morning,high,heavy,medium,no,no,no
+Tuesday,False,morning,medium,heavy,low,no,no,no
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,medium,heavy,low,light,light,heavy
+Wednesday,False,early evening,low,heavy,low,light,no,heavy
+Wednesday,False,early morning,low,medium,medium,no,no,no
+Wednesday,False,evening,low,heavy,low,light,no,heavy
+Wednesday,False,late evening,low,medium,medium,moderate,moderate,heavy
+Wednesday,False,late morning,medium,heavy,medium,no,light,light
+Wednesday,False,morning,medium,heavy,low,no,no,no
+Wednesday,False,night,low,medium,medium,no,no,light
+Thursday,False,afternoon,high,heavy,medium,no,moderate,no
+Thursday,False,early evening,medium,heavy,low,no,heavy,no
+Thursday,False,early morning,low,medium,medium,light,moderate,no
+Thursday,False,evening,low,heavy,medium,no,moderate,no
+Thursday,False,late evening,low,heavy,medium,no,moderate,no
+Thursday,False,late morning,high,heavy,medium,no,light,no
+Thursday,False,morning,medium,heavy,medium,no,no,no
+Thursday,False,night,low,medium,medium,heavy,heavy,moderate
+Friday,False,afternoon,high,heavy,low,no,light,no
+Friday,False,early evening,medium,heavy,low,no,moderate,no
+Friday,False,early morning,low,medium,medium,no,moderate,no
+Friday,False,evening,low,heavy,medium,no,no,no
+Friday,False,late evening,low,heavy,medium,no,no,no
+Friday,False,late morning,high,heavy,medium,no,no,no
+Friday,False,morning,medium,heavy,medium,no,no,no
+Friday,False,night,low,medium,medium,no,heavy,moderate
+Saturday,False,afternoon,high,heavy,medium,no,no,no
+Saturday,False,early evening,medium,heavy,medium,no,no,no
+Saturday,False,early morning,low,medium,medium,no,no,no
+Saturday,False,evening,low,heavy,medium,no,no,light
+Saturday,False,late evening,low,heavy,medium,no,no,heavy
+Saturday,False,late morning,high,heavy,medium,no,no,no
+Saturday,False,morning,medium,heavy,medium,no,no,no
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,medium,heavy,medium,no,light,heavy
+Sunday,False,early evening,low,heavy,medium,light,light,heavy
+Sunday,False,early morning,low,medium,medium,no,no,heavy
+Sunday,False,evening,low,heavy,medium,light,no,heavy
+Sunday,False,late evening,low,medium,medium,light,heavy,heavy
+Sunday,False,late morning,high,heavy,medium,no,no,heavy
+Sunday,False,morning,medium,medium,high,no,no,heavy
+Sunday,False,night,low,medium,medium,no,no,heavy
+Monday,False,afternoon,high,heavy,medium,no,no,no
+Monday,False,early evening,medium,heavy,medium,no,no,no
+Monday,False,early morning,low,medium,medium,no,light,light
+Monday,False,evening,low,heavy,medium,no,no,no
+Monday,False,late evening,low,heavy,medium,no,no,no
+Monday,False,late morning,high,heavy,medium,no,no,no
+Monday,False,morning,medium,heavy,medium,no,no,no
+Monday,False,night,low,medium,medium,light,heavy,light
+Tuesday,False,afternoon,medium,heavy,medium,no,heavy,heavy
+Tuesday,False,early evening,medium,heavy,medium,no,heavy,light
+Tuesday,False,early morning,low,heavy,medium,no,no,heavy
+Tuesday,False,evening,low,heavy,medium,no,heavy,moderate
+Tuesday,False,late evening,low,heavy,medium,light,heavy,light
+Tuesday,False,late morning,medium,heavy,medium,no,moderate,heavy
+Tuesday,False,morning,medium,heavy,medium,no,no,heavy
+Tuesday,False,night,low,medium,medium,no,no,no
+Wednesday,False,afternoon,high,heavy,medium,no,no,no
+Wednesday,False,early evening,medium,heavy,medium,no,no,no
+Wednesday,False,early morning,low,heavy,medium,light,heavy,no
+Wednesday,False,evening,low,heavy,medium,no,no,no
+Wednesday,False,late evening,low,heavy,medium,no,no,no
+Wednesday,False,late morning,high,heavy,medium,no,no,no
+Wednesday,False,morning,medium,heavy,low,no,light,no
+Wednesday,False,night,low,medium,medium,light,heavy,no
+Thursday,False,afternoon,high,heavy,medium,no,no,no
+Thursday,False,early evening,medium,heavy,low,no,no,no
+Thursday,False,early morning,low,heavy,medium,no,no,no
+Thursday,False,evening,low,heavy,medium,no,no,no
+Thursday,False,late evening,low,heavy,medium,no,no,no
+Thursday,False,late morning,high,heavy,low,no,no,no
+Thursday,False,morning,medium,heavy,low,no,no,no
+Thursday,False,night,low,medium,medium,no,no,no
+Friday,False,afternoon,high,heavy,medium,no,no,heavy
+Friday,False,early evening,medium,heavy,medium,no,no,heavy
+Friday,False,early morning,low,heavy,medium,no,no,no
+Friday,False,evening,low,heavy,medium,no,no,heavy
+Friday,False,late evening,low,heavy,medium,no,no,heavy
+Friday,False,late morning,high,heavy,medium,no,no,heavy
+Friday,False,morning,medium,heavy,medium,no,no,no
+Friday,False,night,low,heavy,medium,no,no,no
+Saturday,False,afternoon,high,heavy,medium,no,no,moderate
+Saturday,False,early evening,medium,heavy,medium,no,no,heavy
+Saturday,False,early morning,low,medium,medium,no,no,heavy
+Saturday,False,evening,low,heavy,medium,no,no,heavy
+Saturday,False,late evening,low,heavy,medium,no,no,heavy
+Saturday,False,late morning,high,heavy,medium,no,no,moderate
+Saturday,False,morning,medium,heavy,medium,no,no,heavy
+Saturday,False,night,low,heavy,medium,no,no,heavy
+Sunday,False,afternoon,medium,heavy,medium,moderate,heavy,heavy
+Sunday,False,early evening,medium,heavy,medium,moderate,heavy,light
+Sunday,False,early morning,low,medium,medium,light,no,heavy
+Sunday,False,evening,low,heavy,medium,light,heavy,no
+Sunday,False,late evening,low,heavy,medium,no,heavy,no
+Sunday,False,late morning,medium,heavy,medium,light,moderate,heavy
+Sunday,False,morning,medium,heavy,medium,light,no,moderate
+Sunday,False,night,low,heavy,medium,no,no,heavy
+Monday,False,afternoon,high,heavy,medium,no,light,no
+Monday,False,early evening,medium,heavy,medium,no,heavy,no
+Monday,False,early morning,low,heavy,medium,no,no,no
+Monday,False,evening,low,heavy,medium,no,heavy,no
+Monday,False,late evening,low,heavy,medium,no,heavy,no
+Monday,False,late morning,high,heavy,low,no,light,no
+Monday,False,morning,medium,heavy,low,no,no,no
+Monday,False,night,low,medium,medium,no,moderate,no
+Tuesday,False,afternoon,medium,heavy,medium,no,heavy,no
+Tuesday,False,early evening,medium,heavy,low,no,heavy,no
+Tuesday,False,early morning,low,heavy,medium,no,heavy,no
+Tuesday,False,evening,low,heavy,medium,no,heavy,no
+Tuesday,False,late evening,low,heavy,medium,light,heavy,no
+Tuesday,False,late morning,high,heavy,low,no,heavy,no
+Tuesday,False,morning,medium,heavy,low,no,heavy,no
+Tuesday,False,night,low,heavy,medium,no,heavy,no
+Wednesday,False,afternoon,high,heavy,medium,no,heavy,heavy
+Wednesday,False,early evening,medium,heavy,medium,no,heavy,heavy
+Wednesday,False,early morning,low,heavy,medium,light,heavy,heavy
+Wednesday,True,evening,low,heavy,medium,no,heavy,heavy
+Wednesday,True,late evening,low,heavy,medium,no,heavy,heavy
+Wednesday,False,late morning,high,heavy,medium,no,heavy,heavy
+Wednesday,False,morning,medium,heavy,low,light,heavy,heavy
+Wednesday,False,night,low,heavy,medium,no,heavy,moderate
+Thursday,True,afternoon,medium,heavy,medium,light,heavy,heavy
+Thursday,True,early evening,low,heavy,medium,light,heavy,heavy
+Thursday,True,early morning,low,heavy,medium,light,heavy,heavy
+Thursday,False,evening,low,heavy,medium,light,heavy,heavy
+Thursday,False,late evening,low,heavy,medium,no,moderate,heavy
+Thursday,True,late morning,medium,heavy,medium,light,heavy,moderate
+Thursday,True,morning,medium,heavy,low,light,light,heavy
+Thursday,True,night,low,medium,medium,no,heavy,heavy
+Friday,False,afternoon,high,heavy,low,no,no,no
+Friday,False,early evening,medium,heavy,medium,no,no,no
+Friday,False,early morning,low,heavy,medium,light,light,heavy
+Friday,False,evening,low,heavy,medium,no,no,no
+Friday,False,late evening,low,heavy,medium,no,no,no
+Friday,False,late morning,high,heavy,medium,no,no,no
+Friday,False,morning,medium,heavy,low,light,no,light
+Friday,False,night,low,medium,medium,no,no,heavy
+Saturday,False,afternoon,high,heavy,medium,no,light,no
+Saturday,False,early evening,medium,heavy,medium,no,heavy,no
+Saturday,False,early morning,low,heavy,medium,no,no,no
+Saturday,True,evening,low,heavy,medium,no,heavy,no
+Saturday,True,late evening,low,heavy,medium,no,moderate,no
+Saturday,False,late morning,high,heavy,medium,no,no,no
+Saturday,False,morning,medium,heavy,medium,no,no,no
+Saturday,False,night,low,heavy,medium,no,no,no
+Sunday,True,afternoon,high,heavy,low,no,no,no
+Sunday,True,early evening,low,heavy,medium,no,moderate,no
+Sunday,True,early morning,low,medium,medium,no,no,no
+Sunday,False,evening,low,heavy,medium,no,moderate,no
+Sunday,False,late evening,low,medium,medium,no,no,no
+Sunday,True,late morning,high,heavy,low,no,no,no
+Sunday,True,morning,medium,medium,low,no,no,no
+Sunday,True,night,low,medium,medium,no,light,no
+Monday,False,afternoon,high,medium,medium,no,no,no
+Monday,False,early evening,low,medium,medium,no,no,heavy
+Monday,False,early morning,low,low,medium,no,no,no
+Monday,False,evening,low,medium,medium,no,no,light
+Monday,False,late evening,low,medium,medium,no,no,no
+Monday,False,late morning,high,medium,medium,no,no,no
+Monday,False,morning,medium,heavy,low,no,no,moderate
+Monday,False,night,low,medium,medium,no,no,no
+Tuesday,False,afternoon,high,heavy,medium,light,moderate,heavy
+Tuesday,False,early evening,low,heavy,medium,no,no,heavy
+Tuesday,False,early morning,low,medium,medium,no,no,light
+Tuesday,False,evening,low,medium,high,no,no,moderate
+Tuesday,False,late evening,low,medium,medium,no,no,no
+Tuesday,False,late morning,high,heavy,medium,light,heavy,heavy
+Tuesday,False,morning,medium,heavy,medium,no,no,light
+Tuesday,False,night,low,medium,medium,no,no,no
+Wednesday,False,afternoon,high,heavy,medium,no,no,no
+Wednesday,False,early evening,low,heavy,medium,no,no,no
+Wednesday,False,early morning,low,medium,medium,no,no,no
+Wednesday,False,evening,low,heavy,medium,no,no,no
+Wednesday,False,late evening,low,medium,medium,no,no,no
+Wednesday,False,late morning,high,heavy,medium,no,no,no
+Wednesday,False,morning,medium,heavy,low,no,no,no
+Wednesday,False,night,low,medium,medium,no,no,moderate
+Thursday,False,afternoon,medium,heavy,medium,no,no,heavy
+Thursday,False,early evening,low,heavy,low,no,no,heavy
+Thursday,False,early morning,low,medium,medium,no,no,no
+Thursday,False,evening,low,heavy,medium,light,no,heavy
+Thursday,False,late evening,low,medium,medium,light,heavy,heavy
+Thursday,False,late morning,medium,heavy,medium,no,no,light
+Thursday,False,morning,medium,heavy,low,no,no,no
+Thursday,False,night,low,medium,medium,no,no,no
+Friday,False,afternoon,high,heavy,low,no,no,no
+Friday,False,early evening,low,heavy,medium,no,no,no
+Friday,False,early morning,low,medium,medium,light,heavy,heavy
+Friday,False,evening,low,heavy,medium,no,no,no
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,high,heavy,medium,no,no,no
+Friday,False,morning,medium,heavy,medium,no,no,no
+Friday,False,night,low,medium,medium,light,moderate,heavy
+Saturday,False,afternoon,high,heavy,low,no,no,moderate
+Saturday,False,early evening,low,medium,low,no,no,heavy
+Saturday,False,early morning,low,medium,medium,no,no,no
+Saturday,False,evening,low,medium,medium,no,no,no
+Saturday,False,late evening,low,medium,medium,no,no,no
+Saturday,False,late morning,high,medium,medium,no,no,no
+Saturday,False,morning,medium,medium,medium,no,no,no
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,high,medium,medium,no,no,light
+Sunday,False,early evening,low,medium,low,no,no,no
+Sunday,False,early morning,low,medium,medium,no,no,light
+Sunday,True,evening,low,medium,medium,no,no,light
+Sunday,True,late evening,low,medium,medium,no,no,no
+Sunday,False,late morning,high,medium,medium,no,no,heavy
+Sunday,False,morning,medium,medium,medium,no,no,light
+Sunday,False,night,low,medium,medium,no,no,no
+Monday,True,afternoon,high,medium,medium,no,no,heavy
+Monday,True,early evening,low,medium,medium,no,no,heavy
+Monday,True,early morning,low,low,medium,no,no,no
+Monday,False,evening,low,medium,medium,no,no,heavy
+Monday,False,late evening,low,medium,medium,no,no,heavy
+Monday,True,late morning,high,medium,medium,no,no,moderate
+Monday,True,morning,medium,medium,medium,no,no,moderate
+Monday,True,night,low,medium,medium,no,no,no
+Tuesday,False,afternoon,medium,medium,low,light,moderate,heavy
+Tuesday,False,early evening,low,medium,low,no,no,heavy
+Tuesday,False,early morning,low,medium,medium,no,no,heavy
+Tuesday,False,evening,low,medium,medium,no,no,heavy
+Tuesday,False,late evening,low,medium,medium,no,no,moderate
+Tuesday,False,late morning,medium,medium,low,no,no,heavy
+Tuesday,False,morning,medium,medium,low,no,no,heavy
+Tuesday,False,night,low,low,medium,no,no,heavy
+Wednesday,False,afternoon,medium,medium,medium,no,no,no
+Wednesday,False,early evening,low,medium,medium,no,no,no
+Wednesday,False,early morning,low,medium,medium,no,no,no
+Wednesday,False,evening,low,medium,medium,no,no,no
+Wednesday,False,late evening,low,medium,medium,no,no,no
+Wednesday,False,late morning,medium,medium,medium,no,no,no
+Wednesday,False,morning,medium,medium,low,no,light,no
+Wednesday,False,night,low,medium,medium,no,no,no
+Thursday,False,afternoon,medium,medium,medium,no,no,heavy
+Thursday,False,early evening,low,medium,medium,no,no,moderate
+Thursday,False,early morning,low,medium,medium,no,no,heavy
+Thursday,False,evening,low,medium,medium,no,no,heavy
+Thursday,False,late evening,low,medium,medium,no,no,moderate
+Thursday,False,late morning,medium,medium,medium,no,no,heavy
+Thursday,False,morning,medium,medium,low,no,no,heavy
+Thursday,False,night,low,medium,medium,no,no,no
+Friday,False,afternoon,high,medium,medium,no,no,light
+Friday,False,early evening,low,medium,medium,no,no,light
+Friday,False,early morning,low,medium,medium,no,no,moderate
+Friday,False,evening,low,medium,medium,no,no,heavy
+Friday,False,late evening,low,medium,medium,no,no,heavy
+Friday,False,late morning,high,medium,medium,no,no,light
+Friday,False,morning,medium,medium,low,no,no,no
+Friday,False,night,low,medium,medium,no,no,heavy
+Saturday,False,afternoon,high,medium,medium,no,no,no
+Saturday,False,early evening,low,medium,medium,no,no,no
+Saturday,False,early morning,low,low,medium,no,no,no
+Saturday,False,evening,low,medium,medium,no,no,no
+Saturday,False,late evening,low,medium,medium,no,no,no
+Saturday,False,late morning,high,medium,medium,no,no,no
+Saturday,False,morning,medium,medium,medium,no,no,no
+Saturday,False,night,low,medium,medium,no,no,heavy
+Sunday,False,afternoon,high,medium,medium,no,heavy,heavy
+Sunday,False,early evening,low,medium,medium,no,heavy,heavy
+Sunday,False,early morning,low,low,medium,no,no,light
+Sunday,False,evening,low,medium,medium,no,heavy,light
+Sunday,False,late evening,low,medium,medium,no,heavy,heavy
+Sunday,False,late morning,high,medium,medium,no,heavy,heavy
+Sunday,False,morning,medium,medium,high,no,heavy,heavy
+Sunday,False,night,low,medium,medium,no,no,no
+Monday,False,afternoon,medium,medium,medium,no,heavy,light
+Monday,False,early evening,low,medium,medium,light,heavy,heavy
+Monday,False,early morning,low,low,medium,no,heavy,heavy
+Monday,False,evening,low,medium,medium,no,heavy,heavy
+Monday,False,late evening,low,medium,medium,light,heavy,heavy
+Monday,False,late morning,medium,medium,medium,no,heavy,light
+Monday,False,morning,medium,medium,low,no,heavy,heavy
+Monday,False,night,low,low,medium,no,heavy,heavy
+Tuesday,False,afternoon,medium,medium,medium,no,moderate,no
+Tuesday,False,early evening,low,medium,medium,no,heavy,no
+Tuesday,False,early morning,low,low,medium,light,heavy,no
+Tuesday,False,evening,low,medium,medium,no,heavy,no
+Tuesday,False,late evening,low,low,medium,no,light,heavy
+Tuesday,False,late morning,medium,medium,medium,no,heavy,no
+Tuesday,False,morning,medium,medium,low,light,heavy,light
+Tuesday,False,night,low,low,medium,light,heavy,light
+Wednesday,False,afternoon,medium,medium,medium,no,moderate,heavy
+Wednesday,False,early evening,low,medium,medium,no,light,no
+Wednesday,False,early morning,low,low,medium,no,light,heavy
+Wednesday,False,evening,low,medium,medium,no,no,no
+Wednesday,False,late evening,low,low,medium,no,no,no
+Wednesday,False,late morning,medium,medium,medium,no,no,moderate
+Wednesday,False,morning,medium,medium,low,no,no,light
+Wednesday,False,night,low,low,medium,no,light,heavy
+Thursday,False,afternoon,medium,medium,medium,no,no,no
+Thursday,False,early evening,low,medium,medium,no,no,moderate
+Thursday,False,early morning,low,low,medium,no,no,no
+Thursday,False,evening,low,medium,medium,no,no,heavy
+Thursday,False,late evening,low,low,medium,no,no,heavy
+Thursday,False,late morning,medium,medium,medium,no,no,no
+Thursday,False,morning,medium,medium,medium,no,no,no
+Thursday,False,night,low,low,medium,no,light,no
+Friday,False,afternoon,medium,medium,low,no,moderate,heavy
+Friday,False,early evening,low,medium,medium,light,heavy,heavy
+Friday,False,early morning,low,low,medium,no,no,no
+Friday,False,evening,low,medium,medium,light,no,heavy
+Friday,False,late evening,low,medium,medium,no,no,no
+Friday,False,late morning,medium,medium,medium,no,moderate,moderate
+Friday,False,morning,medium,medium,medium,no,no,light
+Friday,False,night,low,low,medium,no,no,heavy
+Saturday,False,afternoon,high,medium,medium,no,no,no
+Saturday,False,early evening,low,medium,medium,no,no,heavy
+Saturday,False,early morning,low,low,medium,no,no,no
+Saturday,False,evening,low,medium,medium,no,no,heavy
+Saturday,False,late evening,low,medium,medium,no,no,heavy
+Saturday,False,late morning,high,medium,medium,no,no,no
+Saturday,False,morning,medium,medium,medium,no,no,no
+Saturday,False,night,low,medium,medium,no,no,no
+Sunday,False,afternoon,medium,medium,medium,moderate,heavy,no
+Sunday,False,early evening,low,medium,medium,light,heavy,no
+Sunday,False,early morning,low,low,medium,light,heavy,heavy
+Sunday,False,evening,low,medium,medium,light,moderate,no
+Sunday,False,late evening,low,low,medium,light,no,light
+Sunday,False,late morning,medium,medium,medium,light,heavy,moderate
+Sunday,False,morning,low,low,medium,light,heavy,heavy
+Sunday,False,night,low,medium,medium,no,no,heavy
+Monday,False,afternoon,high,low,medium,no,no,no
+Monday,False,early evening,low,low,medium,no,no,no
+Monday,False,early morning,low,low,medium,no,no,no
+Monday,False,evening,low,low,medium,no,no,no
+Monday,False,late evening,low,low,medium,no,no,no
+Monday,False,late morning,high,low,low,no,no,light
+Monday,False,morning,medium,low,low,no,no,no
+Monday,False,night,low,low,medium,no,no,no
+Tuesday,False,afternoon,high,low,low,no,no,no
+Tuesday,False,early evening,low,low,low,no,no,no
+Tuesday,False,early morning,low,low,medium,no,no,no
+Tuesday,False,evening,low,low,medium,no,no,no
+Tuesday,False,late evening,low,low,medium,no,no,moderate
+Tuesday,False,late morning,high,low,low,no,no,light
+Tuesday,False,morning,medium,low,low,no,no,moderate
+Tuesday,False,night,low,low,medium,no,no,no
+Wednesday,False,afternoon,high,low,low,no,no,heavy
+Wednesday,False,early evening,low,low,medium,no,no,light
+Wednesday,False,early morning,low,low,medium,no,no,heavy
+Wednesday,True,evening,low,low,medium,light,moderate,no
+Wednesday,True,late evening,low,low,medium,light,heavy,no
+Wednesday,False,late morning,high,low,medium,no,no,heavy
+Wednesday,False,morning,medium,low,medium,no,no,moderate
+Wednesday,False,night,low,low,high,no,no,heavy
+Thursday,True,afternoon,high,low,medium,no,light,no
+Thursday,True,early evening,low,low,medium,no,heavy,no
+Thursday,True,early morning,low,low,high,no,no,no
+Thursday,True,evening,low,low,medium,no,no,no
+Thursday,True,late evening,low,low,medium,no,no,no
+Thursday,True,late morning,high,low,medium,no,light,no
+Thursday,True,morning,medium,low,high,no,no,no
+Thursday,True,night,low,low,medium,no,heavy,no
+Friday,True,afternoon,high,low,medium,no,no,heavy
+Friday,True,early evening,low,low,medium,no,no,no
+Friday,True,early morning,low,low,high,no,no,no
+Friday,False,evening,low,low,medium,no,no,no
+Friday,False,late evening,low,low,medium,no,no,no
+Friday,True,late morning,high,low,medium,no,no,light
+Friday,True,morning,medium,low,medium,no,no,no
+Friday,True,night,low,low,medium,no,no,no
+Saturday,False,afternoon,high,low,medium,no,no,light
+Saturday,False,early evening,medium,low,medium,no,no,light
+Saturday,False,early morning,low,low,high,no,no,heavy
+Saturday,False,evening,low,low,medium,no,no,heavy
+Saturday,False,late evening,low,low,medium,no,no,heavy
+Saturday,False,late morning,high,low,medium,no,no,heavy
+Saturday,False,morning,medium,low,high,no,no,light
+Saturday,False,night,low,low,high,no,no,light
+Sunday,False,afternoon,medium,low,medium,light,no,heavy
+Sunday,False,early evening,low,low,medium,light,heavy,heavy
+Sunday,False,early morning,low,low,high,no,no,moderate
+Sunday,False,evening,low,low,medium,light,heavy,moderate
+Sunday,False,late evening,low,low,medium,light,heavy,moderate
+Sunday,False,late morning,medium,low,medium,no,no,heavy
+Sunday,False,morning,medium,low,high,no,no,heavy
+Sunday,False,night,low,low,medium,no,no,heavy
+Monday,False,afternoon,medium,low,medium,light,heavy,light
+Monday,False,early evening,low,low,medium,light,heavy,heavy
+Monday,False,early morning,low,low,medium,light,heavy,no
+Monday,False,evening,low,low,medium,light,heavy,heavy
+Monday,False,late evening,low,low,medium,no,heavy,heavy
+Monday,False,late morning,medium,low,medium,light,heavy,light
+Monday,False,morning,medium,low,low,no,heavy,no
+Monday,False,night,low,low,medium,light,heavy,no
+Tuesday,False,afternoon,medium,low,medium,no,no,no
+Tuesday,False,early evening,low,low,medium,no,no,no
+Tuesday,False,early morning,low,low,medium,no,moderate,heavy
+Tuesday,False,evening,low,low,medium,no,no,no
+Tuesday,False,late evening,low,low,medium,no,no,no
+Tuesday,False,late morning,high,low,medium,no,light,heavy
+Tuesday,False,morning,medium,low,low,no,moderate,heavy
+Tuesday,False,night,low,low,medium,no,moderate,heavy
+Wednesday,False,afternoon,medium,low,medium,no,light,no
+Wednesday,False,early evening,low,low,medium,no,heavy,moderate
+Wednesday,False,early morning,low,low,medium,no,no,moderate
+Wednesday,False,evening,low,low,medium,no,heavy,no
+Wednesday,False,late evening,low,low,medium,no,heavy,no
+Wednesday,False,late morning,medium,low,medium,no,no,moderate
+Wednesday,False,morning,medium,low,low,no,no,heavy
+Wednesday,False,night,low,low,medium,no,no,light
+Thursday,False,afternoon,medium,low,medium,no,no,no
+Thursday,False,early evening,low,low,medium,no,light,no
+Thursday,False,early morning,low,low,medium,no,no,no
+Thursday,False,evening,low,low,medium,no,no,no
+Thursday,False,late evening,low,low,medium,no,moderate,no
+Thursday,False,late morning,high,low,medium,no,no,no
+Thursday,False,morning,medium,low,low,no,no,no
+Thursday,False,night,low,low,medium,no,light,no
+Friday,False,afternoon,high,low,low,no,no,moderate
+Friday,False,early evening,low,low,low,no,no,heavy
+Friday,False,early morning,low,low,medium,no,no,no
+Friday,False,evening,low,low,medium,no,no,heavy
+Friday,False,late evening,low,low,medium,no,light,heavy
+Friday,False,late morning,high,low,medium,no,no,heavy
+Friday,False,morning,medium,low,medium,no,no,light
+Friday,False,night,low,low,medium,no,light,no
+Saturday,False,afternoon,high,low,medium,no,no,moderate
+Saturday,False,early evening,low,low,medium,no,light,no
+Saturday,False,early morning,low,low,medium,no,no,no
+Saturday,False,evening,low,low,medium,no,no,no
+Saturday,False,late evening,low,low,medium,no,no,no
+Saturday,False,late morning,high,low,medium,no,no,moderate
+Saturday,False,morning,medium,low,medium,no,no,light
+Saturday,False,night,low,low,medium,no,no,no
+Sunday,False,afternoon,high,low,medium,no,no,heavy
+Sunday,False,early evening,low,low,medium,no,no,heavy
+Sunday,False,early morning,low,low,medium,no,no,no
+Sunday,False,evening,low,low,medium,no,no,heavy
+Sunday,False,late evening,low,low,medium,no,no,heavy
+Sunday,False,late morning,high,low,medium,no,no,no
+Sunday,False,morning,medium,low,high,no,no,no
+Sunday,False,night,low,low,medium,no,no,no
+Monday,False,afternoon,medium,low,low,light,heavy,heavy
+Monday,False,early evening,medium,low,low,light,heavy,heavy
+Monday,False,early morning,low,low,medium,no,moderate,heavy
+Monday,False,evening,medium,low,medium,light,heavy,heavy
+Monday,False,late evening,low,low,medium,moderate,heavy,heavy
+Monday,False,late morning,medium,low,low,light,heavy,heavy
+Monday,False,morning,low,low,low,light,heavy,heavy
+Monday,False,night,low,low,medium,no,no,heavy
+Tuesday,False,afternoon,medium,low,low,light,moderate,heavy
+Tuesday,False,early evening,low,low,low,light,heavy,heavy
+Tuesday,False,early morning,low,low,medium,light,heavy,heavy
+Tuesday,False,evening,low,low,medium,light,moderate,heavy
+Tuesday,False,late evening,low,low,medium,light,light,heavy
+Tuesday,False,late morning,medium,low,low,no,moderate,heavy
+Tuesday,False,morning,medium,low,low,no,heavy,heavy
+Tuesday,False,night,low,low,medium,light,heavy,heavy
+Wednesday,False,afternoon,medium,low,medium,light,moderate,light
+Wednesday,False,early evening,low,low,medium,no,heavy,no
+Wednesday,False,early morning,low,low,medium,light,no,heavy
+Wednesday,False,evening,low,low,medium,no,light,no
+Wednesday,False,late evening,low,low,medium,no,no,no
+Wednesday,False,late morning,medium,low,low,light,moderate,heavy
+Wednesday,False,morning,medium,low,low,light,moderate,heavy
+Wednesday,False,night,low,low,medium,light,no,heavy
+Thursday,False,afternoon,high,low,low,no,no,moderate
+Thursday,False,early evening,low,low,low,no,no,no
+Thursday,False,early morning,low,low,medium,no,no,no
+Thursday,False,evening,low,low,medium,no,no,light
+Thursday,False,late evening,low,low,medium,no,no,light
+Thursday,False,late morning,high,low,medium,no,no,no
+Thursday,False,morning,medium,low,low,no,no,no
+Thursday,False,night,low,low,medium,no,no,no
+Friday,False,afternoon,medium,low,low,no,heavy,heavy
+Friday,False,early evening,low,low,low,light,heavy,heavy
+Friday,False,early morning,low,low,medium,no,no,heavy
+Friday,False,evening,low,low,medium,light,heavy,heavy
+Friday,False,late evening,low,low,medium,light,heavy,heavy
+Friday,False,late morning,high,low,medium,no,moderate,heavy
+Friday,False,morning,medium,low,medium,no,heavy,heavy
+Friday,False,night,low,low,medium,no,no,heavy
+Saturday,False,afternoon,medium,low,medium,light,heavy,heavy
+Saturday,False,early evening,low,low,medium,light,heavy,heavy
+Saturday,False,early morning,low,low,medium,moderate,heavy,heavy
+Saturday,False,evening,low,low,medium,light,heavy,heavy
+Saturday,False,late evening,low,low,medium,no,heavy,heavy
+Saturday,False,late morning,high,low,medium,light,heavy,heavy
+Saturday,False,morning,medium,low,medium,light,heavy,heavy
+Saturday,False,night,low,low,medium,light,heavy,heavy
+Sunday,False,afternoon,high,low,medium,no,moderate,no
+Sunday,False,early evening,low,low,medium,no,light,no
+Sunday,False,early morning,low,low,medium,no,moderate,no
+Sunday,False,evening,low,low,medium,no,no,no
+Sunday,False,late evening,low,low,medium,no,heavy,no
+Sunday,False,late morning,high,low,medium,no,heavy,moderate
+Sunday,False,morning,medium,low,high,no,no,no
+Sunday,False,night,low,low,medium,no,heavy,no
+Monday,False,afternoon,medium,low,medium,no,light,moderate
+Monday,False,early evening,low,low,medium,no,heavy,heavy
+Monday,False,early morning,low,low,medium,no,no,heavy
+Monday,False,evening,low,low,medium,no,heavy,heavy
+Monday,False,late evening,low,low,medium,no,heavy,heavy
+Monday,False,late morning,medium,low,medium,no,no,moderate
+Monday,False,morning,medium,low,low,no,no,moderate
+Monday,False,night,low,low,medium,no,no,no
+Tuesday,False,afternoon,medium,low,low,light,heavy,heavy
+Tuesday,False,early evening,low,low,medium,light,heavy,heavy
+Tuesday,False,early morning,low,low,medium,light,heavy,heavy
+Tuesday,False,evening,low,low,medium,light,heavy,heavy
+Tuesday,False,late evening,low,low,medium,light,heavy,heavy
+Tuesday,False,late morning,medium,low,low,light,heavy,heavy
+Tuesday,False,morning,low,low,low,light,heavy,heavy
+Tuesday,False,night,low,low,medium,light,moderate,heavy
+Wednesday,False,afternoon,medium,low,low,no,no,no
+Wednesday,False,early evening,low,low,low,no,light,no
+Wednesday,False,early morning,low,low,medium,no,no,moderate
+Wednesday,False,evening,low,low,medium,no,no,no
+Wednesday,False,late evening,low,low,medium,no,no,no
+Wednesday,False,late morning,high,low,low,no,no,no
+Wednesday,False,morning,medium,low,medium,no,no,no
+Wednesday,False,night,low,low,medium,light,moderate,heavy
+Thursday,False,afternoon,medium,low,low,no,no,no
+Thursday,False,early evening,low,low,low,no,no,no
+Thursday,False,early morning,low,low,medium,no,light,no
+Thursday,False,evening,low,low,medium,no,no,no
+Thursday,False,late evening,low,low,medium,no,no,no
+Thursday,False,late morning,medium,low,medium,no,no,no
+Thursday,False,morning,medium,low,low,no,light,no
+Thursday,False,night,low,low,medium,no,no,no
+Friday,False,afternoon,high,low,low,no,no,no
+Friday,False,early evening,low,low,medium,no,no,no
+Friday,False,early morning,low,low,medium,no,no,no
+Friday,False,evening,low,low,medium,no,no,no
+Friday,False,late evening,low,low,medium,no,no,no
+Friday,False,late morning,medium,low,medium,no,no,no
+Friday,False,morning,medium,low,low,no,no,no
+Friday,False,night,low,low,medium,no,no,no
+Saturday,False,afternoon,high,low,medium,no,no,heavy
+Saturday,False,early evening,low,low,medium,no,no,heavy
+Saturday,False,early morning,low,low,medium,no,no,light
+Saturday,False,evening,low,low,medium,no,no,heavy
+Saturday,False,late evening,low,low,medium,no,no,no
+Saturday,False,late morning,high,low,medium,no,no,heavy
+Saturday,False,morning,medium,low,medium,no,no,heavy
+Saturday,False,night,low,low,medium,no,no,no
+Sunday,False,afternoon,high,low,medium,no,no,no
+Sunday,False,early evening,low,low,medium,no,no,no
+Sunday,False,early morning,low,low,medium,no,no,no
+Sunday,False,evening,low,low,medium,no,no,no
+Sunday,False,late evening,low,low,medium,no,no,no
+Sunday,False,late morning,high,low,medium,no,no,no
+Sunday,False,morning,medium,low,high,no,no,no
+Sunday,False,night,low,low,medium,no,no,no
+Monday,False,afternoon,high,low,low,no,no,no
+Monday,False,early evening,low,low,low,no,no,no
+Monday,False,early morning,low,low,high,no,no,light
+Monday,True,evening,low,low,medium,no,no,light
+Monday,True,late evening,low,low,medium,no,no,light
+Monday,False,late morning,high,low,medium,no,no,no
+Monday,False,morning,medium,low,medium,no,no,light
+Monday,False,night,low,low,high,no,no,no
+Tuesday,True,afternoon,high,low,medium,no,no,no
+Tuesday,True,early evening,low,low,medium,no,no,no
+Tuesday,True,early morning,low,low,medium,no,no,no
+Tuesday,True,evening,low,low,medium,no,no,light
+Tuesday,True,late evening,low,low,medium,no,no,heavy
+Tuesday,True,late morning,high,low,medium,no,no,no
+Tuesday,True,morning,medium,low,medium,no,no,no
+Tuesday,True,night,low,low,high,no,no,moderate
+Wednesday,True,afternoon,high,low,medium,no,no,moderate
+Wednesday,True,early evening,low,low,medium,no,no,heavy
+Wednesday,True,early morning,low,low,high,no,no,no
+Wednesday,False,evening,low,low,medium,no,no,heavy
+Wednesday,False,late evening,low,low,medium,no,no,light
+Wednesday,True,late morning,high,low,high,no,no,no
+Wednesday,True,morning,medium,low,high,no,no,no
+Wednesday,True,night,low,low,high,no,no,no
+Thursday,False,afternoon,high,low,medium,no,no,heavy
+Thursday,False,early evening,low,low,medium,no,no,heavy
+Thursday,False,early morning,low,low,high,no,no,heavy
+Thursday,False,evening,low,low,medium,no,moderate,heavy
+Thursday,False,late evening,low,low,medium,no,heavy,heavy
+Thursday,False,late morning,high,low,medium,no,no,heavy
+Thursday,False,morning,medium,low,medium,no,no,heavy
+Thursday,False,night,low,low,high,no,no,no
+Friday,False,afternoon,high,low,low,no,no,heavy
+Friday,False,early evening,low,low,low,no,no,heavy
+Friday,False,early morning,low,low,medium,no,heavy,heavy
+Friday,False,evening,low,low,medium,no,light,heavy
+Friday,False,late evening,low,low,medium,no,light,heavy
+Friday,False,late morning,high,low,medium,no,moderate,moderate
+Friday,False,morning,medium,low,medium,no,heavy,moderate
+Friday,False,night,low,low,medium,no,heavy,heavy
+Saturday,False,afternoon,high,low,medium,no,no,moderate
+Saturday,False,early evening,low,low,medium,no,no,moderate
+Saturday,False,early morning,low,low,medium,no,no,heavy
+Saturday,False,evening,low,low,medium,no,no,heavy
+Saturday,False,late evening,low,low,medium,no,no,heavy
+Saturday,False,late morning,high,low,medium,no,no,no
+Saturday,False,morning,medium,low,high,no,no,no
+Saturday,False,night,low,low,medium,no,light,heavy
+Sunday,False,afternoon,high,low,medium,no,no,heavy
+Sunday,False,early evening,low,low,medium,no,moderate,heavy
+Sunday,False,early morning,low,low,high,no,no,heavy
+Sunday,False,evening,low,low,medium,light,heavy,heavy
+Sunday,False,late evening,low,low,medium,light,heavy,heavy
+Sunday,False,late morning,high,low,medium,no,no,heavy
+Sunday,False,morning,medium,low,high,no,no,heavy
+Sunday,False,night,low,low,medium,no,no,heavy
+Monday,False,afternoon,medium,low,medium,light,heavy,heavy
+Monday,False,early evening,low,low,medium,light,heavy,heavy
+Monday,False,early morning,low,low,medium,light,heavy,heavy
+Monday,True,evening,low,low,medium,light,heavy,no
+Monday,True,late evening,low,low,medium,light,heavy,no
+Monday,False,late morning,medium,low,medium,light,heavy,heavy
+Monday,False,morning,medium,low,medium,light,heavy,heavy
+Monday,False,night,low,low,medium,light,heavy,heavy
+Tuesday,True,afternoon,high,low,medium,no,moderate,no
+Tuesday,True,early evening,low,low,medium,no,light,no
+Tuesday,True,early morning,low,low,high,light,heavy,no
+Tuesday,False,evening,low,low,medium,no,no,no
+Tuesday,False,late evening,low,low,medium,no,no,no
+Tuesday,True,late morning,high,low,medium,no,heavy,no
+Tuesday,True,morning,medium,low,medium,no,heavy,no
+Tuesday,True,night,low,low,medium,light,heavy,no
