@@ -1,0 +1,43 @@
+Rain:
+  states:
+    NO_RAIN: 25
+    LIGHT: 50
+    MODERATE: 75
+    HEAVY: 100
+Clouds:
+  states:
+    NO_CLOUDS: 25
+    LIGHT: 50
+    MODERATE: 75
+    HEAVY: 100
+Fog:
+  states:
+    NO_FOG: 25
+    LIGHT: 50
+    MODERATE: 75
+    HEAVY: 100
+Speed:
+  states:
+    LOW: 50 # 50% slower than speed limit
+    MEDIUM: 0 # follow speed limits
+    HIGH: -30 # 30% faster than speed limit
+Traffic:
+  states:
+    LOW: 10
+    MEDIUM: 20
+    HEAVY: 30
+Pedestrians:
+  states:
+    LOW: 5
+    MEDIUM: 10
+    HIGH: 20
+Time:
+  states:
+    AFTERNOON: 0
+    EARLY_EVENING: 1
+    EARLY_MORNING: 2
+    EVENING: 3
+    LATE_EVENING: 4
+    LATE_MORNING: 5
+    MORNING: 6
+    NIGHT: 7

@@ -9,17 +9,16 @@ from pgmpy.readwrite import XMLBIFReader
 class PGM:
 
   # @hydra.main(version_base=None, config_path="conf/pgm", config_name="config")
-  def __init__(self, cfg: DictConfig = None, file_path: str = None):
+  def __init__(self, cfg: DictConfig, file_path: str = None):
+    self.cfg = cfg
 
     if file_path:
       reader = XMLBIFReader(file_path)
       self.variables = reader.get_variables()
-      self.states = reader.get_states()
+      self.states =  {k: list(cfg.variables[k].states.keys()) for k in cfg.variables.keys()}
       self.model = reader.get_model()
-    else:
-      if not cfg:
-        raise Exception(f"Configuration not provided")
       
+    else:
       self.model = BayesianNetwork(cfg.model.edges)
       self.states =  {k: list(cfg.variables[k].states.keys()) for k in cfg.variables.keys()}
       self.variables = [k for k in cfg.variables.keys()]
@@ -51,7 +50,7 @@ class PGM:
     self.infer = VariableElimination(self.model)
 
   def get_states(self):
-    states = {k: Enum(f'{k}', self.states[k]) 
+    states = {k: Enum(f'{k}', self.cfg.variables[k].states) 
               for k in self.states.keys()}
     return SimpleNamespace(**states)
 

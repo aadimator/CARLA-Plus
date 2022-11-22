@@ -1,6 +1,5 @@
 defaults:
   - base_weather_model
-  - sun: day
 
 cloudiness: 10.0
 rain: 0.0
@@ -8,4 +7,4 @@ puddles: 0.0
 wind: 5.0
 fog: 0.0
 wetness: 0.0
-  
+hour: 9

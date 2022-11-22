@@ -1,5 +1,6 @@
 import math
 from omegaconf import DictConfig, OmegaConf
+from utils.common import hour_to_altitude
 
 def clamp(value, minimum=0.0, maximum=100.0):
     return max(minimum, min(value, maximum))
@@ -65,9 +66,9 @@ class Weather(object):
         self.weather.wind_intensity = cfg.wind
         self.weather.fog_density = cfg.fog
         self.weather.wetness = cfg.wetness
-        self.weather.sun_azimuth_angle = cfg.sun.azimuth
-        self.weather.sun_altitude_angle = cfg.sun.altitude
-        self._sun = Sun(cfg.sun.azimuth, cfg.sun.altitude)
+        self.weather.sun_azimuth_angle = 0
+        self.weather.sun_altitude_angle = hour_to_altitude(cfg.hour)
+        self._sun = Sun(0, hour_to_altitude(cfg.hour))
         self._storm = Storm(cfg.rain)
 
     def tick(self, delta_seconds):

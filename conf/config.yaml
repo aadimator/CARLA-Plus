@@ -2,11 +2,10 @@ defaults:
   - base_config_model
   - weather: clear
   - model: complex
-  - variables: ${model}
-  - override weather/sun: day
+  - variables: complex
   - _self_
 
 host: '127.0.0.1'
 port: 2000
-asynch: True # Activate asynchronous mode execution
+asynch: False # Activate asynchronous mode execution
 dynamic_weather: False

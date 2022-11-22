@@ -40,10 +40,10 @@ from omegaconf import MISSING
 #     'rain':     [100.0, 80.0, 90.0, 100.0, 7.0, 0.75, 0.1, 100.0, 0.0, 0.03, 0.0331]}
 
 
-@dataclass
-class SunSchema:
-    azimuth: float = -1.0
-    altitude: float = -1.0
+# @dataclass
+# class SunSchema:
+#     azimuth: float = -1.0
+#     altitude: float = -1.0
 
 @dataclass
 class WeatherSchema:
@@ -53,5 +53,5 @@ class WeatherSchema:
     wind: float = -1.0
     fog: float = -1.0
     wetness: float = -1.0
-    sun: SunSchema = SunSchema()
+    hour: int = 0
     

@@ -1,5 +1,0 @@
-defaults:
-  - base_sun_model
-
-azimuth: 0.0
-altitude: -90.0

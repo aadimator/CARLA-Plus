@@ -1,0 +1,23 @@
+defaults:
+  - base_pgm_model
+
+edges:
+  - [Rain, Traffic]
+  - [Rain, Speed]
+cpd:
+  Rain:
+    probabilities: 
+      - [0.2]
+      - [0.8]
+  Traffic:
+    probabilities: 
+      - [0.2, 0.7]
+      - [0.8, 0.3]
+    evidence:
+      - Rain
+  Speed:
+    probabilities: 
+      - [0.1, 0.8]
+      - [0.9, 0.2]
+    evidence:
+      - Rain
