@@ -1,4 +1,6 @@
-# eCARLA-CE
+# CARLA+
+
+(Documentation in progress)
 
 PGM integration with CARLA
 
